@@ -187,12 +187,12 @@
         "configuration_url": null,
         "connections": [
           [
-            "mac",
-            "08:10:7a:92:f7:44"
-          ],
-          [
             "upnp",
             "uuid:00000000-0000-0000-0000-000000000000"
+          ],
+          [
+            "mac",
+            "08:10:7a:92:f7:44"
           ]
         ],
         "disabled_by": null,
@@ -201,16 +201,16 @@
         "id": "1de50bfe5f6c692e9bd9344f5c4986ac",
         "identifiers": [
           [
-            "upnp_host",
-            "10.20.10.1"
+            "upnp",
+            "uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
           ],
           [
             "upnp_serial_number",
             "00000000"
           ],
           [
-            "upnp",
-            "uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+            "upnp_host",
+            "10.20.10.1"
           ]
         ],
         "manufacturer": "Dahua",
