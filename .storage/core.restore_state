@@ -21,16 +21,16 @@
           "entity_picture": "/api/image/serve/c8fc526f1018c08cdb207c87eb308408/512x512",
           "friendly_name": "अजय सिंह"
         },
-        "last_changed": "2023-11-03T04:48:54.881486+00:00",
-        "last_updated": "2023-11-03T04:49:44.349839+00:00",
+        "last_changed": "2023-11-03T07:01:28.663354+00:00",
+        "last_updated": "2023-11-03T07:01:55.961327+00:00",
         "context": {
-          "id": "01HE9R80WXBB6PD18MFNF64NT6",
+          "id": "01HE9ZT2KSQAQ3F07XSAX6PPJ7",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -50,16 +50,16 @@
           "entity_picture": "/api/image/serve/01edd719eb38452e0c4a73f0130025bb/512x512",
           "friendly_name": "पुजा सिंह"
         },
-        "last_changed": "2023-11-03T04:48:54.882185+00:00",
-        "last_updated": "2023-11-03T05:02:53.776193+00:00",
+        "last_changed": "2023-11-03T07:01:28.663638+00:00",
+        "last_updated": "2023-11-03T07:01:55.961699+00:00",
         "context": {
-          "id": "01HE9S03TGRNAAN2RR975J2G5A",
+          "id": "01HE9ZT2KSFDQ7RGRZEJ6XCHWN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -78,16 +78,16 @@
           "friendly_name": "Home Assistant Supervisor Update",
           "supported_features": 1
         },
-        "last_changed": "2023-11-03T04:49:13.146976+00:00",
-        "last_updated": "2023-11-03T04:49:13.146976+00:00",
+        "last_changed": "2023-11-03T07:01:36.591495+00:00",
+        "last_updated": "2023-11-03T07:01:36.591495+00:00",
         "context": {
-          "id": "01HE9R72DTY16WRZMYNFPRJCZH",
+          "id": "01HE9ZSFPFWXNC6J04MYGK78VN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -106,16 +106,16 @@
           "friendly_name": "Home Assistant Core Update",
           "supported_features": 11
         },
-        "last_changed": "2023-11-03T04:49:13.153678+00:00",
-        "last_updated": "2023-11-03T04:49:13.153678+00:00",
+        "last_changed": "2023-11-03T07:01:36.592475+00:00",
+        "last_updated": "2023-11-03T07:01:36.592475+00:00",
         "context": {
-          "id": "01HE9R72E12DRW7ZD7R7NRJEHR",
+          "id": "01HE9ZSFPG65XXCE6EE0KE856R",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -134,16 +134,16 @@
           "friendly_name": "CEC Scanner Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.155827+00:00",
-        "last_updated": "2023-11-03T04:49:13.155827+00:00",
+        "last_changed": "2023-11-03T07:01:36.593439+00:00",
+        "last_updated": "2023-11-03T07:01:36.593439+00:00",
         "context": {
-          "id": "01HE9R72E3WXNC6J04MYGK78VN",
+          "id": "01HE9ZSFPH9P7CFTY7M9807KWZ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -162,16 +162,16 @@
           "friendly_name": "Samba share Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.158101+00:00",
-        "last_updated": "2023-11-03T04:49:13.158101+00:00",
+        "last_changed": "2023-11-03T07:01:36.594092+00:00",
+        "last_updated": "2023-11-03T07:01:36.594092+00:00",
         "context": {
-          "id": "01HE9R72E665XXCE6EE0KE856R",
+          "id": "01HE9ZSFPJZ8TS7MNAHAEYNHTZ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -190,16 +190,16 @@
           "friendly_name": "ESPHome Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T06:30:46.879494+00:00",
-        "last_updated": "2023-11-03T06:30:46.888810+00:00",
+        "last_changed": "2023-11-03T07:01:36.594761+00:00",
+        "last_updated": "2023-11-03T07:01:36.594761+00:00",
         "context": {
-          "id": "01HE9Y11B810MX518YDK39CA4E",
+          "id": "01HE9ZSFPJP1EC7GBB0EJF6S0K",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -218,16 +218,16 @@
           "friendly_name": "Terminal & SSH Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.162002+00:00",
-        "last_updated": "2023-11-03T04:49:13.162002+00:00",
+        "last_changed": "2023-11-03T07:01:36.595408+00:00",
+        "last_updated": "2023-11-03T07:01:36.595408+00:00",
         "context": {
-          "id": "01HE9R72EAZ8TS7MNAHAEYNHTZ",
+          "id": "01HE9ZSFPK29G1WC4XXZR41VBF",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -246,16 +246,16 @@
           "friendly_name": "Studio Code Server Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.163193+00:00",
-        "last_updated": "2023-11-03T04:49:13.163193+00:00",
+        "last_changed": "2023-11-03T07:01:36.596518+00:00",
+        "last_updated": "2023-11-03T07:01:36.596518+00:00",
         "context": {
-          "id": "01HE9R72EBP1EC7GBB0EJF6S0K",
+          "id": "01HE9ZSFPM6BHWP5WBRGQT5QGM",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -274,16 +274,16 @@
           "friendly_name": "AdGuard Home Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.164545+00:00",
-        "last_updated": "2023-11-03T04:49:13.164545+00:00",
+        "last_changed": "2023-11-03T07:01:36.597394+00:00",
+        "last_updated": "2023-11-03T07:01:36.597394+00:00",
         "context": {
-          "id": "01HE9R72EC29G1WC4XXZR41VBF",
+          "id": "01HE9ZSFPNSM3M9396ZT1N0N3N",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -302,16 +302,16 @@
           "friendly_name": "Nginx Proxy Manager Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.166316+00:00",
-        "last_updated": "2023-11-03T04:49:13.166316+00:00",
+        "last_changed": "2023-11-03T07:01:36.598228+00:00",
+        "last_updated": "2023-11-03T07:01:36.598228+00:00",
         "context": {
-          "id": "01HE9R72EE6BHWP5WBRGQT5QGM",
+          "id": "01HE9ZSFPP11YFKNPTA2EQ7RGX",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -330,16 +330,16 @@
           "friendly_name": "MariaDB Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.168059+00:00",
-        "last_updated": "2023-11-03T04:49:13.168059+00:00",
+        "last_changed": "2023-11-03T07:01:36.598777+00:00",
+        "last_updated": "2023-11-03T07:01:36.598777+00:00",
         "context": {
-          "id": "01HE9R72EGSM3M9396ZT1N0N3N",
+          "id": "01HE9ZSFPPDY694JTWCMPQXM8N",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -358,16 +358,16 @@
           "friendly_name": "Mosquitto broker Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.170030+00:00",
-        "last_updated": "2023-11-03T04:49:13.170030+00:00",
+        "last_changed": "2023-11-03T07:01:36.599295+00:00",
+        "last_updated": "2023-11-03T07:01:36.599295+00:00",
         "context": {
-          "id": "01HE9R72EJ11YFKNPTA2EQ7RGX",
+          "id": "01HE9ZSFPQ9PTCR8TSCGBK4PP6",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -386,16 +386,16 @@
           "friendly_name": "AirCast Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.171561+00:00",
-        "last_updated": "2023-11-03T04:49:13.171561+00:00",
+        "last_changed": "2023-11-03T07:01:36.599751+00:00",
+        "last_updated": "2023-11-03T07:01:36.599751+00:00",
         "context": {
-          "id": "01HE9R72EKDY694JTWCMPQXM8N",
+          "id": "01HE9ZSFPQFV54EX05JEE5YE79",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -414,16 +414,16 @@
           "friendly_name": "Piper Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.181147+00:00",
-        "last_updated": "2023-11-03T04:49:13.181147+00:00",
+        "last_changed": "2023-11-03T07:01:36.600302+00:00",
+        "last_updated": "2023-11-03T07:01:36.600302+00:00",
         "context": {
-          "id": "01HE9R72EX9PTCR8TSCGBK4PP6",
+          "id": "01HE9ZSFPR20GXGE71FM3YDD1K",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -442,16 +442,16 @@
           "friendly_name": "chrony Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.182796+00:00",
-        "last_updated": "2023-11-03T04:49:13.182796+00:00",
+        "last_changed": "2023-11-03T07:01:36.600823+00:00",
+        "last_updated": "2023-11-03T07:01:36.600823+00:00",
         "context": {
-          "id": "01HE9R72EYFV54EX05JEE5YE79",
+          "id": "01HE9ZSFPRW3TMGG58M90B4AMC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -470,16 +470,16 @@
           "friendly_name": "Whisper Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.184870+00:00",
-        "last_updated": "2023-11-03T04:49:13.184870+00:00",
+        "last_changed": "2023-11-03T07:01:36.601394+00:00",
+        "last_updated": "2023-11-03T07:01:36.601394+00:00",
         "context": {
-          "id": "01HE9R72F020GXGE71FM3YDD1K",
+          "id": "01HE9ZSFPSQHP8S9T9ZTCFPMP2",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -498,16 +498,16 @@
           "friendly_name": "Git pull Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.186559+00:00",
-        "last_updated": "2023-11-03T04:49:13.186559+00:00",
+        "last_changed": "2023-11-03T07:01:36.601897+00:00",
+        "last_updated": "2023-11-03T07:01:36.601897+00:00",
         "context": {
-          "id": "01HE9R72F2W3TMGG58M90B4AMC",
+          "id": "01HE9ZSFPSA2ABHFC29RA9BW54",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -526,16 +526,16 @@
           "friendly_name": "phpMyAdmin Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.188401+00:00",
-        "last_updated": "2023-11-03T04:49:13.188401+00:00",
+        "last_changed": "2023-11-03T07:01:36.602369+00:00",
+        "last_updated": "2023-11-03T07:01:36.602369+00:00",
         "context": {
-          "id": "01HE9R72F4QHP8S9T9ZTCFPMP2",
+          "id": "01HE9ZSFPTADEVRP3T42SYDV7N",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -554,16 +554,16 @@
           "friendly_name": "Node-RED Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.190657+00:00",
-        "last_updated": "2023-11-03T04:49:13.190657+00:00",
+        "last_changed": "2023-11-03T07:01:36.603026+00:00",
+        "last_updated": "2023-11-03T07:01:36.603026+00:00",
         "context": {
-          "id": "01HE9R72F6A2ABHFC29RA9BW54",
+          "id": "01HE9ZSFPV67936W31T18Q472D",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -582,16 +582,16 @@
           "friendly_name": "Matter Server Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.192283+00:00",
-        "last_updated": "2023-11-03T04:49:13.192283+00:00",
+        "last_changed": "2023-11-03T07:01:36.603526+00:00",
+        "last_updated": "2023-11-03T07:01:36.603526+00:00",
         "context": {
-          "id": "01HE9R72F8ADEVRP3T42SYDV7N",
+          "id": "01HE9ZSFPVZ8AKHB79K34M3MXC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -610,16 +610,16 @@
           "friendly_name": "RPC Shutdown Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.202332+00:00",
-        "last_updated": "2023-11-03T04:49:13.202332+00:00",
+        "last_changed": "2023-11-03T07:01:36.603982+00:00",
+        "last_updated": "2023-11-03T07:01:36.603982+00:00",
         "context": {
-          "id": "01HE9R72FJ67936W31T18Q472D",
+          "id": "01HE9ZSFPVHWKSK23Q2470F3YC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -638,16 +638,16 @@
           "friendly_name": "Music Assistant BETA Update",
           "supported_features": 25
         },
-        "last_changed": "2023-11-03T04:49:13.204423+00:00",
-        "last_updated": "2023-11-03T04:49:13.204423+00:00",
+        "last_changed": "2023-11-03T07:01:36.604577+00:00",
+        "last_updated": "2023-11-03T07:01:36.604577+00:00",
         "context": {
-          "id": "01HE9R72FMZ8AKHB79K34M3MXC",
+          "id": "01HE9ZSFPWHRWKBASS16MZN8KS",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -666,16 +666,34 @@
           "friendly_name": "Home Assistant Operating System Update",
           "supported_features": 3
         },
-        "last_changed": "2023-11-03T04:49:13.206177+00:00",
-        "last_updated": "2023-11-03T04:49:13.206177+00:00",
+        "last_changed": "2023-11-03T07:01:36.605477+00:00",
+        "last_updated": "2023-11-03T07:01:36.605477+00:00",
         "context": {
-          "id": "01HE9R72FPHWKSK23Q2470F3YC",
+          "id": "01HE9ZSFPX8GXZV83WNKMBNC3Q",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "stt.faster_whisper",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "faster-whisper"
+        },
+        "last_changed": "2023-11-03T07:01:47.970978+00:00",
+        "last_updated": "2023-11-03T07:01:47.970978+00:00",
+        "context": {
+          "id": "01HE9ZSTT2NJZ607Z3TA4E3MDX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -695,10 +713,10 @@
           "device_class": "signal_strength",
           "friendly_name": "ble rssi ACAED6CE85C54196AEA7B943D15B376F"
         },
-        "last_changed": "2023-11-03T06:40:01.878497+00:00",
-        "last_updated": "2023-11-03T06:40:01.878497+00:00",
+        "last_changed": "2023-11-03T07:01:48.860822+00:00",
+        "last_updated": "2023-11-03T07:01:48.860822+00:00",
         "context": {
-          "id": "01HE9YHZAP437Y82Z470864XAZ",
+          "id": "01HE9ZSVNW2JAA6KFDR4FQTQZ6",
           "parent_id": null,
           "user_id": null
         }
@@ -707,7 +725,7 @@
         "native_value": -62.54545454545455,
         "native_unit_of_measurement": "dBm"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -728,10 +746,10 @@
           "device_class": "signal_strength",
           "friendly_name": "ble measured power ACAED6CE85C54196AEA7B943D15B376F"
         },
-        "last_changed": "2023-11-03T06:40:01.879902+00:00",
-        "last_updated": "2023-11-03T06:40:01.879902+00:00",
+        "last_changed": "2023-11-03T07:01:48.861814+00:00",
+        "last_updated": "2023-11-03T07:01:48.861814+00:00",
         "context": {
-          "id": "01HE9YHZAQC6WQRYP7NVCW8AAE",
+          "id": "01HE9ZSVNXXD6K2736ZMZN5GQ2",
           "parent_id": null,
           "user_id": null
         }
@@ -740,7 +758,7 @@
         "native_value": -59,
         "native_unit_of_measurement": "dBm"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -756,10 +774,10 @@
           "icon": "mdi:alpha-m-circle-outline",
           "friendly_name": "ble mac ACAED6CE85C54196AEA7B943D15B376F"
         },
-        "last_changed": "2023-11-03T06:39:36.824454+00:00",
-        "last_updated": "2023-11-03T06:39:36.824454+00:00",
+        "last_changed": "2023-11-03T07:01:48.863219+00:00",
+        "last_updated": "2023-11-03T07:01:48.863219+00:00",
         "context": {
-          "id": "01HE9YH6VRG1WN1YRYGD08A0ZV",
+          "id": "01HE9ZSVNZA36PK8JNS6HENDXQ",
           "parent_id": null,
           "user_id": null
         }
@@ -768,7 +786,7 @@
         "native_value": "40:4A:CE:2C:C2:20",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -784,10 +802,10 @@
           "icon": "mdi:counter",
           "friendly_name": "ble major ACAED6CE85C54196AEA7B943D15B376F"
         },
-        "last_changed": "2023-11-03T04:49:35.285711+00:00",
-        "last_updated": "2023-11-03T04:49:35.285711+00:00",
+        "last_changed": "2023-11-03T07:01:48.863790+00:00",
+        "last_updated": "2023-11-03T07:01:48.863790+00:00",
         "context": {
-          "id": "01HE9R7R1N0Z0FDT4X53J5K76N",
+          "id": "01HE9ZSVNZKKAWZMAG6NAGWD1G",
           "parent_id": null,
           "user_id": null
         }
@@ -796,7 +814,7 @@
         "native_value": 100,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -812,10 +830,10 @@
           "icon": "mdi:counter",
           "friendly_name": "ble minor ACAED6CE85C54196AEA7B943D15B376F"
         },
-        "last_changed": "2023-11-03T04:49:35.293503+00:00",
-        "last_updated": "2023-11-03T04:49:35.293503+00:00",
+        "last_changed": "2023-11-03T07:01:48.864325+00:00",
+        "last_updated": "2023-11-03T07:01:48.864325+00:00",
         "context": {
-          "id": "01HE9R7R1X1VYW5CYKGYV6MGZF",
+          "id": "01HE9ZSVP0EEV1XKN681ESSQVE",
           "parent_id": null,
           "user_id": null
         }
@@ -824,7 +842,7 @@
         "native_value": 1,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -844,10 +862,10 @@
           "device_class": "signal_strength",
           "friendly_name": "ble rssi C20B03095632"
         },
-        "last_changed": "2023-11-03T04:49:35.294743+00:00",
-        "last_updated": "2023-11-03T04:49:35.294743+00:00",
+        "last_changed": "2023-11-03T07:01:48.864970+00:00",
+        "last_updated": "2023-11-03T07:01:48.864970+00:00",
         "context": {
-          "id": "01HE9R7R1Y2AYM6DGB7ZYM7JBZ",
+          "id": "01HE9ZSVP0X9ZPT436JRBH6HXQ",
           "parent_id": null,
           "user_id": null
         }
@@ -856,7 +874,7 @@
         "native_value": -54,
         "native_unit_of_measurement": "dBm"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -870,10 +888,10 @@
           "icon": "mdi:heart-pulse",
           "friendly_name": "ble heart rate C20B03095632"
         },
-        "last_changed": "2023-11-03T04:49:35.295710+00:00",
-        "last_updated": "2023-11-03T04:49:35.295710+00:00",
+        "last_changed": "2023-11-03T07:01:48.865592+00:00",
+        "last_updated": "2023-11-03T07:01:48.865592+00:00",
         "context": {
-          "id": "01HE9R7R1ZCSVNX7SCXZ7D5CDP",
+          "id": "01HE9ZSVP10VGZRZS32C7S8W74",
           "parent_id": null,
           "user_id": null
         }
@@ -882,7 +900,7 @@
         "native_value": null,
         "native_unit_of_measurement": "bpm"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -896,10 +914,10 @@
           "icon": "mdi:foot-print",
           "friendly_name": "ble steps C20B03095632"
         },
-        "last_changed": "2023-11-03T04:49:35.296811+00:00",
-        "last_updated": "2023-11-03T04:49:35.296811+00:00",
+        "last_changed": "2023-11-03T07:01:48.865993+00:00",
+        "last_updated": "2023-11-03T07:01:48.865993+00:00",
         "context": {
-          "id": "01HE9R7R20E12ATDNDRCBB244B",
+          "id": "01HE9ZSVP1X54T4FFK1NFJ3210",
           "parent_id": null,
           "user_id": null
         }
@@ -908,7 +926,25 @@
         "native_value": null,
         "native_unit_of_measurement": "steps"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "tts.piper",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "piper"
+        },
+        "last_changed": "2023-11-03T07:01:48.910688+00:00",
+        "last_updated": "2023-11-03T07:01:48.910688+00:00",
+        "context": {
+          "id": "01HE9ZSVQERC1Y26M11P7AZSR1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -917,16 +953,16 @@
         "attributes": {
           "friendly_name": "Google en com"
         },
-        "last_changed": "2023-11-03T04:49:36.946486+00:00",
-        "last_updated": "2023-11-03T04:49:36.946486+00:00",
+        "last_changed": "2023-11-03T07:01:48.912101+00:00",
+        "last_updated": "2023-11-03T07:01:48.912101+00:00",
         "context": {
-          "id": "01HE9R7SNJXR6B1GQWKQEQ78DZ",
+          "id": "01HE9ZSVQGGMJ3M1MH8GYTB935",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -957,10 +993,10 @@
           "icon": "mdi:battery-20",
           "friendly_name": "MacBook Internal Battery Level"
         },
-        "last_changed": "2023-11-03T04:49:37.365116+00:00",
-        "last_updated": "2023-11-03T04:49:37.365116+00:00",
+        "last_changed": "2023-11-03T07:01:48.986799+00:00",
+        "last_updated": "2023-11-03T07:01:48.986799+00:00",
         "context": {
-          "id": "01HE9R7T2NE7JZ3PYJ88EKN1F0",
+          "id": "01HE9ZSVSTVEJ1YHF3XEGCMMP3",
           "parent_id": null,
           "user_id": null
         }
@@ -969,7 +1005,7 @@
         "native_value": 24,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -999,10 +1035,10 @@
           "icon": "mdi:battery-20",
           "friendly_name": "MacBook Internal Battery State"
         },
-        "last_changed": "2023-11-03T04:49:37.366402+00:00",
-        "last_updated": "2023-11-03T04:49:37.366402+00:00",
+        "last_changed": "2023-11-03T07:01:48.987431+00:00",
+        "last_updated": "2023-11-03T07:01:48.987431+00:00",
         "context": {
-          "id": "01HE9R7T2P4NDGB43EPFXX67E8",
+          "id": "01HE9ZSVSVQVAQH6THRQJ6KJNM",
           "parent_id": null,
           "user_id": null
         }
@@ -1011,7 +1047,7 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1026,10 +1062,10 @@
           "icon": "mdi:database",
           "friendly_name": "MacBook Storage"
         },
-        "last_changed": "2023-11-03T04:49:37.368225+00:00",
-        "last_updated": "2023-11-03T04:49:37.368225+00:00",
+        "last_changed": "2023-11-03T07:01:48.988160+00:00",
+        "last_updated": "2023-11-03T07:01:48.988160+00:00",
         "context": {
-          "id": "01HE9R7T2RD56PEA0ZY3M0YMFE",
+          "id": "01HE9ZSVSWTYAHMV5SMS3EC1DS",
           "parent_id": null,
           "user_id": null
         }
@@ -1038,7 +1074,7 @@
         "native_value": "6.69",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1048,10 +1084,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "MacBook SSID"
         },
-        "last_changed": "2023-11-03T04:49:37.374025+00:00",
-        "last_updated": "2023-11-03T04:49:37.374025+00:00",
+        "last_changed": "2023-11-03T07:01:48.988824+00:00",
+        "last_updated": "2023-11-03T07:01:48.988824+00:00",
         "context": {
-          "id": "01HE9R7T2Y9R1Y0QT9EYS1ZMNV",
+          "id": "01HE9ZSVSWJN10G7S4K2RG6FDB",
           "parent_id": null,
           "user_id": null
         }
@@ -1060,7 +1096,7 @@
         "native_value": "Engineer",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1070,10 +1106,10 @@
           "icon": "mdi:wifi-star",
           "friendly_name": "MacBook BSSID"
         },
-        "last_changed": "2023-11-03T04:49:37.376274+00:00",
-        "last_updated": "2023-11-03T04:49:37.376274+00:00",
+        "last_changed": "2023-11-03T07:01:48.989446+00:00",
+        "last_updated": "2023-11-03T07:01:48.989446+00:00",
         "context": {
-          "id": "01HE9R7T308AYE7X5PSQC5298Q",
+          "id": "01HE9ZSVSXT0RPR4XREHBDDHWY",
           "parent_id": null,
           "user_id": null
         }
@@ -1082,7 +1118,7 @@
         "native_value": "08:10:7a:92:f7:46",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1094,10 +1130,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "MacBook Connection Type"
         },
-        "last_changed": "2023-11-03T04:49:37.378191+00:00",
-        "last_updated": "2023-11-03T04:49:37.378191+00:00",
+        "last_changed": "2023-11-03T07:01:48.989962+00:00",
+        "last_updated": "2023-11-03T07:01:48.989962+00:00",
         "context": {
-          "id": "01HE9R7T32VEJ1YHF3XEGCMMP3",
+          "id": "01HE9ZSVSXA1H5S75CECYB4E5V",
           "parent_id": null,
           "user_id": null
         }
@@ -1106,7 +1142,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1139,10 +1175,10 @@
           "icon": "mdi:map",
           "friendly_name": "MacBook Geocoded Location"
         },
-        "last_changed": "2023-11-03T04:49:37.379352+00:00",
-        "last_updated": "2023-11-03T04:49:37.379352+00:00",
+        "last_changed": "2023-11-03T07:01:48.990502+00:00",
+        "last_updated": "2023-11-03T07:01:48.990502+00:00",
         "context": {
-          "id": "01HE9R7T33QVAQH6THRQJ6KJNM",
+          "id": "01HE9ZSVSYDKNDWCNE0ZWKH65M",
           "parent_id": null,
           "user_id": null
         }
@@ -1151,7 +1187,7 @@
         "native_value": "Nepal",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1165,10 +1201,10 @@
           "icon": "mdi:camera-off",
           "friendly_name": "MacBook Active Camera"
         },
-        "last_changed": "2023-11-03T04:49:37.384998+00:00",
-        "last_updated": "2023-11-03T04:49:37.384998+00:00",
+        "last_changed": "2023-11-03T07:01:48.991078+00:00",
+        "last_updated": "2023-11-03T07:01:48.991078+00:00",
         "context": {
-          "id": "01HE9R7T38TYAHMV5SMS3EC1DS",
+          "id": "01HE9ZSVSZVGCR0088YVEYB8AB",
           "parent_id": null,
           "user_id": null
         }
@@ -1177,7 +1213,7 @@
         "native_value": "Inactive",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1192,10 +1228,10 @@
           "icon": "mdi:microphone-off",
           "friendly_name": "MacBook Active Audio Input"
         },
-        "last_changed": "2023-11-03T04:49:37.386144+00:00",
-        "last_updated": "2023-11-03T04:49:37.386144+00:00",
+        "last_changed": "2023-11-03T07:01:48.991731+00:00",
+        "last_updated": "2023-11-03T07:01:48.991731+00:00",
         "context": {
-          "id": "01HE9R7T3AJN10G7S4K2RG6FDB",
+          "id": "01HE9ZSVSZJZ4PVKHH9Z55PVG2",
           "parent_id": null,
           "user_id": null
         }
@@ -1204,7 +1240,7 @@
         "native_value": "Inactive",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1219,10 +1255,10 @@
           "icon": "mdi:volume-low",
           "friendly_name": "MacBook Active Audio Output"
         },
-        "last_changed": "2023-11-03T04:49:37.387467+00:00",
-        "last_updated": "2023-11-03T04:49:37.387467+00:00",
+        "last_changed": "2023-11-03T07:01:48.992310+00:00",
+        "last_updated": "2023-11-03T07:01:48.992310+00:00",
         "context": {
-          "id": "01HE9R7T3BT0RPR4XREHBDDHWY",
+          "id": "01HE9ZSVT0YK1DKX65WEZC3C4P",
           "parent_id": null,
           "user_id": null
         }
@@ -1231,7 +1267,7 @@
         "native_value": "Inactive",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1247,10 +1283,10 @@
           "icon": "mdi:monitor-multiple",
           "friendly_name": "MacBook Displays"
         },
-        "last_changed": "2023-11-03T04:49:37.389278+00:00",
-        "last_updated": "2023-11-03T04:49:37.389278+00:00",
+        "last_changed": "2023-11-03T07:01:48.993146+00:00",
+        "last_updated": "2023-11-03T07:01:48.993146+00:00",
         "context": {
-          "id": "01HE9R7T3DA1H5S75CECYB4E5V",
+          "id": "01HE9ZSVT1V5WRMD3ZN5YPGA3M",
           "parent_id": null,
           "user_id": null
         }
@@ -1259,7 +1295,7 @@
         "native_value": 1,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1269,10 +1305,10 @@
           "icon": "mdi:monitor-star",
           "friendly_name": "MacBook Primary Display Name"
         },
-        "last_changed": "2023-11-03T04:49:37.390307+00:00",
-        "last_updated": "2023-11-03T04:49:37.390307+00:00",
+        "last_changed": "2023-11-03T07:01:48.996376+00:00",
+        "last_updated": "2023-11-03T07:01:48.996376+00:00",
         "context": {
-          "id": "01HE9R7T3EDKNDWCNE0ZWKH65M",
+          "id": "01HE9ZSVT4BCT1WQ6YS8Q71755",
           "parent_id": null,
           "user_id": null
         }
@@ -1281,7 +1317,7 @@
         "native_value": "EPSON PJ",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1291,10 +1327,10 @@
           "icon": "mdi:monitor-star",
           "friendly_name": "MacBook Primary Display ID"
         },
-        "last_changed": "2023-11-03T04:49:37.392130+00:00",
-        "last_updated": "2023-11-03T04:49:37.392130+00:00",
+        "last_changed": "2023-11-03T07:01:48.997283+00:00",
+        "last_updated": "2023-11-03T07:01:48.997283+00:00",
         "context": {
-          "id": "01HE9R7T3GVGCR0088YVEYB8AB",
+          "id": "01HE9ZSVT5Y8GFK2PQFRHKJQVH",
           "parent_id": null,
           "user_id": null
         }
@@ -1303,7 +1339,7 @@
         "native_value": "23CC381C-3B70-43BB-0857-D6964E3302DB",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1317,10 +1353,10 @@
           "icon": "mdi:traffic-light",
           "friendly_name": "MacBook Frontmost App"
         },
-        "last_changed": "2023-11-03T04:49:37.407275+00:00",
-        "last_updated": "2023-11-03T04:49:37.407275+00:00",
+        "last_changed": "2023-11-03T07:01:48.998382+00:00",
+        "last_updated": "2023-11-03T07:01:48.998382+00:00",
         "context": {
-          "id": "01HE9R7T3ZJZ4PVKHH9Z55PVG2",
+          "id": "01HE9ZSVT66V3M332H0DEGQ31S",
           "parent_id": null,
           "user_id": null
         }
@@ -1329,7 +1365,7 @@
         "native_value": "loginwindow",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1339,10 +1375,10 @@
           "icon": "mdi:laptop",
           "friendly_name": "MacBook Last Update Trigger"
         },
-        "last_changed": "2023-11-03T04:49:37.408072+00:00",
-        "last_updated": "2023-11-03T04:49:37.408072+00:00",
+        "last_changed": "2023-11-03T07:01:48.999044+00:00",
+        "last_updated": "2023-11-03T07:01:48.999044+00:00",
         "context": {
-          "id": "01HE9R7T40YK1DKX65WEZC3C4P",
+          "id": "01HE9ZSVT7P6W33K905GVN07E1",
           "parent_id": null,
           "user_id": null
         }
@@ -1351,7 +1387,7 @@
         "native_value": "Signaled",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1361,16 +1397,16 @@
           "icon": "mdi:camera-off",
           "friendly_name": "MacBook Camera In Use"
         },
-        "last_changed": "2023-11-03T04:49:37.413563+00:00",
-        "last_updated": "2023-11-03T04:49:37.413563+00:00",
+        "last_changed": "2023-11-03T07:01:49.000959+00:00",
+        "last_updated": "2023-11-03T07:01:49.000959+00:00",
         "context": {
-          "id": "01HE9R7T45V5WRMD3ZN5YPGA3M",
+          "id": "01HE9ZSVT8QWMV5JR6YCZ11CND",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1380,16 +1416,16 @@
           "icon": "mdi:microphone-off",
           "friendly_name": "MacBook Audio Input In Use"
         },
-        "last_changed": "2023-11-03T04:49:37.415009+00:00",
-        "last_updated": "2023-11-03T04:49:37.415009+00:00",
+        "last_changed": "2023-11-03T07:01:49.001498+00:00",
+        "last_updated": "2023-11-03T07:01:49.001498+00:00",
         "context": {
-          "id": "01HE9R7T47BCT1WQ6YS8Q71755",
+          "id": "01HE9ZSVT95Y9X6C0Y8NNCHCJV",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1399,16 +1435,16 @@
           "icon": "mdi:volume-low",
           "friendly_name": "MacBook Audio Output In Use"
         },
-        "last_changed": "2023-11-03T04:49:37.415914+00:00",
-        "last_updated": "2023-11-03T04:49:37.415914+00:00",
+        "last_changed": "2023-11-03T07:01:49.001905+00:00",
+        "last_updated": "2023-11-03T07:01:49.001905+00:00",
         "context": {
-          "id": "01HE9R7T47Y8GFK2PQFRHKJQVH",
+          "id": "01HE9ZSVT9GH65WNX9RGJE0STJ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1425,16 +1461,16 @@
           "icon": "mdi:monitor-off",
           "friendly_name": "MacBook Active"
         },
-        "last_changed": "2023-11-03T04:49:37.417583+00:00",
-        "last_updated": "2023-11-03T04:49:37.417583+00:00",
+        "last_changed": "2023-11-03T07:01:49.002408+00:00",
+        "last_updated": "2023-11-03T07:01:49.002408+00:00",
         "context": {
-          "id": "01HE9R7T496V3M332H0DEGQ31S",
+          "id": "01HE9ZSVTARMXDMY03QTMPAFAX",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1444,16 +1480,16 @@
           "icon": "mdi:moon-waning-crescent",
           "friendly_name": "MacBook Focus"
         },
-        "last_changed": "2023-11-03T04:49:37.423019+00:00",
-        "last_updated": "2023-11-03T04:49:37.423019+00:00",
+        "last_changed": "2023-11-03T07:01:49.002945+00:00",
+        "last_updated": "2023-11-03T07:01:49.002945+00:00",
         "context": {
-          "id": "01HE9R7T4FP6W33K905GVN07E1",
+          "id": "01HE9ZSVTAC4JFCNY2E8DQ03V2",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1469,16 +1505,16 @@
           "vertical_accuracy": 29.64215660095215,
           "friendly_name": "MacBook"
         },
-        "last_changed": "2023-11-03T04:49:37.427995+00:00",
-        "last_updated": "2023-11-03T04:49:37.427995+00:00",
+        "last_changed": "2023-11-03T07:01:49.007617+00:00",
+        "last_updated": "2023-11-03T07:01:49.007617+00:00",
         "context": {
-          "id": "01HE9R7T4KFF8V0YN39RE3F4AD",
+          "id": "01HE9ZSVTFCB2WXKENFDP440MC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1492,10 +1528,10 @@
           "icon": "mdi:human-male",
           "friendly_name": "iPhone(Maya) Activity"
         },
-        "last_changed": "2023-11-03T04:49:37.430603+00:00",
-        "last_updated": "2023-11-03T04:49:37.430603+00:00",
+        "last_changed": "2023-11-03T07:01:49.027341+00:00",
+        "last_updated": "2023-11-03T07:01:49.027341+00:00",
         "context": {
-          "id": "01HE9R7T4PQWMV5JR6YCZ11CND",
+          "id": "01HE9ZSVV3CKWN2R61757X618X",
           "parent_id": null,
           "user_id": null
         }
@@ -1504,7 +1540,7 @@
         "native_value": "Stationary",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1515,10 +1551,10 @@
           "icon": "mdi:hiking",
           "friendly_name": "iPhone(Maya) Distance"
         },
-        "last_changed": "2023-11-03T04:49:37.431911+00:00",
-        "last_updated": "2023-11-03T04:49:37.431911+00:00",
+        "last_changed": "2023-11-03T07:01:49.028083+00:00",
+        "last_updated": "2023-11-03T07:01:49.028083+00:00",
         "context": {
-          "id": "01HE9R7T4Q5Y9X6C0Y8NNCHCJV",
+          "id": "01HE9ZSVV4114CT56E3JFM5W4T",
           "parent_id": null,
           "user_id": null
         }
@@ -1527,7 +1563,7 @@
         "native_value": 522,
         "native_unit_of_measurement": "m"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1538,10 +1574,10 @@
           "icon": "mdi:stairs-down",
           "friendly_name": "iPhone(Maya) Floors Descended"
         },
-        "last_changed": "2023-11-03T04:49:37.432953+00:00",
-        "last_updated": "2023-11-03T04:49:37.432953+00:00",
+        "last_changed": "2023-11-03T07:01:49.028981+00:00",
+        "last_updated": "2023-11-03T07:01:49.028981+00:00",
         "context": {
-          "id": "01HE9R7T4RGH65WNX9RGJE0STJ",
+          "id": "01HE9ZSVV40RBXM4SFSGEKECYC",
           "parent_id": null,
           "user_id": null
         }
@@ -1550,7 +1586,7 @@
         "native_value": 2,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1561,10 +1597,10 @@
           "icon": "mdi:speedometer",
           "friendly_name": "iPhone(Maya) Average Active Pace"
         },
-        "last_changed": "2023-11-03T04:49:37.434023+00:00",
-        "last_updated": "2023-11-03T04:49:37.434023+00:00",
+        "last_changed": "2023-11-03T07:01:49.029846+00:00",
+        "last_updated": "2023-11-03T07:01:49.029846+00:00",
         "context": {
-          "id": "01HE9R7T4TRMXDMY03QTMPAFAX",
+          "id": "01HE9ZSVV5DRQYY2P64G9G3WVQ",
           "parent_id": null,
           "user_id": null
         }
@@ -1573,7 +1609,7 @@
         "native_value": 3,
         "native_unit_of_measurement": "m/s"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1585,10 +1621,10 @@
           "icon": "mdi:battery-30",
           "friendly_name": "iPhone(Maya) Battery Level"
         },
-        "last_changed": "2023-11-03T04:49:37.435310+00:00",
-        "last_updated": "2023-11-03T04:49:37.435310+00:00",
+        "last_changed": "2023-11-03T07:01:49.031143+00:00",
+        "last_updated": "2023-11-03T07:01:49.031143+00:00",
         "context": {
-          "id": "01HE9R7T4VC4JFCNY2E8DQ03V2",
+          "id": "01HE9ZSVV7M287P5P7RQ9FJ5NW",
           "parent_id": null,
           "user_id": null
         }
@@ -1597,7 +1633,7 @@
         "native_value": 30,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1608,10 +1644,10 @@
           "icon": "mdi:walk",
           "friendly_name": "iPhone(Maya) Steps"
         },
-        "last_changed": "2023-11-03T04:49:37.436598+00:00",
-        "last_updated": "2023-11-03T04:49:37.436598+00:00",
+        "last_changed": "2023-11-03T07:01:49.032090+00:00",
+        "last_updated": "2023-11-03T07:01:49.032090+00:00",
         "context": {
-          "id": "01HE9R7T4WCB2WXKENFDP440MC",
+          "id": "01HE9ZSVV8DB8KNX8XBDYDNB1B",
           "parent_id": null,
           "user_id": null
         }
@@ -1620,7 +1656,7 @@
         "native_value": 840,
         "native_unit_of_measurement": "steps"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1631,10 +1667,10 @@
           "icon": "mdi:stairs-up",
           "friendly_name": "iPhone(Maya) Floors Ascended"
         },
-        "last_changed": "2023-11-03T04:49:37.437686+00:00",
-        "last_updated": "2023-11-03T04:49:37.437686+00:00",
+        "last_changed": "2023-11-03T07:01:49.036018+00:00",
+        "last_updated": "2023-11-03T07:01:49.036018+00:00",
         "context": {
-          "id": "01HE9R7T4XCKWN2R61757X618X",
+          "id": "01HE9ZSVVC1WA31KZR2KBFC70Z",
           "parent_id": null,
           "user_id": null
         }
@@ -1643,7 +1679,7 @@
         "native_value": 2,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1658,10 +1694,10 @@
           "icon": "mdi:database",
           "friendly_name": "iPhone(Maya) Storage"
         },
-        "last_changed": "2023-11-03T04:49:37.438680+00:00",
-        "last_updated": "2023-11-03T04:49:37.438680+00:00",
+        "last_changed": "2023-11-03T07:01:49.037374+00:00",
+        "last_updated": "2023-11-03T07:01:49.037374+00:00",
         "context": {
-          "id": "01HE9R7T4Y114CT56E3JFM5W4T",
+          "id": "01HE9ZSVVDK3NH6GEB710WHVQB",
           "parent_id": null,
           "user_id": null
         }
@@ -1670,7 +1706,7 @@
         "native_value": "60.22",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1681,10 +1717,10 @@
           "icon": "mdi:battery-30",
           "friendly_name": "iPhone(Maya) Battery State"
         },
-        "last_changed": "2023-11-03T04:49:37.441928+00:00",
-        "last_updated": "2023-11-03T04:49:37.441928+00:00",
+        "last_changed": "2023-11-03T07:01:49.038861+00:00",
+        "last_updated": "2023-11-03T07:01:49.038861+00:00",
         "context": {
-          "id": "01HE9R7T510RBXM4SFSGEKECYC",
+          "id": "01HE9ZSVVEBE8X417RWYFGHVRK",
           "parent_id": null,
           "user_id": null
         }
@@ -1693,7 +1729,7 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1703,10 +1739,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "iPhone(Maya) SSID"
         },
-        "last_changed": "2023-11-03T04:49:37.443221+00:00",
-        "last_updated": "2023-11-03T04:49:37.443221+00:00",
+        "last_changed": "2023-11-03T07:01:49.039638+00:00",
+        "last_updated": "2023-11-03T07:01:49.039638+00:00",
         "context": {
-          "id": "01HE9R7T53DRQYY2P64G9G3WVQ",
+          "id": "01HE9ZSVVF1YWYRRWBDBMX64H8",
           "parent_id": null,
           "user_id": null
         }
@@ -1715,7 +1751,7 @@
         "native_value": "NRB_Office",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1725,10 +1761,10 @@
           "icon": "mdi:wifi-star",
           "friendly_name": "iPhone(Maya) BSSID"
         },
-        "last_changed": "2023-11-03T04:49:37.444695+00:00",
-        "last_updated": "2023-11-03T04:49:37.444695+00:00",
+        "last_changed": "2023-11-03T07:01:49.040490+00:00",
+        "last_updated": "2023-11-03T07:01:49.040490+00:00",
         "context": {
-          "id": "01HE9R7T54M287P5P7RQ9FJ5NW",
+          "id": "01HE9ZSVVGZCB31HG1M853T9KF",
           "parent_id": null,
           "user_id": null
         }
@@ -1737,7 +1773,7 @@
         "native_value": "8c:de:f9:a7:b0:45",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1747,10 +1783,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "iPhone(Maya) Connection Type"
         },
-        "last_changed": "2023-11-03T04:49:37.446948+00:00",
-        "last_updated": "2023-11-03T04:49:37.446948+00:00",
+        "last_changed": "2023-11-03T07:01:49.041359+00:00",
+        "last_updated": "2023-11-03T07:01:49.041359+00:00",
         "context": {
-          "id": "01HE9R7T56DB8KNX8XBDYDNB1B",
+          "id": "01HE9ZSVVH06MEQ8VV7NGCH9RA",
           "parent_id": null,
           "user_id": null
         }
@@ -1759,7 +1795,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1776,10 +1812,10 @@
           "icon": "mdi:sim",
           "friendly_name": "iPhone(Maya) SIM 2"
         },
-        "last_changed": "2023-11-03T04:49:37.448578+00:00",
-        "last_updated": "2023-11-03T04:49:37.448578+00:00",
+        "last_changed": "2023-11-03T07:01:49.042543+00:00",
+        "last_updated": "2023-11-03T07:01:49.042543+00:00",
         "context": {
-          "id": "01HE9R7T581WA31KZR2KBFC70Z",
+          "id": "01HE9ZSVVJ6F2KQMTGJKE6HXD1",
           "parent_id": null,
           "user_id": null
         }
@@ -1788,7 +1824,7 @@
         "native_value": "Nepal Telecom",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1805,10 +1841,10 @@
           "icon": "mdi:sim",
           "friendly_name": "iPhone(Maya) SIM 1"
         },
-        "last_changed": "2023-11-03T04:49:37.449528+00:00",
-        "last_updated": "2023-11-03T04:49:37.449528+00:00",
+        "last_changed": "2023-11-03T07:01:49.043204+00:00",
+        "last_updated": "2023-11-03T07:01:49.043204+00:00",
         "context": {
-          "id": "01HE9R7T59K3NH6GEB710WHVQB",
+          "id": "01HE9ZSVVK56JAZT10KP514DC0",
           "parent_id": null,
           "user_id": null
         }
@@ -1817,7 +1853,7 @@
         "native_value": "Ncell",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1827,10 +1863,10 @@
           "icon": "mdi:cellphone-wireless",
           "friendly_name": "iPhone(Maya) Last Update Trigger"
         },
-        "last_changed": "2023-11-03T04:49:37.450336+00:00",
-        "last_updated": "2023-11-03T04:49:37.450336+00:00",
+        "last_changed": "2023-11-03T07:01:49.043730+00:00",
+        "last_updated": "2023-11-03T07:01:49.043730+00:00",
         "context": {
-          "id": "01HE9R7T5ABE8X417RWYFGHVRK",
+          "id": "01HE9ZSVVKSRTFEW7QXSYZP1X4",
           "parent_id": null,
           "user_id": null
         }
@@ -1839,7 +1875,7 @@
         "native_value": "Significant Location Change",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1871,10 +1907,10 @@
           "icon": "mdi:map",
           "friendly_name": "iPhone(Maya) Geocoded Location"
         },
-        "last_changed": "2023-11-03T04:49:37.451170+00:00",
-        "last_updated": "2023-11-03T04:49:37.451170+00:00",
+        "last_changed": "2023-11-03T07:01:49.044185+00:00",
+        "last_updated": "2023-11-03T07:01:49.044185+00:00",
         "context": {
-          "id": "01HE9R7T5B1YWYRRWBDBMX64H8",
+          "id": "01HE9ZSVVM263W4XZYY7487XKF",
           "parent_id": null,
           "user_id": null
         }
@@ -1883,7 +1919,7 @@
         "native_value": "अफिस",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1893,16 +1929,16 @@
           "icon": "mdi:moon-waning-crescent",
           "friendly_name": "iPhone(Maya) Focus"
         },
-        "last_changed": "2023-11-03T04:49:37.454445+00:00",
-        "last_updated": "2023-11-03T04:49:37.454445+00:00",
+        "last_changed": "2023-11-03T07:01:49.047423+00:00",
+        "last_updated": "2023-11-03T07:01:49.047423+00:00",
         "context": {
-          "id": "01HE9R7T5EZCB31HG1M853T9KF",
+          "id": "01HE9ZSVVQ4H1948C0A9NXKBAG",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1918,71 +1954,65 @@
           "vertical_accuracy": 20.69303321838379,
           "friendly_name": "iPhone(Maya)"
         },
-        "last_changed": "2023-11-03T04:49:37.466904+00:00",
-        "last_updated": "2023-11-03T04:49:37.466904+00:00",
+        "last_changed": "2023-11-03T07:01:49.063644+00:00",
+        "last_updated": "2023-11-03T07:01:49.063644+00:00",
         "context": {
-          "id": "01HE9R7T5T06MEQ8VV7NGCH9RA",
+          "id": "01HE9ZSVW7VMT7PB1NYARW6XV2",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_detected_activity",
-        "state": "unknown",
+        "state": "still",
         "attributes": {
-          "in_vehicle": 10,
-          "on_bicycle": 10,
-          "on_foot": 10,
-          "running": 10,
-          "still": 10,
-          "unknown": 40,
-          "walking": 10,
-          "icon": "mdi:progress-question",
+          "still": 100,
+          "icon": "mdi:sleep",
           "friendly_name": "puja Detected activity"
         },
-        "last_changed": "2023-11-03T06:46:53.942663+00:00",
-        "last_updated": "2023-11-03T06:46:53.942663+00:00",
+        "last_changed": "2023-11-03T07:01:49.066646+00:00",
+        "last_updated": "2023-11-03T07:01:49.066646+00:00",
         "context": {
-          "id": "01HE9YYHQPE758M6KZQZ01QP1Q",
+          "id": "01HE9ZSVWAHZRAHA6FZMGDVZ2C",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": null,
+        "native_value": "still",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_sleep_confidence",
-        "state": "12",
+        "state": "0",
         "attributes": {
-          "light": 5,
+          "light": 2,
           "motion": 6,
-          "timestamp": 1698994009000,
+          "timestamp": 1698994818000,
           "unit_of_measurement": "%",
           "icon": "mdi:sleep",
           "friendly_name": "puja Sleep confidence"
         },
-        "last_changed": "2023-11-03T06:46:53.943897+00:00",
-        "last_updated": "2023-11-03T06:46:53.943897+00:00",
+        "last_changed": "2023-11-03T07:01:49.067157+00:00",
+        "last_updated": "2023-11-03T07:01:49.067157+00:00",
         "context": {
-          "id": "01HE9YYHQQKWJZQCT7SWWDAYXP",
+          "id": "01HE9ZSVWBB2KKNJSXNAWJDRB0",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 12,
+        "native_value": 0,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -1996,10 +2026,10 @@
           "icon": "mdi:sleep",
           "friendly_name": "puja Sleep segment"
         },
-        "last_changed": "2023-11-03T04:49:37.472989+00:00",
-        "last_updated": "2023-11-03T04:49:37.472989+00:00",
+        "last_changed": "2023-11-03T07:01:49.067588+00:00",
+        "last_updated": "2023-11-03T07:01:49.067588+00:00",
         "context": {
-          "id": "01HE9R7T60SRTFEW7QXSYZP1X4",
+          "id": "01HE9ZSVWB1PTF8R1JQ7MWNYD9",
           "parent_id": null,
           "user_id": null
         }
@@ -2008,7 +2038,7 @@
         "native_value": 10080000.0,
         "native_unit_of_measurement": "ms"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2018,10 +2048,10 @@
           "icon": "mdi:android",
           "friendly_name": "puja OS version"
         },
-        "last_changed": "2023-11-03T04:49:37.474066+00:00",
-        "last_updated": "2023-11-03T04:49:37.474066+00:00",
+        "last_changed": "2023-11-03T07:01:49.067941+00:00",
+        "last_updated": "2023-11-03T07:01:49.067941+00:00",
         "context": {
-          "id": "01HE9R7T62263W4XZYY7487XKF",
+          "id": "01HE9ZSVWB5N91ZX797488ZTMQ",
           "parent_id": null,
           "user_id": null
         }
@@ -2030,7 +2060,7 @@
         "native_value": "13",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2040,10 +2070,10 @@
           "icon": "mdi:security",
           "friendly_name": "puja Security patch"
         },
-        "last_changed": "2023-11-03T04:49:37.474880+00:00",
-        "last_updated": "2023-11-03T04:49:37.474880+00:00",
+        "last_changed": "2023-11-03T07:01:49.068302+00:00",
+        "last_updated": "2023-11-03T07:01:49.068302+00:00",
         "context": {
-          "id": "01HE9R7T624H1948C0A9NXKBAG",
+          "id": "01HE9ZSVWC1GN6D9PAR7E95DCD",
           "parent_id": null,
           "user_id": null
         }
@@ -2052,7 +2082,7 @@
         "native_value": "2023-09-01",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2062,10 +2092,10 @@
           "icon": "mdi:android",
           "friendly_name": "puja Current version"
         },
-        "last_changed": "2023-11-03T04:49:37.475943+00:00",
-        "last_updated": "2023-11-03T04:49:37.475943+00:00",
+        "last_changed": "2023-11-03T07:01:49.068643+00:00",
+        "last_updated": "2023-11-03T07:01:49.068643+00:00",
         "context": {
-          "id": "01HE9R7T63VMT7PB1NYARW6XV2",
+          "id": "01HE9ZSVWCT0XZX55XN045BEXA",
           "parent_id": null,
           "user_id": null
         }
@@ -2074,78 +2104,78 @@
         "native_value": "2023.10.2-full",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_app_rx_gb",
-        "state": "0.5021",
+        "state": "0.5023",
         "attributes": {
           "unit_of_measurement": "GB",
           "icon": "mdi:radio-tower",
           "friendly_name": "puja App Rx GB"
         },
-        "last_changed": "2023-11-03T06:40:44.247158+00:00",
-        "last_updated": "2023-11-03T06:40:44.247158+00:00",
+        "last_changed": "2023-11-03T07:01:49.069104+00:00",
+        "last_updated": "2023-11-03T07:01:49.069104+00:00",
         "context": {
-          "id": "01HE9YK8PQJ7A0RPK2DTARBGZ7",
+          "id": "01HE9ZSVWDZ4AM4D807V6565PG",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 0.5021,
+        "native_value": 0.5023,
         "native_unit_of_measurement": "GB"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_app_tx_gb",
-        "state": "0.273",
+        "state": "0.2731",
         "attributes": {
           "unit_of_measurement": "GB",
           "icon": "mdi:radio-tower",
           "friendly_name": "puja App Tx GB"
         },
-        "last_changed": "2023-11-03T06:40:21.717148+00:00",
-        "last_updated": "2023-11-03T06:40:21.717148+00:00",
+        "last_changed": "2023-11-03T07:01:49.069495+00:00",
+        "last_updated": "2023-11-03T07:01:49.069495+00:00",
         "context": {
-          "id": "01HE9YJJPN0EKCN1YPJMHENC5D",
+          "id": "01HE9ZSVWDSTJSMXY87EST9N0B",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 0.273,
+        "native_value": 0.2731,
         "native_unit_of_measurement": "GB"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_app_memory",
-        "state": "0.011",
+        "state": "0.01",
         "attributes": {
-          "free_memory": 0.005,
-          "total_memory": 0.016,
+          "free_memory": 0.006,
+          "total_memory": 0.017,
           "unit_of_measurement": "GB",
           "icon": "mdi:memory",
           "friendly_name": "puja App memory"
         },
-        "last_changed": "2023-11-03T06:46:53.945375+00:00",
-        "last_updated": "2023-11-03T06:46:53.945375+00:00",
+        "last_changed": "2023-11-03T07:01:49.069889+00:00",
+        "last_updated": "2023-11-03T07:01:49.069889+00:00",
         "context": {
-          "id": "01HE9YYHQSQSNZQCC59ZRV8EF0",
+          "id": "01HE9ZSVWDMQ4SNEM4RNGPD0JV",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 0.011,
+        "native_value": 0.01,
         "native_unit_of_measurement": "GB"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2155,10 +2185,10 @@
           "icon": "mdi:android",
           "friendly_name": "puja App standby bucket"
         },
-        "last_changed": "2023-11-03T04:49:37.484677+00:00",
-        "last_updated": "2023-11-03T04:49:37.484677+00:00",
+        "last_changed": "2023-11-03T07:01:49.070744+00:00",
+        "last_updated": "2023-11-03T07:01:49.070744+00:00",
         "context": {
-          "id": "01HE9R7T6C5N91ZX797488ZTMQ",
+          "id": "01HE9ZSVWE90N3EETS3TS1Z786",
           "parent_id": null,
           "user_id": null
         }
@@ -2167,7 +2197,7 @@
         "native_value": "never",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2177,10 +2207,10 @@
           "icon": "mdi:android",
           "friendly_name": "puja App importance"
         },
-        "last_changed": "2023-11-03T04:49:37.486020+00:00",
-        "last_updated": "2023-11-03T04:49:37.486020+00:00",
+        "last_changed": "2023-11-03T07:01:49.071497+00:00",
+        "last_updated": "2023-11-03T07:01:49.071497+00:00",
         "context": {
-          "id": "01HE9R7T6E1GN6D9PAR7E95DCD",
+          "id": "01HE9ZSVWFGQNP0RW3HEH4GMBE",
           "parent_id": null,
           "user_id": null
         }
@@ -2189,7 +2219,7 @@
         "native_value": "foreground_service",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2199,10 +2229,10 @@
           "icon": "mdi:volume-high",
           "friendly_name": "puja Ringer mode"
         },
-        "last_changed": "2023-11-03T06:39:52.255713+00:00",
-        "last_updated": "2023-11-03T06:39:52.255713+00:00",
+        "last_changed": "2023-11-03T07:01:49.071916+00:00",
+        "last_updated": "2023-11-03T07:01:49.071916+00:00",
         "context": {
-          "id": "01HE9YHNXZYGKWVPJ2ZJYJPB86",
+          "id": "01HE9ZSVWFEHQM4QDJXFE3DBNE",
           "parent_id": null,
           "user_id": null
         }
@@ -2211,7 +2241,7 @@
         "native_value": "normal",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2221,10 +2251,10 @@
           "icon": "mdi:volume-high",
           "friendly_name": "puja Audio mode"
         },
-        "last_changed": "2023-11-03T04:49:37.488613+00:00",
-        "last_updated": "2023-11-03T04:49:37.488613+00:00",
+        "last_changed": "2023-11-03T07:01:49.072350+00:00",
+        "last_updated": "2023-11-03T07:01:49.072350+00:00",
         "context": {
-          "id": "01HE9R7T6GZ4AM4D807V6565PG",
+          "id": "01HE9ZSVWG7VVKQ9KTV6MPXF4Q",
           "parent_id": null,
           "user_id": null
         }
@@ -2233,7 +2263,7 @@
         "native_value": "normal",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2243,10 +2273,10 @@
           "icon": "mdi:alarm",
           "friendly_name": "puja Volume level alarm"
         },
-        "last_changed": "2023-11-03T04:49:37.490047+00:00",
-        "last_updated": "2023-11-03T04:49:37.490047+00:00",
+        "last_changed": "2023-11-03T07:01:49.072696+00:00",
+        "last_updated": "2023-11-03T07:01:49.072696+00:00",
         "context": {
-          "id": "01HE9R7T6JSTJSMXY87EST9N0B",
+          "id": "01HE9ZSVWGG8R7X5Z0Q25BYB4R",
           "parent_id": null,
           "user_id": null
         }
@@ -2255,7 +2285,7 @@
         "native_value": 7,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2265,10 +2295,10 @@
           "icon": "mdi:phone",
           "friendly_name": "puja Volume level call"
         },
-        "last_changed": "2023-11-03T06:39:52.256432+00:00",
-        "last_updated": "2023-11-03T06:39:52.256432+00:00",
+        "last_changed": "2023-11-03T07:01:49.073265+00:00",
+        "last_updated": "2023-11-03T07:01:49.073265+00:00",
         "context": {
-          "id": "01HE9YHNY06MWZD1A969EYF1X4",
+          "id": "01HE9ZSVWHD13P0KXT394KJ4E7",
           "parent_id": null,
           "user_id": null
         }
@@ -2277,29 +2307,29 @@
         "native_value": 6,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_volume_level_music",
-        "state": "7",
+        "state": "5",
         "attributes": {
           "icon": "mdi:music",
           "friendly_name": "puja Volume level music"
         },
-        "last_changed": "2023-11-03T06:46:53.945983+00:00",
-        "last_updated": "2023-11-03T06:46:53.945983+00:00",
+        "last_changed": "2023-11-03T07:01:49.073615+00:00",
+        "last_updated": "2023-11-03T07:01:49.073615+00:00",
         "context": {
-          "id": "01HE9YYHQSG4WQR4SPPY2EEQ3A",
+          "id": "01HE9ZSVWHQMXP8B768YYB486X",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 7,
+        "native_value": 5,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2309,10 +2339,10 @@
           "icon": "mdi:phone-ring",
           "friendly_name": "puja Volume level ringer"
         },
-        "last_changed": "2023-11-03T06:39:52.257834+00:00",
-        "last_updated": "2023-11-03T06:39:52.257834+00:00",
+        "last_changed": "2023-11-03T07:01:49.073973+00:00",
+        "last_updated": "2023-11-03T07:01:49.073973+00:00",
         "context": {
-          "id": "01HE9YHNY1X6749615EB986N7H",
+          "id": "01HE9ZSVWH97JPCGHKKZ6B9CDV",
           "parent_id": null,
           "user_id": null
         }
@@ -2321,7 +2351,7 @@
         "native_value": 1,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2331,10 +2361,10 @@
           "icon": "mdi:bell-ring",
           "friendly_name": "puja Volume level notification"
         },
-        "last_changed": "2023-11-03T06:39:52.258529+00:00",
-        "last_updated": "2023-11-03T06:39:52.258529+00:00",
+        "last_changed": "2023-11-03T07:01:49.074345+00:00",
+        "last_updated": "2023-11-03T07:01:49.074345+00:00",
         "context": {
-          "id": "01HE9YHNY2R4QVVWN4G2734Y0K",
+          "id": "01HE9ZSVWJKD4PXC3TRJWT9D1K",
           "parent_id": null,
           "user_id": null
         }
@@ -2343,7 +2373,7 @@
         "native_value": 2,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2353,10 +2383,10 @@
           "icon": "mdi:cellphone-sound",
           "friendly_name": "puja Volume level system"
         },
-        "last_changed": "2023-11-03T06:39:52.258908+00:00",
-        "last_updated": "2023-11-03T06:39:52.258908+00:00",
+        "last_changed": "2023-11-03T07:01:49.074782+00:00",
+        "last_updated": "2023-11-03T07:01:49.074782+00:00",
         "context": {
-          "id": "01HE9YHNY2C6MQPTQD48EKN74S",
+          "id": "01HE9ZSVWJEXH2C5NEY8J5BDXJ",
           "parent_id": null,
           "user_id": null
         }
@@ -2365,7 +2395,7 @@
         "native_value": 1,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2375,10 +2405,10 @@
           "icon": "mdi:volume-high",
           "friendly_name": "puja Volume level DTMF"
         },
-        "last_changed": "2023-11-03T06:39:52.263278+00:00",
-        "last_updated": "2023-11-03T06:39:52.263278+00:00",
+        "last_changed": "2023-11-03T07:01:49.075135+00:00",
+        "last_updated": "2023-11-03T07:01:49.075135+00:00",
         "context": {
-          "id": "01HE9YHNY703GZBQAHNVP4J5P4",
+          "id": "01HE9ZSVWKNKN6EBK5J8MN4WG5",
           "parent_id": null,
           "user_id": null
         }
@@ -2387,53 +2417,53 @@
         "native_value": 8,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_volume_level_accessibility",
-        "state": "8",
+        "state": "6",
         "attributes": {
           "icon": "mdi:human",
           "friendly_name": "puja Volume level accessibility"
         },
-        "last_changed": "2023-11-03T06:46:53.946551+00:00",
-        "last_updated": "2023-11-03T06:46:53.946551+00:00",
+        "last_changed": "2023-11-03T07:01:49.075511+00:00",
+        "last_updated": "2023-11-03T07:01:49.075511+00:00",
         "context": {
-          "id": "01HE9YYHQT92B3XRHBK4FBQY45",
+          "id": "01HE9ZSVWK2TCW9T3D0J9QJGJQ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 8,
+        "native_value": 6,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_battery_level",
-        "state": "43",
+        "state": "41",
         "attributes": {
           "unit_of_measurement": "%",
           "device_class": "battery",
           "icon": "mdi:battery-40",
           "friendly_name": "puja Battery level"
         },
-        "last_changed": "2023-11-03T06:46:53.947099+00:00",
-        "last_updated": "2023-11-03T06:46:53.947099+00:00",
+        "last_changed": "2023-11-03T07:01:49.076045+00:00",
+        "last_updated": "2023-11-03T07:01:49.076045+00:00",
         "context": {
-          "id": "01HE9YYHQVTANQ32H4C982A51C",
+          "id": "01HE9ZSVWM9CXBR7JDYQH0G4MP",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 43,
+        "native_value": 41,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2443,10 +2473,10 @@
           "icon": "mdi:battery-minus",
           "friendly_name": "puja Battery state"
         },
-        "last_changed": "2023-11-03T04:49:37.539899+00:00",
-        "last_updated": "2023-11-03T04:49:37.539899+00:00",
+        "last_changed": "2023-11-03T07:01:49.076382+00:00",
+        "last_updated": "2023-11-03T07:01:49.076382+00:00",
         "context": {
-          "id": "01HE9R7T8397JPCGHKKZ6B9CDV",
+          "id": "01HE9ZSVWMC5WFMJAX6PH5P9VG",
           "parent_id": null,
           "user_id": null
         }
@@ -2455,7 +2485,7 @@
         "native_value": "discharging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2465,10 +2495,10 @@
           "icon": "mdi:battery",
           "friendly_name": "puja Charger type"
         },
-        "last_changed": "2023-11-03T04:49:37.541033+00:00",
-        "last_updated": "2023-11-03T04:49:37.541033+00:00",
+        "last_changed": "2023-11-03T07:01:49.076754+00:00",
+        "last_updated": "2023-11-03T07:01:49.076754+00:00",
         "context": {
-          "id": "01HE9R7T85KD4PXC3TRJWT9D1K",
+          "id": "01HE9ZSVWMVME3KT80TCRXCFQF",
           "parent_id": null,
           "user_id": null
         }
@@ -2477,7 +2507,7 @@
         "native_value": "none",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2487,10 +2517,10 @@
           "icon": "mdi:battery-heart-variant",
           "friendly_name": "puja Battery health"
         },
-        "last_changed": "2023-11-03T04:49:37.542599+00:00",
-        "last_updated": "2023-11-03T04:49:37.542599+00:00",
+        "last_changed": "2023-11-03T07:01:49.077147+00:00",
+        "last_updated": "2023-11-03T07:01:49.077147+00:00",
         "context": {
-          "id": "01HE9R7T86EXH2C5NEY8J5BDXJ",
+          "id": "01HE9ZSVWNCMPBN8TN0ZXDBAN4",
           "parent_id": null,
           "user_id": null
         }
@@ -2499,57 +2529,57 @@
         "native_value": "good",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_battery_temperature",
-        "state": "37.5",
+        "state": "34.8",
         "attributes": {
           "unit_of_measurement": "°C",
           "device_class": "temperature",
           "icon": "mdi:battery",
           "friendly_name": "puja Battery temperature"
         },
-        "last_changed": "2023-11-03T06:46:53.947668+00:00",
-        "last_updated": "2023-11-03T06:46:53.947668+00:00",
+        "last_changed": "2023-11-03T07:01:49.077601+00:00",
+        "last_updated": "2023-11-03T07:01:49.077601+00:00",
         "context": {
-          "id": "01HE9YYHQV83JTWRJVZEHYZPNM",
+          "id": "01HE9ZSVWN4MPCVPT0QZD2B8QE",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 37.5,
+        "native_value": 34.8,
         "native_unit_of_measurement": "°C"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_battery_power",
-        "state": "-1.96",
+        "state": "-1.92",
         "attributes": {
-          "current": -0.5164,
-          "voltage": 3.791,
+          "current": -0.5096,
+          "voltage": 3.777,
           "unit_of_measurement": "W",
           "device_class": "power",
           "icon": "mdi:battery-minus",
           "friendly_name": "puja Battery power"
         },
-        "last_changed": "2023-11-03T06:46:53.951201+00:00",
-        "last_updated": "2023-11-03T06:46:53.951201+00:00",
+        "last_changed": "2023-11-03T07:01:49.078014+00:00",
+        "last_updated": "2023-11-03T07:01:49.078014+00:00",
         "context": {
-          "id": "01HE9YYHQZF1MSNF7P57N0BREE",
+          "id": "01HE9ZSVWP3ZE7A7VXVRQAV3H5",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": -1.96,
+        "native_value": -1.92,
         "native_unit_of_measurement": "W"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2563,10 +2593,10 @@
           "icon": "mdi:bluetooth",
           "friendly_name": "puja Bluetooth connection"
         },
-        "last_changed": "2023-11-03T06:39:52.265359+00:00",
-        "last_updated": "2023-11-03T06:39:52.265359+00:00",
+        "last_changed": "2023-11-03T07:01:49.078353+00:00",
+        "last_updated": "2023-11-03T07:01:49.078353+00:00",
         "context": {
-          "id": "01HE9YHNY99A4Q4FYB4DV8YKFG",
+          "id": "01HE9ZSVWP14Q810BKEY28R6J6",
           "parent_id": null,
           "user_id": null
         }
@@ -2575,7 +2605,7 @@
         "native_value": 0,
         "native_unit_of_measurement": "connection(s)"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2590,10 +2620,10 @@
           "icon": "mdi:bluetooth-off",
           "friendly_name": "puja BLE transmitter"
         },
-        "last_changed": "2023-11-03T06:39:52.266245+00:00",
-        "last_updated": "2023-11-03T06:39:52.266245+00:00",
+        "last_changed": "2023-11-03T07:01:49.078709+00:00",
+        "last_updated": "2023-11-03T07:01:49.078709+00:00",
         "context": {
-          "id": "01HE9YHNYARD8MPQZNWXPZHZHZ",
+          "id": "01HE9ZSVWPF7F4ZA2DMCF2AGX2",
           "parent_id": null,
           "user_id": null
         }
@@ -2602,7 +2632,7 @@
         "native_value": "Bluetooth is turned off",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2612,10 +2642,10 @@
           "icon": "mdi:bluetooth-off",
           "friendly_name": "puja Beacon monitor"
         },
-        "last_changed": "2023-11-03T06:39:52.266719+00:00",
-        "last_updated": "2023-11-03T06:39:52.266719+00:00",
+        "last_changed": "2023-11-03T07:01:49.079067+00:00",
+        "last_updated": "2023-11-03T07:01:49.079067+00:00",
         "context": {
-          "id": "01HE9YHNYAXXWSJTS83HADBB8A",
+          "id": "01HE9ZSVWQS41RGNE08T7274ER",
           "parent_id": null,
           "user_id": null
         }
@@ -2624,7 +2654,7 @@
         "native_value": "Bluetooth is turned off",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2635,10 +2665,10 @@
           "icon": "mdi:brightness-6",
           "friendly_name": "puja Screen brightness"
         },
-        "last_changed": "2023-11-03T05:32:17.903506+00:00",
-        "last_updated": "2023-11-03T05:32:17.903506+00:00",
+        "last_changed": "2023-11-03T07:01:49.079415+00:00",
+        "last_updated": "2023-11-03T07:01:49.079415+00:00",
         "context": {
-          "id": "01HE9TNYKFX3E2R900MMKD8VTN",
+          "id": "01HE9ZSVWQYJKG3YDK23AR4E8Z",
           "parent_id": null,
           "user_id": null
         }
@@ -2647,7 +2677,7 @@
         "native_value": 25,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2657,10 +2687,10 @@
           "icon": "mdi:cellphone-off",
           "friendly_name": "puja Screen off timeout"
         },
-        "last_changed": "2023-11-03T04:49:37.555701+00:00",
-        "last_updated": "2023-11-03T04:49:37.555701+00:00",
+        "last_changed": "2023-11-03T07:01:49.079774+00:00",
+        "last_updated": "2023-11-03T07:01:49.079774+00:00",
         "context": {
-          "id": "01HE9R7T8K4MPCVPT0QZD2B8QE",
+          "id": "01HE9ZSVWQW0MH3GNPQT4J9H6X",
           "parent_id": null,
           "user_id": null
         }
@@ -2669,7 +2699,7 @@
         "native_value": 1800000,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2679,10 +2709,10 @@
           "icon": "mdi:minus-circle",
           "friendly_name": "puja Do Not Disturb sensor"
         },
-        "last_changed": "2023-11-03T04:49:37.556559+00:00",
-        "last_updated": "2023-11-03T04:49:37.556559+00:00",
+        "last_changed": "2023-11-03T07:01:49.080106+00:00",
+        "last_updated": "2023-11-03T07:01:49.080106+00:00",
         "context": {
-          "id": "01HE9R7T8M3ZE7A7VXVRQAV3H5",
+          "id": "01HE9ZSVWRF8KQRAY5REVNQWEV",
           "parent_id": null,
           "user_id": null
         }
@@ -2691,7 +2721,7 @@
         "native_value": "off",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2706,10 +2736,10 @@
           "icon": "mdi:palette",
           "friendly_name": "puja Accent color"
         },
-        "last_changed": "2023-11-03T04:49:37.560256+00:00",
-        "last_updated": "2023-11-03T04:49:37.560256+00:00",
+        "last_changed": "2023-11-03T07:01:49.080449+00:00",
+        "last_updated": "2023-11-03T07:01:49.080449+00:00",
         "context": {
-          "id": "01HE9R7T8R14Q810BKEY28R6J6",
+          "id": "01HE9ZSVWR5RC61F1712F4FZE0",
           "parent_id": null,
           "user_id": null
         }
@@ -2718,7 +2748,7 @@
         "native_value": "#456FFF",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2745,10 +2775,10 @@
           "icon": "mdi:map",
           "friendly_name": "puja Geocoded location"
         },
-        "last_changed": "2023-11-03T04:51:49.285698+00:00",
-        "last_updated": "2023-11-03T04:51:49.285698+00:00",
+        "last_changed": "2023-11-03T07:01:49.081558+00:00",
+        "last_updated": "2023-11-03T07:01:49.081558+00:00",
         "context": {
-          "id": "01HE9RBTX54E8PY4H9XT5MYBPV",
+          "id": "01HE9ZSVWS43C0AQ5BE2JWX7FE",
           "parent_id": null,
           "user_id": null
         }
@@ -2757,30 +2787,30 @@
         "native_value": "Saroj Niwas, Ward No.4, Kataiya Chowri, Near Paragaon School, जनकपुर 45600, Nepal",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_last_used_app",
-        "state": "com.facebook.katana",
+        "state": "com.android.launcher3",
         "attributes": {
-          "Label": "Facebook",
+          "Label": "System Home Screen",
           "icon": "mdi:android",
           "friendly_name": "puja Last used app"
         },
-        "last_changed": "2023-11-03T06:46:53.958976+00:00",
-        "last_updated": "2023-11-03T06:46:53.958976+00:00",
+        "last_changed": "2023-11-03T07:01:49.082010+00:00",
+        "last_updated": "2023-11-03T07:01:49.082010+00:00",
         "context": {
-          "id": "01HE9YYHR6MXVTP441TP34NWW6",
+          "id": "01HE9ZSVWTHCZTVAQ2K879BEB5",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "com.facebook.katana",
+        "native_value": "com.android.launcher3",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2793,10 +2823,10 @@
           "icon": "mdi:restart",
           "friendly_name": "puja Last reboot"
         },
-        "last_changed": "2023-11-03T04:49:37.563533+00:00",
-        "last_updated": "2023-11-03T04:49:37.563533+00:00",
+        "last_changed": "2023-11-03T07:01:49.082485+00:00",
+        "last_updated": "2023-11-03T07:01:49.082485+00:00",
         "context": {
-          "id": "01HE9R7T8VYJKG3YDK23AR4E8Z",
+          "id": "01HE9ZSVWTMRXJ66N8MBNMPMVW",
           "parent_id": null,
           "user_id": null
         }
@@ -2808,7 +2838,7 @@
         },
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2818,10 +2848,10 @@
           "icon": "mdi:update",
           "friendly_name": "puja Last update trigger"
         },
-        "last_changed": "2023-11-03T06:40:44.255439+00:00",
-        "last_updated": "2023-11-03T06:40:44.255439+00:00",
+        "last_changed": "2023-11-03T07:01:49.082863+00:00",
+        "last_updated": "2023-11-03T07:01:49.082863+00:00",
         "context": {
-          "id": "01HE9YK8PZ32HY65GA064Y5BX2",
+          "id": "01HE9ZSVWTZNRGG472PXTTX4ZJ",
           "parent_id": null,
           "user_id": null
         }
@@ -2830,31 +2860,31 @@
         "native_value": "io.homeassistant.companion.android.UPDATE_SENSORS",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_light_sensor",
-        "state": "85",
+        "state": "14",
         "attributes": {
           "unit_of_measurement": "lx",
           "device_class": "illuminance",
           "icon": "mdi:brightness-5",
           "friendly_name": "puja Light sensor"
         },
-        "last_changed": "2023-11-03T06:46:53.959571+00:00",
-        "last_updated": "2023-11-03T06:46:53.959571+00:00",
+        "last_changed": "2023-11-03T07:01:49.083299+00:00",
+        "last_updated": "2023-11-03T07:01:49.083299+00:00",
         "context": {
-          "id": "01HE9YYHR7X5597QVGW3EE09HX",
+          "id": "01HE9ZSVWVQG2K34C64JEMGCVT",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "85",
+        "native_value": "14",
         "native_unit_of_measurement": "lx"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2865,10 +2895,10 @@
           "icon": "mdi:timer",
           "friendly_name": "puja High accuracy update interval"
         },
-        "last_changed": "2023-11-03T04:49:37.567420+00:00",
-        "last_updated": "2023-11-03T04:49:37.567420+00:00",
+        "last_changed": "2023-11-03T07:01:49.084747+00:00",
+        "last_updated": "2023-11-03T07:01:49.084747+00:00",
         "context": {
-          "id": "01HE9R7T8Z5RC61F1712F4FZE0",
+          "id": "01HE9ZSVWWY50J5VG4SCBQ06XC",
           "parent_id": null,
           "user_id": null
         }
@@ -2877,7 +2907,7 @@
         "native_value": null,
         "native_unit_of_measurement": "seconds"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2888,10 +2918,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "puja WiFi connection"
         },
-        "last_changed": "2023-11-03T04:49:37.569823+00:00",
-        "last_updated": "2023-11-03T04:49:37.569823+00:00",
+        "last_changed": "2023-11-03T07:01:49.085403+00:00",
+        "last_updated": "2023-11-03T07:01:49.085403+00:00",
         "context": {
-          "id": "01HE9R7T9143C0AQ5BE2JWX7FE",
+          "id": "01HE9ZSVWXC8G3JHMF2DT5GET5",
           "parent_id": null,
           "user_id": null
         }
@@ -2900,7 +2930,7 @@
         "native_value": "Engineer",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2910,10 +2940,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "puja WiFi BSSID"
         },
-        "last_changed": "2023-11-03T04:49:37.572157+00:00",
-        "last_updated": "2023-11-03T04:49:37.572157+00:00",
+        "last_changed": "2023-11-03T07:01:49.085973+00:00",
+        "last_updated": "2023-11-03T07:01:49.085973+00:00",
         "context": {
-          "id": "01HE9R7T94HCZTVAQ2K879BEB5",
+          "id": "01HE9ZSVWX7ZVY21XQ9CG22C2R",
           "parent_id": null,
           "user_id": null
         }
@@ -2922,7 +2952,7 @@
         "native_value": "08:10:7a:92:f7:44",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2932,10 +2962,10 @@
           "icon": "mdi:ip",
           "friendly_name": "puja WiFi IP address"
         },
-        "last_changed": "2023-11-03T04:49:37.580916+00:00",
-        "last_updated": "2023-11-03T04:49:37.580916+00:00",
+        "last_changed": "2023-11-03T07:01:49.086331+00:00",
+        "last_updated": "2023-11-03T07:01:49.086331+00:00",
         "context": {
-          "id": "01HE9R7T9CMRXJ66N8MBNMPMVW",
+          "id": "01HE9ZSVWY92N822SP8VDBNBAP",
           "parent_id": null,
           "user_id": null
         }
@@ -2944,7 +2974,7 @@
         "native_value": "10.20.10.30",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2955,10 +2985,10 @@
           "icon": "mdi:wifi-strength-3",
           "friendly_name": "puja WiFi link speed"
         },
-        "last_changed": "2023-11-03T04:49:37.582540+00:00",
-        "last_updated": "2023-11-03T04:49:37.582540+00:00",
+        "last_changed": "2023-11-03T07:01:49.086694+00:00",
+        "last_updated": "2023-11-03T07:01:49.086694+00:00",
         "context": {
-          "id": "01HE9R7T9EZNRGG472PXTTX4ZJ",
+          "id": "01HE9ZSVWY0EZTNYJ73ASXA5Z4",
           "parent_id": null,
           "user_id": null
         }
@@ -2967,7 +2997,7 @@
         "native_value": 72,
         "native_unit_of_measurement": "Mbps"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -2978,10 +3008,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "puja WiFi frequency"
         },
-        "last_changed": "2023-11-03T04:49:37.584477+00:00",
-        "last_updated": "2023-11-03T04:49:37.584477+00:00",
+        "last_changed": "2023-11-03T07:01:49.087031+00:00",
+        "last_updated": "2023-11-03T07:01:49.087031+00:00",
         "context": {
-          "id": "01HE9R7T9GQG2K34C64JEMGCVT",
+          "id": "01HE9ZSVWZJNRX1A4B2E92D98G",
           "parent_id": null,
           "user_id": null
         }
@@ -2990,31 +3020,31 @@
         "native_value": 2417,
         "native_unit_of_measurement": "MHz"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_wifi_signal_strength",
-        "state": "-36",
+        "state": "-37",
         "attributes": {
           "unit_of_measurement": "dBm",
           "device_class": "signal_strength",
           "icon": "mdi:wifi-strength-3",
           "friendly_name": "puja WiFi signal strength"
         },
-        "last_changed": "2023-11-03T05:50:20.397495+00:00",
-        "last_updated": "2023-11-03T05:50:20.397495+00:00",
+        "last_changed": "2023-11-03T07:01:49.087422+00:00",
+        "last_updated": "2023-11-03T07:01:49.087422+00:00",
         "context": {
-          "id": "01HE9VPZQDJFNREM9MM60DRK55",
+          "id": "01HE9ZSVWZYDBBWQH5PPWQ3FBN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": -36,
+        "native_value": -37,
         "native_unit_of_measurement": "dBm"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3024,10 +3054,10 @@
           "icon": "mdi:ip",
           "friendly_name": "puja Public IP address"
         },
-        "last_changed": "2023-11-03T04:56:52.681957+00:00",
-        "last_updated": "2023-11-03T04:56:52.681957+00:00",
+        "last_changed": "2023-11-03T07:01:49.087795+00:00",
+        "last_updated": "2023-11-03T07:01:49.087795+00:00",
         "context": {
-          "id": "01HE9RN369G9274BV2P9CFHJTM",
+          "id": "01HE9ZSVWZ5RMST5T125HR0J4J",
           "parent_id": null,
           "user_id": null
         }
@@ -3036,7 +3066,7 @@
         "native_value": "27.34.61.120",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3047,10 +3077,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "puja Network type"
         },
-        "last_changed": "2023-11-03T04:49:37.589495+00:00",
-        "last_updated": "2023-11-03T04:49:37.589495+00:00",
+        "last_changed": "2023-11-03T07:01:49.088121+00:00",
+        "last_updated": "2023-11-03T07:01:49.088121+00:00",
         "context": {
-          "id": "01HE9R7T9N7ZVY21XQ9CG22C2R",
+          "id": "01HE9ZSVX0T6QCTNNSCW1BYM2B",
           "parent_id": null,
           "user_id": null
         }
@@ -3059,7 +3089,7 @@
         "native_value": "wifi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3070,10 +3100,10 @@
           "icon": "mdi:alarm",
           "friendly_name": "puja Next alarm"
         },
-        "last_changed": "2023-11-03T04:49:37.590759+00:00",
-        "last_updated": "2023-11-03T04:49:37.590759+00:00",
+        "last_changed": "2023-11-03T07:01:49.088445+00:00",
+        "last_updated": "2023-11-03T07:01:49.088445+00:00",
         "context": {
-          "id": "01HE9R7T9P92N822SP8VDBNBAP",
+          "id": "01HE9ZSVX09CTQTW06QSD1FEEN",
           "parent_id": null,
           "user_id": null
         }
@@ -3082,7 +3112,7 @@
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3092,10 +3122,10 @@
           "icon": "mdi:bell-ring",
           "friendly_name": "puja Last notification"
         },
-        "last_changed": "2023-11-03T04:49:37.592034+00:00",
-        "last_updated": "2023-11-03T04:49:37.592034+00:00",
+        "last_changed": "2023-11-03T07:01:49.088893+00:00",
+        "last_updated": "2023-11-03T07:01:49.088893+00:00",
         "context": {
-          "id": "01HE9R7T9R0EZTNYJ73ASXA5Z4",
+          "id": "01HE9ZSVX06WVN22WPW8NN3VJ3",
           "parent_id": null,
           "user_id": null
         }
@@ -3104,7 +3134,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3114,10 +3144,10 @@
           "icon": "mdi:bell-ring",
           "friendly_name": "puja Last removed notification"
         },
-        "last_changed": "2023-11-03T04:49:37.593579+00:00",
-        "last_updated": "2023-11-03T04:49:37.593579+00:00",
+        "last_changed": "2023-11-03T07:01:49.089277+00:00",
+        "last_updated": "2023-11-03T07:01:49.089277+00:00",
         "context": {
-          "id": "01HE9R7T9SJNRX1A4B2E92D98G",
+          "id": "01HE9ZSVX1V6E9G86S3B5XM147",
           "parent_id": null,
           "user_id": null
         }
@@ -3126,30 +3156,43 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_active_notification_count",
-        "state": "2",
+        "state": "3",
         "attributes": {
-          "android.appInfo_com.google.android.googlequicksearchbox_0": "ApplicationInfo{8dbae36 com.google.android.googlequicksearchbox}",
+          "android.appInfo_com.google.android.googlequicksearchbox_0": "ApplicationInfo{5e7f51e com.google.android.googlequicksearchbox}",
+          "android.appInfo_io.homeassistant.companion.android_42": "ApplicationInfo{5abe559 io.homeassistant.companion.android}",
           "android.bigText_com.google.android.googlequicksearchbox_0": "Feels like 33° · Sunny · See full forecast",
           "android.infoText_com.google.android.googlequicksearchbox_0": "null",
+          "android.infoText_io.homeassistant.companion.android_42": "null",
           "android.largeIcon_com.google.android.googlequicksearchbox_0": "Icon(typ=BITMAP size=132x132)",
+          "android.largeIcon_io.homeassistant.companion.android_42": "null",
           "android.progressIndeterminate_com.google.android.googlequicksearchbox_0": false,
+          "android.progressIndeterminate_io.homeassistant.companion.android_42": false,
           "android.progressMax_com.google.android.googlequicksearchbox_0": 0,
+          "android.progressMax_io.homeassistant.companion.android_42": 0,
           "android.progress_com.google.android.googlequicksearchbox_0": 0,
+          "android.progress_io.homeassistant.companion.android_42": 0,
           "android.reduced.images_com.google.android.googlequicksearchbox_0": true,
+          "android.reduced.images_io.homeassistant.companion.android_42": true,
           "android.remoteInputHistory_com.google.android.googlequicksearchbox_0": "null",
+          "android.remoteInputHistory_io.homeassistant.companion.android_42": "null",
           "android.showChronometer_com.google.android.googlequicksearchbox_0": false,
+          "android.showChronometer_io.homeassistant.companion.android_42": false,
           "android.showWhen_com.google.android.googlequicksearchbox_0": true,
+          "android.showWhen_io.homeassistant.companion.android_42": true,
           "android.subText_com.google.android.googlequicksearchbox_0": "null",
+          "android.subText_io.homeassistant.companion.android_42": "null",
           "android.support.v4.app.extra.COMPAT_TEMPLATE_com.google.android.googlequicksearchbox_0": "androidx.core.app.NotificationCompat$BigTextStyle",
           "android.template_com.google.android.googlequicksearchbox_0": "android.app.Notification$BigTextStyle",
           "android.text_com.google.android.googlequicksearchbox_0": "Feels like 33° · Sunny · See full forecast",
+          "android.text_io.homeassistant.companion.android_42": "null",
           "android.title.big_com.google.android.googlequicksearchbox_0": "31° in Janakpur",
           "android.title_com.google.android.googlequicksearchbox_0": "31° in Janakpur",
+          "android.title_io.homeassistant.companion.android_42": "Updating Sensors",
           "chime.account_name_hash_com.google.android.googlequicksearchbox_0": -388405460,
           "chime.thread_id_com.google.android.googlequicksearchbox_0": "a:snotification:[0x394,wx.f,NOTIFICATION]",
           "com.google.android.googlequicksearchbox_0_category": "null",
@@ -3158,23 +3201,29 @@
           "com.google.android.googlequicksearchbox_0_is_clearable": true,
           "com.google.android.googlequicksearchbox_0_is_ongoing": false,
           "com.google.android.googlequicksearchbox_0_post_time": 1698993463995,
+          "io.homeassistant.companion.android_42_category": "null",
+          "io.homeassistant.companion.android_42_channel_id": "Sensor Worker",
+          "io.homeassistant.companion.android_42_group_id": "null",
+          "io.homeassistant.companion.android_42_is_clearable": false,
+          "io.homeassistant.companion.android_42_is_ongoing": false,
+          "io.homeassistant.companion.android_42_post_time": 1698994594395,
           "unit_of_measurement": "notifications",
           "icon": "mdi:bell-ring",
           "friendly_name": "puja Active notification count"
         },
-        "last_changed": "2023-11-03T06:38:55.673276+00:00",
-        "last_updated": "2023-11-03T06:38:55.673276+00:00",
+        "last_changed": "2023-11-03T07:01:49.089650+00:00",
+        "last_updated": "2023-11-03T07:01:49.089650+00:00",
         "context": {
-          "id": "01HE9YFYNS4CE0T01T9RJ16PBS",
+          "id": "01HE9ZSVX1EJJ8YVT7940XG9YE",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 2,
+        "native_value": 3,
         "native_unit_of_measurement": "notifications"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3192,10 +3241,10 @@
           "icon": "mdi:play-circle",
           "friendly_name": "puja Media session"
         },
-        "last_changed": "2023-11-03T05:30:19.865034+00:00",
-        "last_updated": "2023-11-03T05:30:19.865034+00:00",
+        "last_changed": "2023-11-03T07:01:49.090101+00:00",
+        "last_updated": "2023-11-03T07:01:49.090101+00:00",
         "context": {
-          "id": "01HE9TJBASWJ5GDDMP6G3G5AWG",
+          "id": "01HE9ZSVX2YSSEV0Q07QK28HWJ",
           "parent_id": null,
           "user_id": null
         }
@@ -3204,7 +3253,7 @@
         "native_value": "Stopped",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3214,10 +3263,10 @@
           "icon": "mdi:phone",
           "friendly_name": "puja Phone state"
         },
-        "last_changed": "2023-11-03T04:49:37.599859+00:00",
-        "last_updated": "2023-11-03T04:49:37.599859+00:00",
+        "last_changed": "2023-11-03T07:01:49.090512+00:00",
+        "last_updated": "2023-11-03T07:01:49.090512+00:00",
         "context": {
-          "id": "01HE9R7T9ZT6QCTNNSCW1BYM2B",
+          "id": "01HE9ZSVX2X1XAHCD6SJCSF1NB",
           "parent_id": null,
           "user_id": null
         }
@@ -3226,7 +3275,7 @@
         "native_value": "idle",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3243,10 +3292,10 @@
           "icon": "mdi:sim",
           "friendly_name": "puja SIM 1"
         },
-        "last_changed": "2023-11-03T04:49:37.601208+00:00",
-        "last_updated": "2023-11-03T04:49:37.601208+00:00",
+        "last_changed": "2023-11-03T07:01:49.090911+00:00",
+        "last_updated": "2023-11-03T07:01:49.090911+00:00",
         "context": {
-          "id": "01HE9R7TA19CTQTW06QSD1FEEN",
+          "id": "01HE9ZSVX2WXTQZGSP313K7SVA",
           "parent_id": null,
           "user_id": null
         }
@@ -3255,7 +3304,7 @@
         "native_value": "SIM 1",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3265,10 +3314,10 @@
           "icon": "mdi:sim",
           "friendly_name": "puja SIM 2"
         },
-        "last_changed": "2023-11-03T04:49:37.602902+00:00",
-        "last_updated": "2023-11-03T04:49:37.602902+00:00",
+        "last_changed": "2023-11-03T07:01:49.091248+00:00",
+        "last_updated": "2023-11-03T07:01:49.091248+00:00",
         "context": {
-          "id": "01HE9R7TA26WVN22WPW8NN3VJ3",
+          "id": "01HE9ZSVX3QCQMZKQ7AAGC0Y6C",
           "parent_id": null,
           "user_id": null
         }
@@ -3277,7 +3326,7 @@
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3287,10 +3336,10 @@
           "icon": "mdi:leak",
           "friendly_name": "puja Proximity sensor"
         },
-        "last_changed": "2023-11-03T05:17:47.145867+00:00",
-        "last_updated": "2023-11-03T05:17:47.145867+00:00",
+        "last_changed": "2023-11-03T07:01:49.091742+00:00",
+        "last_updated": "2023-11-03T07:01:49.091742+00:00",
         "context": {
-          "id": "01HE9SVC89ZNAHXM5EF09N5859",
+          "id": "01HE9ZSVX3R6SNWYWR01PX6G9R",
           "parent_id": null,
           "user_id": null
         }
@@ -3299,30 +3348,30 @@
         "native_value": 5,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_steps_sensor",
-        "state": "3063304",
+        "state": "3063314",
         "attributes": {
           "unit_of_measurement": "steps",
           "icon": "mdi:walk",
           "friendly_name": "puja Steps sensor"
         },
-        "last_changed": "2023-11-03T06:46:53.960671+00:00",
-        "last_updated": "2023-11-03T06:46:53.960671+00:00",
+        "last_changed": "2023-11-03T07:01:49.092122+00:00",
+        "last_updated": "2023-11-03T07:01:49.092122+00:00",
         "context": {
-          "id": "01HE9YYHR86XB8V0BWF2TNXH45",
+          "id": "01HE9ZSVX44QT5QCA39260VARM",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "3063304",
+        "native_value": "3063314",
         "native_unit_of_measurement": "steps"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3336,10 +3385,10 @@
           "icon": "mdi:harddisk",
           "friendly_name": "puja Internal storage"
         },
-        "last_changed": "2023-11-03T04:49:37.612949+00:00",
-        "last_updated": "2023-11-03T04:49:37.612949+00:00",
+        "last_changed": "2023-11-03T07:01:49.092842+00:00",
+        "last_updated": "2023-11-03T07:01:49.092842+00:00",
         "context": {
-          "id": "01HE9R7TACYSSEV0Q07QK28HWJ",
+          "id": "01HE9ZSVX45250CBSQKTSDNX30",
           "parent_id": null,
           "user_id": null
         }
@@ -3348,7 +3397,7 @@
         "native_value": 21,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3362,10 +3411,10 @@
           "icon": "mdi:micro-sd",
           "friendly_name": "puja External storage"
         },
-        "last_changed": "2023-11-03T04:49:37.614982+00:00",
-        "last_updated": "2023-11-03T04:49:37.614982+00:00",
+        "last_changed": "2023-11-03T07:01:49.093264+00:00",
+        "last_updated": "2023-11-03T07:01:49.093264+00:00",
         "context": {
-          "id": "01HE9R7TAEX1XAHCD6SJCSF1NB",
+          "id": "01HE9ZSVX5X17X3C973VTE1YZ4",
           "parent_id": null,
           "user_id": null
         }
@@ -3374,7 +3423,7 @@
         "native_value": 0,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3389,10 +3438,10 @@
           "icon": "mdi:map-clock",
           "friendly_name": "puja Current time zone"
         },
-        "last_changed": "2023-11-03T04:49:37.619955+00:00",
-        "last_updated": "2023-11-03T04:49:37.619955+00:00",
+        "last_changed": "2023-11-03T07:01:49.093636+00:00",
+        "last_updated": "2023-11-03T07:01:49.093636+00:00",
         "context": {
-          "id": "01HE9R7TAKWXTQZGSP313K7SVA",
+          "id": "01HE9ZSVX5DXP33XZPJQ0XS90J",
           "parent_id": null,
           "user_id": null
         }
@@ -3401,7 +3450,7 @@
         "native_value": "Nepal Time",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3412,10 +3461,10 @@
           "icon": "mdi:radio-tower",
           "friendly_name": "puja Mobile Rx GB"
         },
-        "last_changed": "2023-11-03T04:49:37.639054+00:00",
-        "last_updated": "2023-11-03T04:49:37.639054+00:00",
+        "last_changed": "2023-11-03T07:01:49.094060+00:00",
+        "last_updated": "2023-11-03T07:01:49.094060+00:00",
         "context": {
-          "id": "01HE9R7TB7QCQMZKQ7AAGC0Y6C",
+          "id": "01HE9ZSVX6NFJXY08NVMKSD0AF",
           "parent_id": null,
           "user_id": null
         }
@@ -3424,7 +3473,7 @@
         "native_value": 0.0,
         "native_unit_of_measurement": "GB"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3435,10 +3484,10 @@
           "icon": "mdi:radio-tower",
           "friendly_name": "puja Mobile Tx GB"
         },
-        "last_changed": "2023-11-03T04:49:37.640745+00:00",
-        "last_updated": "2023-11-03T04:49:37.640745+00:00",
+        "last_changed": "2023-11-03T07:01:49.094391+00:00",
+        "last_updated": "2023-11-03T07:01:49.094391+00:00",
         "context": {
-          "id": "01HE9R7TB8R6SNWYWR01PX6G9R",
+          "id": "01HE9ZSVX61MCFXVTRS45N1F8F",
           "parent_id": null,
           "user_id": null
         }
@@ -3447,53 +3496,53 @@
         "native_value": 0.0,
         "native_unit_of_measurement": "GB"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_total_rx_gb",
-        "state": "195.987",
+        "state": "196.124",
         "attributes": {
           "unit_of_measurement": "GB",
           "icon": "mdi:radio-tower",
           "friendly_name": "puja Total Rx GB"
         },
-        "last_changed": "2023-11-03T06:46:53.961090+00:00",
-        "last_updated": "2023-11-03T06:46:53.961090+00:00",
+        "last_changed": "2023-11-03T07:01:49.094755+00:00",
+        "last_updated": "2023-11-03T07:01:49.094755+00:00",
         "context": {
-          "id": "01HE9YYHR9SED6VYQPAJN9V7MR",
+          "id": "01HE9ZSVX6YN30FBWNYE8S7GHN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 195.987,
+        "native_value": 196.124,
         "native_unit_of_measurement": "GB"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.puja_total_tx_gb",
-        "state": "103.507",
+        "state": "103.564",
         "attributes": {
           "unit_of_measurement": "GB",
           "icon": "mdi:radio-tower",
           "friendly_name": "puja Total Tx GB"
         },
-        "last_changed": "2023-11-03T06:46:53.961380+00:00",
-        "last_updated": "2023-11-03T06:46:53.961380+00:00",
+        "last_changed": "2023-11-03T07:01:49.095227+00:00",
+        "last_updated": "2023-11-03T07:01:49.095227+00:00",
         "context": {
-          "id": "01HE9YYHR9AE0VR5Y3AFNA5PAG",
+          "id": "01HE9ZSVX74889P8J697572A26",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 103.507,
+        "native_value": 103.564,
         "native_unit_of_measurement": "GB"
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3504,16 +3553,16 @@
           "icon": "mdi:car",
           "friendly_name": "puja Android Auto"
         },
-        "last_changed": "2023-11-03T04:49:37.659626+00:00",
-        "last_updated": "2023-11-03T04:49:37.659626+00:00",
+        "last_changed": "2023-11-03T07:01:49.096780+00:00",
+        "last_updated": "2023-11-03T07:01:49.096780+00:00",
         "context": {
-          "id": "01HE9R7TBVX17X3C973VTE1YZ4",
+          "id": "01HE9ZSVX8XNKMWX699814GPXY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3523,16 +3572,16 @@
           "icon": "mdi:timer-outline",
           "friendly_name": "puja App inactive"
         },
-        "last_changed": "2023-11-03T04:49:37.660832+00:00",
-        "last_updated": "2023-11-03T04:49:37.660832+00:00",
+        "last_changed": "2023-11-03T07:01:49.097197+00:00",
+        "last_updated": "2023-11-03T07:01:49.097197+00:00",
         "context": {
-          "id": "01HE9R7TBWDXP33XZPJQ0XS90J",
+          "id": "01HE9ZSVX90A3N7BS8N5HDE7GV",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3542,16 +3591,16 @@
           "icon": "mdi:headphones-off",
           "friendly_name": "puja Headphones"
         },
-        "last_changed": "2023-11-03T04:49:37.663073+00:00",
-        "last_updated": "2023-11-03T04:49:37.663073+00:00",
+        "last_changed": "2023-11-03T07:01:49.097484+00:00",
+        "last_updated": "2023-11-03T07:01:49.097484+00:00",
         "context": {
-          "id": "01HE9R7TBZNFJXY08NVMKSD0AF",
+          "id": "01HE9ZSVX92WTHV76RTGK9T1TK",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3561,16 +3610,16 @@
           "icon": "mdi:microphone",
           "friendly_name": "puja Mic muted"
         },
-        "last_changed": "2023-11-03T04:49:37.664371+00:00",
-        "last_updated": "2023-11-03T04:49:37.664371+00:00",
+        "last_changed": "2023-11-03T07:01:49.097756+00:00",
+        "last_updated": "2023-11-03T07:01:49.097756+00:00",
         "context": {
-          "id": "01HE9R7TC01MCFXVTRS45N1F8F",
+          "id": "01HE9ZSVX90ZP9B51CQJDCCAEA",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3580,35 +3629,35 @@
           "icon": "mdi:volume-off",
           "friendly_name": "puja Speakerphone"
         },
-        "last_changed": "2023-11-03T04:49:37.668826+00:00",
-        "last_updated": "2023-11-03T04:49:37.668826+00:00",
+        "last_changed": "2023-11-03T07:01:49.098026+00:00",
+        "last_updated": "2023-11-03T07:01:49.098026+00:00",
         "context": {
-          "id": "01HE9R7TC4YN30FBWNYE8S7GHN",
+          "id": "01HE9ZSVXAVEVP5P7YJ3EH8BW4",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "binary_sensor.puja_music_active",
-        "state": "on",
+        "state": "off",
         "attributes": {
-          "icon": "mdi:music",
+          "icon": "mdi:music-off",
           "friendly_name": "puja Music active"
         },
-        "last_changed": "2023-11-03T05:32:17.897202+00:00",
-        "last_updated": "2023-11-03T05:32:17.897202+00:00",
+        "last_changed": "2023-11-03T07:01:49.098303+00:00",
+        "last_updated": "2023-11-03T07:01:49.098303+00:00",
         "context": {
-          "id": "01HE9TNYK9TQ3R5HCHNFVE7FMY",
+          "id": "01HE9ZSVXAAVDJX69JDD9H403C",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3619,16 +3668,16 @@
           "icon": "mdi:power-plug-off",
           "friendly_name": "puja Is charging"
         },
-        "last_changed": "2023-11-03T04:49:37.671407+00:00",
-        "last_updated": "2023-11-03T04:49:37.671407+00:00",
+        "last_changed": "2023-11-03T07:01:49.098591+00:00",
+        "last_updated": "2023-11-03T07:01:49.098591+00:00",
         "context": {
-          "id": "01HE9R7TC7XNKMWX699814GPXY",
+          "id": "01HE9ZSVXAM7DF6P95R9E0RD62",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3638,16 +3687,16 @@
           "icon": "mdi:bluetooth-off",
           "friendly_name": "puja Bluetooth state"
         },
-        "last_changed": "2023-11-03T06:39:52.265745+00:00",
-        "last_updated": "2023-11-03T06:39:52.265745+00:00",
+        "last_changed": "2023-11-03T07:01:49.098846+00:00",
+        "last_updated": "2023-11-03T07:01:49.098846+00:00",
         "context": {
-          "id": "01HE9YHNY9Z72FB221NFQZSXXF",
+          "id": "01HE9ZSVXAJ3WMDYK5VDHRRQXN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3657,16 +3706,16 @@
           "icon": "mdi:briefcase",
           "friendly_name": "puja Work profile"
         },
-        "last_changed": "2023-11-03T04:49:37.674347+00:00",
-        "last_updated": "2023-11-03T04:49:37.674347+00:00",
+        "last_changed": "2023-11-03T07:01:49.099085+00:00",
+        "last_updated": "2023-11-03T07:01:49.099085+00:00",
         "context": {
-          "id": "01HE9R7TCA2WTHV76RTGK9T1TK",
+          "id": "01HE9ZSVXB1B51F21X0PBCJRF0",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3676,16 +3725,16 @@
           "icon": "mdi:cellphone",
           "friendly_name": "puja Device locked"
         },
-        "last_changed": "2023-11-03T05:13:13.098699+00:00",
-        "last_updated": "2023-11-03T05:13:13.098699+00:00",
+        "last_changed": "2023-11-03T07:01:49.099350+00:00",
+        "last_updated": "2023-11-03T07:01:49.099350+00:00",
         "context": {
-          "id": "01HE9SK0MA7H9FRW6QH92GQDB9",
+          "id": "01HE9ZSVXBXYV0TR1FNJTRS3KD",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3695,16 +3744,16 @@
           "icon": "mdi:cellphone-key",
           "friendly_name": "puja Device secure"
         },
-        "last_changed": "2023-11-03T04:49:37.676955+00:00",
-        "last_updated": "2023-11-03T04:49:37.676955+00:00",
+        "last_changed": "2023-11-03T07:01:49.099613+00:00",
+        "last_updated": "2023-11-03T07:01:49.099613+00:00",
         "context": {
-          "id": "01HE9R7TCCVEVP5P7YJ3EH8BW4",
+          "id": "01HE9ZSVXBFMY5SAAZ46B0K5BY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3714,16 +3763,16 @@
           "icon": "mdi:cellphone",
           "friendly_name": "puja Keyguard locked"
         },
-        "last_changed": "2023-11-03T05:13:13.099187+00:00",
-        "last_updated": "2023-11-03T05:13:13.099187+00:00",
+        "last_changed": "2023-11-03T07:01:49.099877+00:00",
+        "last_updated": "2023-11-03T07:01:49.099877+00:00",
         "context": {
-          "id": "01HE9SK0MB66J4NMAPW8MWJ18Z",
+          "id": "01HE9ZSVXBFN87WGVT5AB24QJA",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3733,35 +3782,35 @@
           "icon": "mdi:cellphone-key",
           "friendly_name": "puja Keyguard secure"
         },
-        "last_changed": "2023-11-03T04:49:37.695226+00:00",
-        "last_updated": "2023-11-03T04:49:37.695226+00:00",
+        "last_changed": "2023-11-03T07:01:49.100133+00:00",
+        "last_updated": "2023-11-03T07:01:49.100133+00:00",
         "context": {
-          "id": "01HE9R7TCZM7DF6P95R9E0RD62",
+          "id": "01HE9ZSVXCP96WD4KTGEDY0V3D",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
         "entity_id": "binary_sensor.puja_high_accuracy_mode",
-        "state": "unknown",
+        "state": "off",
         "attributes": {
           "icon": "mdi:crosshairs-gps",
           "friendly_name": "puja High accuracy mode"
         },
-        "last_changed": "2023-11-03T04:51:49.286330+00:00",
-        "last_updated": "2023-11-03T04:51:49.286330+00:00",
+        "last_changed": "2023-11-03T07:01:49.100497+00:00",
+        "last_updated": "2023-11-03T07:01:49.100497+00:00",
         "context": {
-          "id": "01HE9RBTX6SAR4344WWRF3747M",
+          "id": "01HE9ZSVXC8RXYTZT68Q4WKFN0",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3771,16 +3820,16 @@
           "icon": "mdi:signal-off",
           "friendly_name": "puja Mobile data"
         },
-        "last_changed": "2023-11-03T04:49:37.715770+00:00",
-        "last_updated": "2023-11-03T04:49:37.715770+00:00",
+        "last_changed": "2023-11-03T07:01:49.100890+00:00",
+        "last_updated": "2023-11-03T07:01:49.100890+00:00",
         "context": {
-          "id": "01HE9R7TDK1B51F21X0PBCJRF0",
+          "id": "01HE9ZSVXCD54ZFTZ388JS8D73",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3790,16 +3839,16 @@
           "icon": "mdi:toggle-switch-off",
           "friendly_name": "puja Mobile data roaming"
         },
-        "last_changed": "2023-11-03T04:49:37.717002+00:00",
-        "last_updated": "2023-11-03T04:49:37.717002+00:00",
+        "last_changed": "2023-11-03T07:01:49.101172+00:00",
+        "last_updated": "2023-11-03T07:01:49.101172+00:00",
         "context": {
-          "id": "01HE9R7TDNXYV0TR1FNJTRS3KD",
+          "id": "01HE9ZSVXDGCABAYF5WNSJF62C",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3809,16 +3858,16 @@
           "icon": "mdi:wifi",
           "friendly_name": "puja WiFi state"
         },
-        "last_changed": "2023-11-03T04:49:37.728245+00:00",
-        "last_updated": "2023-11-03T04:49:37.728245+00:00",
+        "last_changed": "2023-11-03T07:01:49.102145+00:00",
+        "last_updated": "2023-11-03T07:01:49.102145+00:00",
         "context": {
-          "id": "01HE9R7TE0FMY5SAAZ46B0K5BY",
+          "id": "01HE9ZSVXEF5C6Z7X57CPHM4AN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3828,16 +3877,16 @@
           "icon": "mdi:cellphone",
           "friendly_name": "puja Interactive"
         },
-        "last_changed": "2023-11-03T05:13:13.106953+00:00",
-        "last_updated": "2023-11-03T05:13:13.106953+00:00",
+        "last_changed": "2023-11-03T07:01:49.102508+00:00",
+        "last_updated": "2023-11-03T07:01:49.102508+00:00",
         "context": {
-          "id": "01HE9SK0MJGFH2SBS0MZQKP3WG",
+          "id": "01HE9ZSVXEK3P47Y7W8J0C2E1G",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3848,16 +3897,16 @@
           "icon": "mdi:sleep-off",
           "friendly_name": "puja Doze mode"
         },
-        "last_changed": "2023-11-03T04:49:37.730721+00:00",
-        "last_updated": "2023-11-03T04:49:37.730721+00:00",
+        "last_changed": "2023-11-03T07:01:49.103198+00:00",
+        "last_updated": "2023-11-03T07:01:49.103198+00:00",
         "context": {
-          "id": "01HE9R7TE2P96WD4KTGEDY0V3D",
+          "id": "01HE9ZSVXFJJ7Q3WP5VT5FVEWN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3867,16 +3916,16 @@
           "icon": "mdi:battery-plus",
           "friendly_name": "puja Power save"
         },
-        "last_changed": "2023-11-03T04:49:37.731821+00:00",
-        "last_updated": "2023-11-03T04:49:37.731821+00:00",
+        "last_changed": "2023-11-03T07:01:49.103540+00:00",
+        "last_updated": "2023-11-03T07:01:49.103540+00:00",
         "context": {
-          "id": "01HE9R7TE38RXYTZT68Q4WKFN0",
+          "id": "01HE9ZSVXFAGWM4P3WZQ7BPKPR",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3893,16 +3942,16 @@
           "vertical_accuracy": 100,
           "friendly_name": "puja"
         },
-        "last_changed": "2023-11-03T06:40:50.646201+00:00",
-        "last_updated": "2023-11-03T06:40:50.646201+00:00",
+        "last_changed": "2023-11-03T07:01:49.106867+00:00",
+        "last_updated": "2023-11-03T07:01:49.106867+00:00",
         "context": {
-          "id": "01HE9YKEYP4QABV2YXVX2FSBTA",
+          "id": "01HE9ZSVXJGRRPRWXJGB946TS3",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3912,16 +3961,16 @@
           "device_class": "restart",
           "friendly_name": "JNP_Cam Reboot"
         },
-        "last_changed": "2023-11-03T04:49:41.122641+00:00",
-        "last_updated": "2023-11-03T04:49:41.122641+00:00",
+        "last_changed": "2023-11-03T07:01:50.242576+00:00",
+        "last_updated": "2023-11-03T07:01:50.242576+00:00",
         "context": {
-          "id": "01HE9R7XR2KFVZWC3S5C9SBZ3N",
+          "id": "01HE9ZSX12PJ47C4EEQZ93Y1E7",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3931,16 +3980,16 @@
           "icon": "mdi:eraser",
           "friendly_name": "JNP_Cam Format SD Card"
         },
-        "last_changed": "2023-11-03T04:49:41.124566+00:00",
-        "last_updated": "2023-11-03T04:49:41.124566+00:00",
+        "last_changed": "2023-11-03T07:01:50.243160+00:00",
+        "last_updated": "2023-11-03T07:01:50.243160+00:00",
         "context": {
-          "id": "01HE9R7XR4PJ47C4EEQZ93Y1E7",
+          "id": "01HE9ZSX13QV3MXRJKVVHA1AT0",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3950,16 +3999,16 @@
           "icon": "mdi:alarm-light-outline",
           "friendly_name": "JNP_Cam Manual Alarm Start"
         },
-        "last_changed": "2023-11-03T04:49:41.137050+00:00",
-        "last_updated": "2023-11-03T04:49:41.137050+00:00",
+        "last_changed": "2023-11-03T07:01:50.243607+00:00",
+        "last_updated": "2023-11-03T07:01:50.243607+00:00",
         "context": {
-          "id": "01HE9R7XRHQV3MXRJKVVHA1AT0",
+          "id": "01HE9ZSX1368473FRM6RK4AM4T",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3969,16 +4018,16 @@
           "icon": "mdi:alarm-light-off-outline",
           "friendly_name": "JNP_Cam Manual Alarm Stop"
         },
-        "last_changed": "2023-11-03T04:49:41.139513+00:00",
-        "last_updated": "2023-11-03T04:49:41.139513+00:00",
+        "last_changed": "2023-11-03T07:01:50.244066+00:00",
+        "last_updated": "2023-11-03T07:01:50.244066+00:00",
         "context": {
-          "id": "01HE9R7XRK68473FRM6RK4AM4T",
+          "id": "01HE9ZSX14SM65GP9CQKSC3ESR",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -3988,16 +4037,16 @@
           "icon": "mdi:timer-sync-outline",
           "friendly_name": "JNP_Cam Sync Time"
         },
-        "last_changed": "2023-11-03T04:49:41.155441+00:00",
-        "last_updated": "2023-11-03T04:49:41.155441+00:00",
+        "last_changed": "2023-11-03T07:01:50.244849+00:00",
+        "last_updated": "2023-11-03T07:01:50.244849+00:00",
         "context": {
-          "id": "01HE9R7XS3SM65GP9CQKSC3ESR",
+          "id": "01HE9ZSX14W6YVSASECRXJ434X",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -4006,16 +4055,16 @@
         "attributes": {
           "friendly_name": "JNP_Cam Calibrate"
         },
-        "last_changed": "2023-11-03T04:49:41.157027+00:00",
-        "last_updated": "2023-11-03T04:49:41.157027+00:00",
+        "last_changed": "2023-11-03T07:01:50.245615+00:00",
+        "last_updated": "2023-11-03T07:01:50.245615+00:00",
         "context": {
-          "id": "01HE9R7XS5W6YVSASECRXJ434X",
+          "id": "01HE9ZSX1572K8Q7DS8CAGKXE2",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -4025,16 +4074,16 @@
           "icon": "mdi:arrow-up",
           "friendly_name": "JNP_Cam Move Up"
         },
-        "last_changed": "2023-11-03T04:49:41.158377+00:00",
-        "last_updated": "2023-11-03T04:49:41.158377+00:00",
+        "last_changed": "2023-11-03T07:01:50.246091+00:00",
+        "last_updated": "2023-11-03T07:01:50.246091+00:00",
         "context": {
-          "id": "01HE9R7XS672K8Q7DS8CAGKXE2",
+          "id": "01HE9ZSX16XZV92X5ZH6KCMP2P",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -4044,16 +4093,16 @@
           "icon": "mdi:arrow-down",
           "friendly_name": "JNP_Cam Move Down"
         },
-        "last_changed": "2023-11-03T04:49:41.160521+00:00",
-        "last_updated": "2023-11-03T04:49:41.160521+00:00",
+        "last_changed": "2023-11-03T07:01:50.246806+00:00",
+        "last_updated": "2023-11-03T07:01:50.246806+00:00",
         "context": {
-          "id": "01HE9R7XS8XZV92X5ZH6KCMP2P",
+          "id": "01HE9ZSX16WGTVSBGK9AEV1ENC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -4063,16 +4112,16 @@
           "icon": "mdi:arrow-right",
           "friendly_name": "JNP_Cam Move Right"
         },
-        "last_changed": "2023-11-03T04:49:41.161874+00:00",
-        "last_updated": "2023-11-03T04:49:41.161874+00:00",
+        "last_changed": "2023-11-03T07:01:50.247668+00:00",
+        "last_updated": "2023-11-03T07:01:50.247668+00:00",
         "context": {
-          "id": "01HE9R7XS9WGTVSBGK9AEV1ENC",
+          "id": "01HE9ZSX17JS3Y6T5T75W5QNS3",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -4082,16 +4131,16 @@
           "icon": "mdi:arrow-left",
           "friendly_name": "JNP_Cam Move Left"
         },
-        "last_changed": "2023-11-03T04:49:41.163245+00:00",
-        "last_updated": "2023-11-03T04:49:41.163245+00:00",
+        "last_changed": "2023-11-03T07:01:50.248371+00:00",
+        "last_updated": "2023-11-03T07:01:50.248371+00:00",
         "context": {
-          "id": "01HE9R7XSBJS3Y6T5T75W5QNS3",
+          "id": "01HE9ZSX180GSJXMGFFWWH87XQ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -4105,10 +4154,10 @@
           "icon": "mdi:map-marker-distance",
           "friendly_name": "JNP_Cam Movement Angle"
         },
-        "last_changed": "2023-11-03T04:49:41.199406+00:00",
-        "last_updated": "2023-11-03T04:49:41.199406+00:00",
+        "last_changed": "2023-11-03T07:01:50.260533+00:00",
+        "last_updated": "2023-11-03T07:01:50.260533+00:00",
         "context": {
-          "id": "01HE9R7XTF0GSJXMGFFWWH87XQ",
+          "id": "01HE9ZSX1MY24WVY9CEY2X99BN",
           "parent_id": null,
           "user_id": null
         }
@@ -4120,7 +4169,7 @@
         "native_unit_of_measurement": null,
         "native_value": 15
       },
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {
@@ -4139,52 +4188,16 @@
           "friendly_name": "JNP_Cam Update",
           "supported_features": 17
         },
-        "last_changed": "2023-11-03T04:49:41.241911+00:00",
-        "last_updated": "2023-11-03T04:49:41.241911+00:00",
+        "last_changed": "2023-11-03T07:01:50.270785+00:00",
+        "last_updated": "2023-11-03T07:01:50.270785+00:00",
         "context": {
-          "id": "01HE9R7XVSD0ZW6N9BM2WJZPF3",
+          "id": "01HE9ZSX1YG53XJ7NV76J6GD8Y",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "tts.piper",
-        "state": "unknown",
-        "attributes": {
-          "friendly_name": "piper"
-        },
-        "last_changed": "2023-11-03T04:50:01.449706+00:00",
-        "last_updated": "2023-11-03T04:50:01.449706+00:00",
-        "context": {
-          "id": "01HE9R8HK9V4X3TB96EJRXSGKH",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "stt.faster_whisper",
-        "state": "unknown",
-        "attributes": {
-          "friendly_name": "faster-whisper"
-        },
-        "last_changed": "2023-11-03T04:49:51.129092+00:00",
-        "last_updated": "2023-11-03T04:49:51.129092+00:00",
-        "context": {
-          "id": "01HE9R87GSEXDWGHY65HRGQYMF",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-11-03T06:49:44.358486+00:00"
+      "last_seen": "2023-11-03T07:01:55.964788+00:00"
     },
     {
       "state": {

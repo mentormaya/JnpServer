@@ -14,10 +14,10 @@
     ],
     "ip_ban_enabled": true,
     "login_attempts_threshold": 5,
+    "ssl_profile": "modern",
+    "use_x_frame_options": true,
     "cors_allowed_origins": [
       "https://cast.home-assistant.io"
-    ],
-    "use_x_frame_options": true,
-    "ssl_profile": "modern"
+    ]
   }
 }
