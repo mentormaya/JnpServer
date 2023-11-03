@@ -17,7 +17,7 @@
     "cors_allowed_origins": [
       "https://cast.home-assistant.io"
     ],
-    "use_x_frame_options": true,
-    "ssl_profile": "modern"
+    "ssl_profile": "modern",
+    "use_x_frame_options": true
   }
 }
