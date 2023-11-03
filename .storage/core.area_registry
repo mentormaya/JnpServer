@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "aliases": [],
+        "name": "Living Room",
+        "id": "living_room",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Kitchen",
+        "id": "kitchen",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Bedroom",
+        "id": "bedroom",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "ServerRoom",
+        "id": "serverroom",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "पुजा कोठा",
+        "id": "pujaa_kotthaa",
+        "picture": null
+      }
+    ]
+  }
+}

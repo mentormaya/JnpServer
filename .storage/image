@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "image",
+  "data": {
+    "items": [
+      {
+        "id": "c8fc526f1018c08cdb207c87eb308408",
+        "filesize": 580467,
+        "content_type": "image/jpeg",
+        "name": "IMG_5777.JPG",
+        "uploaded_at": "2023-07-15T17:44:08.688425+00:00"
+      },
+      {
+        "id": "01edd719eb38452e0c4a73f0130025bb",
+        "filesize": 592768,
+        "content_type": "image/jpeg",
+        "name": "IMG_9926.JPG",
+        "uploaded_at": "2023-07-15T17:55:04.744317+00:00"
+      }
+    ]
+  }
+}

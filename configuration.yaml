@@ -1,0 +1,22 @@
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend: !include frontend.yaml
+
+# anniversaries: !include anniversaries.yaml #Anniversaries Sensors
+automation: !include automations.yaml # Include Automations from the config file
+conversation: # Integration for the Conversation with native homeassistant
+# device_tracker: trackers.yaml
+ffmpeg: # Enabling the ffmpeg for the audio and video processing like cameras
+group: !include groups.yaml # Include Predefined Groups from the config file
+http: !include proxy.yaml #HTTP Proxy Configuration
+# notify: !include notifications.yaml # Include Notifications configurations from the config file
+recorder: !include recorder.yaml # Recorder for mariadb
+rest: !include rest.yaml #REST API
+scene: !include scenes.yaml # Include Predefined Scenes from the config file
+script: !include scripts.yaml # Include Predefined Scripts from the config file
+sensor: !include sensors.yaml # Include Sensors from the config files
+# shell_command: !include shellCommands.yaml    # Shell Commands
+tts: !include tts.yaml # Text to speech
+zone: !include zones.yaml # Include Predefined Zones from the config file

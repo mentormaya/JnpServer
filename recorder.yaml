@@ -1,0 +1,3 @@
+db_url: !secret mysql_url
+commit_interval: 5
+purge_keep_days: 180

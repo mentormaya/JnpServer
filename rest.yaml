@@ -1,0 +1,103 @@
+#NEA Bills Sensor to pull the data from the nea website
+- resource: !secret nea_bills_api_home
+  scan_interval: 1800
+  headers:
+    accept: "application/json"
+    X-Space-App-Key: !secret sapi_api_key
+  sensor:
+    name: "Home Bills"
+    json_attributes:
+      - consumer_name
+      - sc_no
+      - consumer_id
+      - status
+      - counter
+      - bill_from
+      - bill_to
+      - records
+      - advance
+      - unpaid
+      - total_unpaid
+      - paid_up_to
+      - due_bill_of
+      - consumed_units
+      - rebate
+      - rate
+    value_template: "{{ value_json.state }}"
+
+- resource: !secret nea_bills_api_agri
+  scan_interval: 1800
+  headers:
+    accept: "application/json"
+    X-Space-App-Key: !secret sapi_api_key
+  sensor:
+    name: "Agriculture Bills"
+    json_attributes:
+      - consumer_name
+      - sc_no
+      - consumer_id
+      - status
+      - counter
+      - bill_from
+      - bill_to
+      - records
+      - advance
+      - unpaid
+      - total_unpaid
+      - paid_up_to
+      - due_bill_of
+      - consumed_units
+      - rebate
+      - rate
+    value_template: "{{ value_json.state }}"
+
+- resource: !secret nea_bills_api_puja
+  scan_interval: 1800
+  headers:
+    accept: "application/json"
+    X-Space-App-Key: !secret sapi_api_key
+  sensor:
+    name: "Puja Bills"
+    json_attributes:
+      - consumer_name
+      - sc_no
+      - consumer_id
+      - status
+      - counter
+      - bill_from
+      - bill_to
+      - records
+      - advance
+      - unpaid
+      - total_unpaid
+      - paid_up_to
+      - due_bill_of
+      - consumed_units
+      - rebate
+      - rate
+    value_template: "{{ value_json.state }}"
+
+- resource: !secret today_nepali_date
+  scan_interval: 1800
+  headers:
+    accept: "application/json"
+    X-Space-App-Key: !secret sapi_api_key
+  sensor:
+    name: "Todays Nepali Date"
+    json_attributes:
+      - full_int_date
+      - full_nep_date_eng
+      - time_eng
+      - time_nep
+      - int_year_eng
+      - nep_year_eng
+      - nep_year_nep
+      - int_month_eng
+      - nep_month_eng
+      - nep_month_nep
+      - int_date_eng
+      - nep_date_eng
+      - nep_date_nep
+      - day_eng
+      - day_nep
+    value_template: "{{ value_json.full_nep_date_nep }}"

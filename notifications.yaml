@@ -1,0 +1,5 @@
+- platform: group
+  name: family_devices
+  services:
+    - service: notify.mobile_app_iphone_maya
+    - service: notify.mobile_app_macbook

@@ -1,0 +1,170 @@
+esphome:
+  name: bedroom
+  comment: JNP BedRoom ESP(SonOff) Board
+
+esp8266:
+  board: esp8285
+
+substitutions:
+  # Modify variables based on your settings
+  hostname: 'BedRoom'
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption : 
+    key: !secret jnp_bedroom_enc_key
+ota:
+  password: !secret ota_password
+
+wifi:
+  ssid: !secret engineer_ssid
+  password: !secret engineer_password
+  domain: !secret domain
+  fast_connect: true
+  use_address: !secret jnp_bedroom_address
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: ${hostname}
+    password: !secret fallback_password
+
+captive_portal:
+
+web_server:
+  port: 88
+  auth:
+    username: ajay
+    password: !secret web_password
+
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: GPIO0
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    name: "FAN"
+    on_press:
+      - switch.toggle: fan_relay
+  - platform: gpio
+    pin:
+      number: GPIO9
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    name: "Night Lamp"
+    on_press:
+      - switch.toggle: night_lamp
+  - platform: gpio
+    pin:
+      number: GPIO10
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    name: ${hostname} Light [N]
+    on_press:
+      - switch.toggle: bedroom_light_n
+  - platform: gpio
+    pin:
+      number: GPIO14
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    name: ${hostname} Light [S]
+    on_press:
+      - switch.toggle: bedroom_light_s
+  - platform: status
+    name: ${hostname} Status
+
+switch:
+  - platform: gpio
+    name: "FAN"
+    pin: GPIO12
+    id: fan_relay
+  - platform: gpio
+    name: "Night Lamp"
+    pin: GPIO5
+    id: night_lamp
+  - platform: gpio
+    name: ${hostname} Light [N]
+    pin: GPIO4
+    id: bedroom_light_n
+  - platform: gpio
+    name: ${hostname} Light [S]
+    pin: GPIO15
+    id: bedroom_light_s
+
+  # Exposed switches
+  - platform: restart
+    name: ${hostname}_restart
+
+output:
+  # Register the blue LED as a dimmable output ....
+  - platform: esp8266_pwm
+    id: blue_led
+    pin: GPIO13
+    inverted: true
+
+light:
+  # ... and then make a light out of it.
+  - platform: monochromatic
+    name: ${hostname} Sonoff Status
+    output: blue_led
+
+# Sensors with specific and general information
+sensor:
+  # Extra sensor to keep an eye on the Wi-Fi signal
+  - platform: wifi_signal
+    name: ${hostname}_Wi-Fi_Signal
+    update_interval: 60s
+
+# Extra sensor to keep track of plug uptime
+  - platform: uptime
+    name: Uptime
+    id: uptime_s
+    update_interval: 15s
+
+# Text sensors with general information
+text_sensor:
+  # Expose ESPHome version as sensor.
+  - platform: version
+    name: ${hostname}_esphome_version
+  # Expose WiFi information as sensors.
+  - platform: wifi_info
+    ip_address:
+      name: ${hostname}_wifi_ip
+      icon: mdi:ip
+    ssid:
+      name: ${hostname}_wifi_ssid
+      icon: mdi:wifi
+  - platform: template
+    name: ${hostname}_Uptime_Sensor
+    lambda: |-
+      uint32_t dur = id(uptime_s).state;
+      int dys = 0;
+      int hrs = 0;
+      int mnts = 0;
+      if (dur > 86399) {
+        dys = trunc(dur / 86400);
+        dur = dur - (dys * 86400);
+      }
+      if (dur > 3599) {
+        hrs = trunc(dur / 3600);
+        dur = dur - (hrs * 3600);
+      }
+      if (dur > 59) {
+        mnts = trunc(dur / 60);
+        dur = dur - (mnts * 60);
+      }
+      char buffer[17];
+      sprintf(buffer, "%ud %02uh %02um %02us", dys, hrs, mnts, dur);
+      return {buffer};
+    icon: mdi:clock-start
+    update_interval: 15s

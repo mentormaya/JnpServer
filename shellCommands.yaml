@@ -1,0 +1,3 @@
+# - shell_mount_music: "mkdir -p /media/Music && mount -t cifs -o username=samba,password=samba@252999 //10.10.11.111/HardDisk/Music /media/Music"
+# - shell_mount_movies: "mkdir -p /media/Movies && mount -t cifs -o username=samba,password=samba@252999 //10.10.11.111/HardDisk/Movies /media/Movies"
+shell_mount_memories: "mkdir -p /media/Memories;mount -t cifs -o vers=3.0,noserverino,username=samba,password='samba@252999',domain=WORKGROUP //10.10.11.111/FileServer/Memories /media/Memories"

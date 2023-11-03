@@ -1,0 +1,9 @@
+#Groups for family Device Trackers
+family_trackers:
+  - device_tracker.ajay_iphone
+
+server_devices_trackers:
+  - device_tracker.kunjbr_pro
+
+esp_home_trackers:
+  - device_tracker.kitchen

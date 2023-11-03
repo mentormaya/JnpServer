@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "esphome.b6bc93ebaa62f53bef715f0c631bd071",
+  "data": {
+    "device_info": {
+      "uses_password": false,
+      "name": "janakpur-bedroom-mainboard",
+      "friendly_name": "BedRoom MainBoard",
+      "mac_address": "9C:9C:1F:46:B2:6B",
+      "compilation_time": "Jun  5 2023, 08:50:55",
+      "model": "esp01_1m",
+      "manufacturer": "Espressif",
+      "has_deep_sleep": false,
+      "esphome_version": "2023.5.5",
+      "project_name": "",
+      "project_version": "",
+      "webserver_port": 88,
+      "voice_assistant_version": 0,
+      "legacy_bluetooth_proxy_version": 0,
+      "bluetooth_proxy_feature_flags": 0
+    },
+    "services": [],
+    "api_version": {
+      "major": 1,
+      "minor": 8
+    },
+    "switch": [
+      {
+        "object_id": "kitchen_light",
+        "key": 2325788610,
+        "name": "Kitchen Light",
+        "unique_id": "janakpur-bedroom-mainboardswitchkitchen_light",
+        "disabled_by_default": false,
+        "icon": "",
+        "entity_category": 0,
+        "assumed_state": false,
+        "device_class": ""
+      },
+      {
+        "object_id": "d2",
+        "key": 1836525715,
+        "name": "D2",
+        "unique_id": "janakpur-bedroom-mainboardswitchd2",
+        "disabled_by_default": false,
+        "icon": "",
+        "entity_category": 0,
+        "assumed_state": false,
+        "device_class": ""
+      },
+      {
+        "object_id": "bedroom_light",
+        "key": 1985417630,
+        "name": "BedRoom Light",
+        "unique_id": "janakpur-bedroom-mainboardswitchbedroom_light",
+        "disabled_by_default": false,
+        "icon": "",
+        "entity_category": 0,
+        "assumed_state": false,
+        "device_class": ""
+      },
+      {
+        "object_id": "fan",
+        "key": 1183803264,
+        "name": "FAN",
+        "unique_id": "janakpur-bedroom-mainboardswitchfan",
+        "disabled_by_default": false,
+        "icon": "",
+        "entity_category": 0,
+        "assumed_state": false,
+        "device_class": ""
+      },
+      {
+        "object_id": "internal_led",
+        "key": 2108526980,
+        "name": "Internal LED",
+        "unique_id": "janakpur-bedroom-mainboardswitchinternal_led",
+        "disabled_by_default": false,
+        "icon": "",
+        "entity_category": 0,
+        "assumed_state": false,
+        "device_class": ""
+      },
+      {
+        "object_id": "blink_int_led",
+        "key": 3724767309,
+        "name": "Blink Int. LED",
+        "unique_id": "janakpur-bedroom-mainboardswitchblink_int_led",
+        "disabled_by_default": false,
+        "icon": "",
+        "entity_category": 0,
+        "assumed_state": false,
+        "device_class": ""
+      }
+    ],
+    "sensor": [
+      {
+        "object_id": "bed_room_temperature",
+        "key": 3091137635,
+        "name": "BED Room Temperature",
+        "unique_id": "janakpur-bedroom-mainboardsensorbed_room_temperature",
+        "disabled_by_default": false,
+        "icon": "",
+        "entity_category": 0,
+        "device_class": "temperature",
+        "unit_of_measurement": "°C",
+        "accuracy_decimals": 1,
+        "force_update": false,
+        "state_class": 1,
+        "last_reset_type": 0
+      },
+      {
+        "object_id": "bed_room_humidity",
+        "key": 2794987484,
+        "name": "BED Room Humidity",
+        "unique_id": "janakpur-bedroom-mainboardsensorbed_room_humidity",
+        "disabled_by_default": false,
+        "icon": "",
+        "entity_category": 0,
+        "device_class": "humidity",
+        "unit_of_measurement": "%",
+        "accuracy_decimals": 0,
+        "force_update": false,
+        "state_class": 1,
+        "last_reset_type": 0
+      }
+    ],
+    "text_sensor": []
+  }
+}

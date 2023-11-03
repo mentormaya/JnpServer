@@ -1,0 +1,10 @@
+server_port: 8123
+use_x_forwarded_for: true
+trusted_proxies:
+  - 127.0.0.1
+  - 172.30.33.0/24
+  - 172.69.77.0/24
+  - 10.20.10.0/24
+  - 192.168.1.0/24
+ip_ban_enabled: true
+login_attempts_threshold: 5

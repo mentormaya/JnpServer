@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_resources",
+  "data": {
+    "items": [
+      {
+        "id": "eb7dc377ce6f49b7834aaa954bec5c4a",
+        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375322",
+        "type": "module"
+      },
+      {
+        "id": "468c13792e4f46088ca78e3cfd1d8cad",
+        "url": "/hacsfiles/mini-graph-card/mini-graph-card-bundle.js?hacstag=1512800620110",
+        "type": "module"
+      },
+      {
+        "id": "b4a9a644e70649cb859a23c677ba2c57",
+        "url": "/hacsfiles/button-card/button-card.js?hacstag=146194325411",
+        "type": "module"
+      },
+      {
+        "id": "c73bb2ac63074920a891a529ca90e08d",
+        "url": "/hacsfiles/mini-media-player/mini-media-player-bundle.js?hacstag=1485208381165",
+        "type": "module"
+      },
+      {
+        "id": "2060de664cba46d8bc2e8e189bb33e8d",
+        "url": "/hacsfiles/banner-card/banner-card.js?hacstag=1867657040130",
+        "type": "module"
+      },
+      {
+        "id": "92b9e1e5d67c47e5a9b999801ea3367c",
+        "url": "/hacsfiles/lovelace-digital-clock/digital-clock.js?hacstag=373832981124",
+        "type": "module"
+      },
+      {
+        "id": "8d4314401a8742fa9fe06341797e3ac4",
+        "url": "/browser_mod.js?automatically-added",
+        "type": "module"
+      }
+    ]
+  }
+}

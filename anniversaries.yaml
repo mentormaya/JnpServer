@@ -1,0 +1,29 @@
+sensors:
+  - name: Ajay Birthday
+    date: "1992-06-30"
+  - name: Puja Birthday
+    date: "2004-06-09"
+  - name: Ajay and Puja Anniversary
+    date: "2023-05-01"
+  - name: Amita Birthday
+    date: "1994-05-26"
+  - name: Anjana Birthday
+    date: "1998-07-24"
+  - name: Shailendra Birthday
+    date: "1998-07-23"
+  - name: Arjun Birthday
+    date: "2001-11-25"
+  - name: Aakriti Birthday
+    date: "2013-06-24"
+  - name: Anupeksha Birthday
+    date: "2018-07-30"
+  - name: Aarohan Birthday
+    date: "2022-11-10"
+  - name: Amita and Ram Pramod Anniversary
+    date: "2010-03-08"
+  - name: Abhineesh Birthday
+    date: "2017-12-04"
+  - name: Aayansh Birthday
+    date: "2022-04-26"
+  - name: Anjana and Shailendra Anniversary
+    date: "2014-12-07"
