@@ -17,6 +17,6 @@ rest: !include rest.yaml #REST API
 scene: !include scenes.yaml # Include Predefined Scenes from the config file
 script: !include scripts.yaml # Include Predefined Scripts from the config file
 sensor: !include sensors.yaml # Include Sensors from the config files
-# shell_command: !include shellCommands.yaml    # Shell Commands
+shell_command: !include shellCommands.yaml # Shell Commands
 tts: !include tts.yaml # Text to speech
 zone: !include zones.yaml # Include Predefined Zones from the config file
