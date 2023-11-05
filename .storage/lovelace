@@ -162,6 +162,10 @@
                 }
               ],
               "title": "BedRoom MainBoard"
+            },
+            {
+              "type": "media-control",
+              "entity": "media_player.googlehome2033"
             }
           ]
         }

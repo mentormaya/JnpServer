@@ -6508,7 +6508,7 @@
           }
         },
         "original_device_class": "enum",
-        "original_icon": "mdi:moon-waning-gibbous",
+        "original_icon": "mdi:moon-last-quarter",
         "original_name": "Phase",
         "platform": "moon",
         "supported_features": 0,
@@ -8994,7 +8994,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:volume-high",
+        "original_icon": "mdi:phone-ring",
         "original_name": "puja Audio mode",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9384,7 +9384,7 @@
           }
         },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-30",
+        "original_icon": "mdi:battery-50",
         "original_name": "puja Battery level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9894,7 +9894,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:cellphone-lock",
+        "original_icon": "mdi:cellphone",
         "original_name": "puja Device locked",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9954,7 +9954,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:cellphone-lock",
+        "original_icon": "mdi:cellphone",
         "original_name": "puja Keyguard locked",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -10764,7 +10764,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:cellphone-off",
+        "original_icon": "mdi:cellphone",
         "original_name": "puja Interactive",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -13315,280 +13315,6 @@
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": "b6bc93ebaa62f53bef715f0c631bd071",
-        "device_class": null,
-        "device_id": "3047eb1a19486513247e65d34e729264",
-        "disabled_by": null,
-        "entity_category": "config",
-        "entity_id": "update.bedroom_mainboard_firmware",
-        "hidden_by": null,
-        "icon": null,
-        "id": "8120a5b662a8ff3bdee0e405333797b7",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": "firmware",
-        "original_icon": null,
-        "original_name": "Firmware",
-        "platform": "esphome",
-        "supported_features": 1,
-        "translation_key": null,
-        "unique_id": "9C:9C:1F:46:B2:6B",
-        "previous_unique_id": null,
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
-        "config_entry_id": "b6bc93ebaa62f53bef715f0c631bd071",
-        "device_class": null,
-        "device_id": "3047eb1a19486513247e65d34e729264",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "sensor.janakpur_bedroom_mainboard_bed_room_temperature",
-        "hidden_by": null,
-        "icon": null,
-        "id": "bb9b296eb2071221ee0abb0a7378d895",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": true
-          }
-        },
-        "original_device_class": "temperature",
-        "original_icon": null,
-        "original_name": "BED Room Temperature",
-        "platform": "esphome",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "9C:9C:1F:46:B2:6B-sensor-bed_room_temperature",
-        "previous_unique_id": "janakpur-bedroom-mainboardsensorbed_room_temperature",
-        "unit_of_measurement": "°C"
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
-        "config_entry_id": "b6bc93ebaa62f53bef715f0c631bd071",
-        "device_class": null,
-        "device_id": "3047eb1a19486513247e65d34e729264",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "sensor.janakpur_bedroom_mainboard_bed_room_humidity",
-        "hidden_by": null,
-        "icon": null,
-        "id": "86c69ed75c0901173eba3f0a363dbe09",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": true
-          }
-        },
-        "original_device_class": "humidity",
-        "original_icon": null,
-        "original_name": "BED Room Humidity",
-        "platform": "esphome",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "9C:9C:1F:46:B2:6B-sensor-bed_room_humidity",
-        "previous_unique_id": "janakpur-bedroom-mainboardsensorbed_room_humidity",
-        "unit_of_measurement": "%"
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "b6bc93ebaa62f53bef715f0c631bd071",
-        "device_class": null,
-        "device_id": "3047eb1a19486513247e65d34e729264",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "switch.janakpur_bedroom_mainboard_kitchen_light",
-        "hidden_by": null,
-        "icon": null,
-        "id": "6d51ee1984c000db95b9f86e2be49f6a",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": true
-          }
-        },
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "Kitchen Light",
-        "platform": "esphome",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "9C:9C:1F:46:B2:6B-switch-kitchen_light",
-        "previous_unique_id": "janakpur-bedroom-mainboardswitchkitchen_light",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "b6bc93ebaa62f53bef715f0c631bd071",
-        "device_class": null,
-        "device_id": "3047eb1a19486513247e65d34e729264",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "switch.janakpur_bedroom_mainboard_d2",
-        "hidden_by": null,
-        "icon": null,
-        "id": "f6ad8ef22e5bc881d6f066759aca85d0",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": true
-          }
-        },
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "D2",
-        "platform": "esphome",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "9C:9C:1F:46:B2:6B-switch-d2",
-        "previous_unique_id": "janakpur-bedroom-mainboardswitchd2",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "b6bc93ebaa62f53bef715f0c631bd071",
-        "device_class": null,
-        "device_id": "3047eb1a19486513247e65d34e729264",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "switch.janakpur_bedroom_mainboard_bedroom_light",
-        "hidden_by": null,
-        "icon": null,
-        "id": "b47482624668c26b756ca3ef737532db",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": true
-          }
-        },
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "BedRoom Light",
-        "platform": "esphome",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "9C:9C:1F:46:B2:6B-switch-bedroom_light",
-        "previous_unique_id": "janakpur-bedroom-mainboardswitchbedroom_light",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "b6bc93ebaa62f53bef715f0c631bd071",
-        "device_class": null,
-        "device_id": "3047eb1a19486513247e65d34e729264",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "switch.janakpur_bedroom_mainboard_fan",
-        "hidden_by": null,
-        "icon": null,
-        "id": "dd83615b1d9523dadf0a40ecded3549f",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": true
-          }
-        },
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "FAN",
-        "platform": "esphome",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "9C:9C:1F:46:B2:6B-switch-fan",
-        "previous_unique_id": "janakpur-bedroom-mainboardswitchfan",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "b6bc93ebaa62f53bef715f0c631bd071",
-        "device_class": null,
-        "device_id": "3047eb1a19486513247e65d34e729264",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "switch.janakpur_bedroom_mainboard_internal_led",
-        "hidden_by": null,
-        "icon": null,
-        "id": "fbfa24ebcab9150baee3c23dc3d2ca91",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": true
-          }
-        },
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "Internal LED",
-        "platform": "esphome",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "9C:9C:1F:46:B2:6B-switch-internal_led",
-        "previous_unique_id": "janakpur-bedroom-mainboardswitchinternal_led",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "b6bc93ebaa62f53bef715f0c631bd071",
-        "device_class": null,
-        "device_id": "3047eb1a19486513247e65d34e729264",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "switch.janakpur_bedroom_mainboard_blink_int_led",
-        "hidden_by": null,
-        "icon": null,
-        "id": "63e0ad7bc412196a820cee9f24322ef7",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": true
-          }
-        },
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "Blink Int. LED",
-        "platform": "esphome",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "9C:9C:1F:46:B2:6B-switch-blink_int_led",
-        "previous_unique_id": "janakpur-bedroom-mainboardswitchblink_int_led",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
         "config_entry_id": "4a4b66c430a58285bd94499f1d5abae3",
         "device_class": null,
         "device_id": "d7f7b7ff826cd2b23c9e79119a4cf5dd",
@@ -14471,8 +14197,381 @@
         "unique_id": "tapo_control10.20.10.36_tns1:VideoSource/MotionAlarm_raw_vs1",
         "previous_unique_id": null,
         "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "6bd3090ed9f360bee2fa3f01bd079235",
+        "device_class": null,
+        "device_id": "95be664222d3357309b1dabdd53b4e7f",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.googlehome2033",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6acdf0c8742ac21dbc459e9e6551a6be",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "9fc69872-644f-7c22-4328-7549b75eed96",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "f3d7e0b5a2b3f6d61b466308a5a7002c",
+        "device_class": null,
+        "device_id": "a089fbf78ba33acdcdcb6c113343df3a",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.a0d7b954_aircast",
+        "hidden_by": null,
+        "icon": null,
+        "id": "4fbfc4e2e52e5bd3ca6b625190f00652",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "mass",
+        "supported_features": 3602367,
+        "translation_key": null,
+        "unique_id": "mass_aa:aa:50:2e:e5:27",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "f3d7e0b5a2b3f6d61b466308a5a7002c",
+        "device_class": null,
+        "device_id": "91c0680c74562ef70523d252d291925e",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.googlehome2033_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0c42add6845e0706fbe3d5a2de2db921",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "mass",
+        "supported_features": 3602367,
+        "translation_key": null,
+        "unique_id": "mass_9fc69872-644f-7c22-4328-7549b75eed96",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "f3d7e0b5a2b3f6d61b466308a5a7002c",
+        "device_class": null,
+        "device_id": "8a086d17060ac82519335d1ae70069f7",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.a0d7b954_aircast_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d27e2867e160a89169cb7650fbf0df3a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "mass",
+        "supported_features": 3602367,
+        "translation_key": null,
+        "unique_id": "mass_aa:aa:d5:49:21:35",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "f3d7e0b5a2b3f6d61b466308a5a7002c",
+        "device_class": null,
+        "device_id": "7e3d54771ee986d26ce9a38bd7d47649",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.a0d7b954_aircast_3",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6d2ce410d85032d60e31b9ff4f8fa702",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "mass",
+        "supported_features": 3602367,
+        "translation_key": null,
+        "unique_id": "mass_aa:aa:77:e6:ee:b2",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "6bd3090ed9f360bee2fa3f01bd079235",
+        "device_class": null,
+        "device_id": "667fc4b9e0339e4d73bcaead446f4214",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.speakers",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b0b66282987b216f627c3dfffbb0b157",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "6e215b7c-e162-467a-ac6a-69a8114d1808",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "f3d7e0b5a2b3f6d61b466308a5a7002c",
+        "device_class": null,
+        "device_id": "4102078bf78458e03dc3645199b26c06",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.speakers_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a58537bc7406a90d0da6d68071f559b7",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "mass",
+        "supported_features": 3602367,
+        "translation_key": null,
+        "unique_id": "mass_6e215b7c-e162-467a-ac6a-69a8114d1808",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "f3d7e0b5a2b3f6d61b466308a5a7002c",
+        "device_class": null,
+        "device_id": "c37d4a0e6b1863e26e362a4efacf1cf2",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.a0d7b954_aircast_4",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f007999f2a73b73ba8dc5edba21ebd03",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "mass",
+        "supported_features": 3602367,
+        "translation_key": null,
+        "unique_id": "mass_aa:aa:85:a4:ef:82",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "f3d7e0b5a2b3f6d61b466308a5a7002c",
+        "device_class": null,
+        "device_id": "e378e71f0332d2e1e16fedff158f702a",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.a0d7b954_aircast_5",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a51031101b2de83717715b46d19d2072",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "mass",
+        "supported_features": 3602367,
+        "translation_key": null,
+        "unique_id": "mass_aa:aa:f2:ba:c9:6e",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "f3d7e0b5a2b3f6d61b466308a5a7002c",
+        "device_class": null,
+        "device_id": "232867805ff91df0806e54e0225947b9",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.a0d7b954_aircast_6",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9a0b0c38e211eecc322316a8846dbfdf",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "mass",
+        "supported_features": 3602367,
+        "translation_key": null,
+        "unique_id": "mass_aa:aa:3d:0b:b6:8c",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
       }
     ],
-    "deleted_entities": []
+    "deleted_entities": [
+      {
+        "config_entry_id": null,
+        "entity_id": "update.bedroom_mainboard_firmware",
+        "id": "8120a5b662a8ff3bdee0e405333797b7",
+        "orphaned_timestamp": 1699165838.6361809,
+        "platform": "esphome",
+        "unique_id": "9C:9C:1F:46:B2:6B"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.janakpur_bedroom_mainboard_bed_room_temperature",
+        "id": "bb9b296eb2071221ee0abb0a7378d895",
+        "orphaned_timestamp": 1699165838.6361809,
+        "platform": "esphome",
+        "unique_id": "9C:9C:1F:46:B2:6B-sensor-bed_room_temperature"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "sensor.janakpur_bedroom_mainboard_bed_room_humidity",
+        "id": "86c69ed75c0901173eba3f0a363dbe09",
+        "orphaned_timestamp": 1699165838.6361809,
+        "platform": "esphome",
+        "unique_id": "9C:9C:1F:46:B2:6B-sensor-bed_room_humidity"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "switch.janakpur_bedroom_mainboard_kitchen_light",
+        "id": "6d51ee1984c000db95b9f86e2be49f6a",
+        "orphaned_timestamp": 1699165838.6361809,
+        "platform": "esphome",
+        "unique_id": "9C:9C:1F:46:B2:6B-switch-kitchen_light"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "switch.janakpur_bedroom_mainboard_d2",
+        "id": "f6ad8ef22e5bc881d6f066759aca85d0",
+        "orphaned_timestamp": 1699165838.6361809,
+        "platform": "esphome",
+        "unique_id": "9C:9C:1F:46:B2:6B-switch-d2"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "switch.janakpur_bedroom_mainboard_bedroom_light",
+        "id": "b47482624668c26b756ca3ef737532db",
+        "orphaned_timestamp": 1699165838.6361809,
+        "platform": "esphome",
+        "unique_id": "9C:9C:1F:46:B2:6B-switch-bedroom_light"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "switch.janakpur_bedroom_mainboard_fan",
+        "id": "dd83615b1d9523dadf0a40ecded3549f",
+        "orphaned_timestamp": 1699165838.6361809,
+        "platform": "esphome",
+        "unique_id": "9C:9C:1F:46:B2:6B-switch-fan"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "switch.janakpur_bedroom_mainboard_internal_led",
+        "id": "fbfa24ebcab9150baee3c23dc3d2ca91",
+        "orphaned_timestamp": 1699165838.6361809,
+        "platform": "esphome",
+        "unique_id": "9C:9C:1F:46:B2:6B-switch-internal_led"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "switch.janakpur_bedroom_mainboard_blink_int_led",
+        "id": "63e0ad7bc412196a820cee9f24322ef7",
+        "orphaned_timestamp": 1699165838.6361809,
+        "platform": "esphome",
+        "unique_id": "9C:9C:1F:46:B2:6B-switch-blink_int_led"
+      }
+    ]
   }
 }

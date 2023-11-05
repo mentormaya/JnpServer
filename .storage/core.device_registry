@@ -26,7 +26,7 @@
         "name_by_user": null,
         "name": "Home Assistant Core",
         "serial_number": null,
-        "sw_version": "2023.11.0",
+        "sw_version": "2023.11.1",
         "via_device_id": null
       },
       {
@@ -201,16 +201,16 @@
         "id": "1de50bfe5f6c692e9bd9344f5c4986ac",
         "identifiers": [
           [
+            "upnp_host",
+            "10.20.10.1"
+          ],
+          [
             "upnp",
             "uuid:00000000-0000-0000-0000-000000000000::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
           ],
           [
             "upnp_serial_number",
             "00000000"
-          ],
-          [
-            "upnp_host",
-            "10.20.10.1"
           ]
         ],
         "manufacturer": "Dahua",
@@ -1202,31 +1202,269 @@
         "via_device_id": null
       },
       {
-        "area_id": "pujaa_kotthaa",
+        "area_id": null,
         "config_entries": [
-          "b6bc93ebaa62f53bef715f0c631bd071"
+          "6bd3090ed9f360bee2fa3f01bd079235"
         ],
-        "configuration_url": "http://10.20.10.21:88",
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "95be664222d3357309b1dabdd53b4e7f",
+        "identifiers": [
+          [
+            "cast",
+            "9fc69872644f7c2243287549b75eed96"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Mini",
+        "name_by_user": null,
+        "name": "Bedroom speaker",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f3d7e0b5a2b3f6d61b466308a5a7002c"
+        ],
+        "configuration_url": "http://172.30.32.1:8095",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a089fbf78ba33acdcdcb6c113343df3a",
+        "identifiers": [
+          [
+            "mass",
+            "aa:aa:50:2e:e5:27"
+          ]
+        ],
+        "manufacturer": "Music Assistant",
+        "model": "Generic Airplay device",
+        "name_by_user": null,
+        "name": "a0d7b954-aircast",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f3d7e0b5a2b3f6d61b466308a5a7002c"
+        ],
+        "configuration_url": "http://172.30.32.1:8095",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "91c0680c74562ef70523d252d291925e",
+        "identifiers": [
+          [
+            "mass",
+            "9fc69872-644f-7c22-4328-7549b75eed96"
+          ]
+        ],
+        "manufacturer": "Music Assistant",
+        "model": "Google Inc. Google Nest Mini",
+        "name_by_user": null,
+        "name": "Bedroom speaker",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f3d7e0b5a2b3f6d61b466308a5a7002c"
+        ],
+        "configuration_url": "http://172.30.32.1:8095",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "8a086d17060ac82519335d1ae70069f7",
+        "identifiers": [
+          [
+            "mass",
+            "aa:aa:d5:49:21:35"
+          ]
+        ],
+        "manufacturer": "Music Assistant",
+        "model": "Generic Airplay device",
+        "name_by_user": null,
+        "name": "Bedroom speaker+",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f3d7e0b5a2b3f6d61b466308a5a7002c"
+        ],
+        "configuration_url": "http://172.30.32.1:8095",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "7e3d54771ee986d26ce9a38bd7d47649",
+        "identifiers": [
+          [
+            "mass",
+            "aa:aa:77:e6:ee:b2"
+          ]
+        ],
+        "manufacturer": "Music Assistant",
+        "model": "Generic Airplay device",
+        "name_by_user": null,
+        "name": "a0d7b954-aircast",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "6bd3090ed9f360bee2fa3f01bd079235"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "667fc4b9e0339e4d73bcaead446f4214",
+        "identifiers": [
+          [
+            "cast",
+            "6e215b7ce162467aac6a69a8114d1808"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Cast Group",
+        "name_by_user": null,
+        "name": "AllSpeaker",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f3d7e0b5a2b3f6d61b466308a5a7002c"
+        ],
+        "configuration_url": "http://172.30.32.1:8095",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "4102078bf78458e03dc3645199b26c06",
+        "identifiers": [
+          [
+            "mass",
+            "6e215b7c-e162-467a-ac6a-69a8114d1808"
+          ]
+        ],
+        "manufacturer": "Music Assistant",
+        "model": "Google Inc. Google Cast Group",
+        "name_by_user": null,
+        "name": "AllSpeaker",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f3d7e0b5a2b3f6d61b466308a5a7002c"
+        ],
+        "configuration_url": "http://172.30.32.1:8095",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c37d4a0e6b1863e26e362a4efacf1cf2",
+        "identifiers": [
+          [
+            "mass",
+            "aa:aa:85:a4:ef:82"
+          ]
+        ],
+        "manufacturer": "Music Assistant",
+        "model": "Generic Airplay device",
+        "name_by_user": null,
+        "name": "a0d7b954-aircast",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f3d7e0b5a2b3f6d61b466308a5a7002c"
+        ],
+        "configuration_url": "http://172.30.32.1:8095",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "e378e71f0332d2e1e16fedff158f702a",
+        "identifiers": [
+          [
+            "mass",
+            "aa:aa:f2:ba:c9:6e"
+          ]
+        ],
+        "manufacturer": "Music Assistant",
+        "model": "Generic Airplay device",
+        "name_by_user": null,
+        "name": "a0d7b954-aircast",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f3d7e0b5a2b3f6d61b466308a5a7002c"
+        ],
+        "configuration_url": "http://172.30.32.1:8095",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "232867805ff91df0806e54e0225947b9",
+        "identifiers": [
+          [
+            "mass",
+            "aa:aa:3d:0b:b6:8c"
+          ]
+        ],
+        "manufacturer": "Music Assistant",
+        "model": "Generic Airplay device",
+        "name_by_user": null,
+        "name": "AllSpeaker+",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [],
         "connections": [
           [
             "mac",
             "9c:9c:1f:46:b2:6b"
           ]
         ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "3047eb1a19486513247e65d34e729264",
         "identifiers": [],
-        "manufacturer": "Espressif",
-        "model": "esp01_1m",
-        "name_by_user": null,
-        "name": "BedRoom MainBoard",
-        "serial_number": null,
-        "sw_version": "2023.5.5 (Jun  5 2023, 08:50:55)",
-        "via_device_id": null
+        "id": "3047eb1a19486513247e65d34e729264",
+        "orphaned_timestamp": 1699165838.6346166
       }
-    ],
-    "deleted_devices": []
+    ]
   }
 }

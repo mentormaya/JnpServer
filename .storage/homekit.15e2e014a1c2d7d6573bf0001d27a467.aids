@@ -126,7 +126,17 @@
       "esphome.switch.DC:4F:22:DB:54:54-switch-bedroom_light_s": 529268537,
       "esphome.light.DC:4F:22:DB:54:54-light-bedroom_sonoff_status": 2339740787,
       "tapo_control.switch.34-60-f9-9d-f6-ac-jnp_cam-privacy": 655308438,
-      "tapo_control.light.34-60-f9-9d-f6-ac-jnp_cam-floodlight(timed)": 2671988257
+      "tapo_control.light.34-60-f9-9d-f6-ac-jnp_cam-floodlight(timed)": 2671988257,
+      "cast.media_player.9fc69872-644f-7c22-4328-7549b75eed96": 476286515,
+      "mass.media_player.mass_aa:aa:50:2e:e5:27": 3458131691,
+      "mass.media_player.mass_9fc69872-644f-7c22-4328-7549b75eed96": 3900880719,
+      "mass.media_player.mass_aa:aa:d5:49:21:35": 3776651249,
+      "mass.media_player.mass_aa:aa:77:e6:ee:b2": 3688631615,
+      "cast.media_player.6e215b7c-e162-467a-ac6a-69a8114d1808": 2892700555,
+      "mass.media_player.mass_6e215b7c-e162-467a-ac6a-69a8114d1808": 1188293855,
+      "mass.media_player.mass_aa:aa:85:a4:ef:82": 1582976739,
+      "mass.media_player.mass_aa:aa:f2:ba:c9:6e": 115859256,
+      "mass.media_player.mass_aa:aa:3d:0b:b6:8c": 1944448238
     }
   }
 }

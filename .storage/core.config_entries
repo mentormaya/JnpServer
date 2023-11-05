@@ -127,7 +127,7 @@
           "udn": "uuid:00000000-0000-0000-0000-000000000000",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:00000000-0000-0000-0000-000000000000",
-          "location": "http://10.20.10.1:12551/rootDesc.xml",
+          "location": "http://10.20.10.1:44345/rootDesc.xml",
           "mac_address": "08:10:7a:92:f7:44",
           "host": "10.20.10.1"
         },
@@ -682,27 +682,6 @@
         "pref_disable_polling": false,
         "source": "accessory",
         "unique_id": null,
-        "disabled_by": null
-      },
-      {
-        "entry_id": "b6bc93ebaa62f53bef715f0c631bd071",
-        "version": 1,
-        "domain": "esphome",
-        "title": "BedRoom MainBoard",
-        "data": {
-          "host": "10.20.10.21",
-          "port": 6053,
-          "password": "",
-          "noise_psk": "Asn26VImTYcwV54OD3p/i0XZJ4k9ERTCOGPrjKzn+ic=",
-          "device_name": "janakpur-bedroom-mainboard"
-        },
-        "options": {
-          "allow_service_calls": false
-        },
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "zeroconf",
-        "unique_id": "9c:9c:1f:46:b2:6b",
         "disabled_by": null
       }
     ]
