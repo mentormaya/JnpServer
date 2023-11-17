@@ -120,50 +120,6 @@
               "title": "Text-to-speech (TTS)"
             },
             {
-              "type": "entities",
-              "entities": [
-                {
-                  "entity": "switch.janakpur_bedroom_mainboard_bedroom_light",
-                  "name": "BedRoom Light"
-                },
-                {
-                  "entity": "switch.janakpur_bedroom_mainboard_blink_int_led",
-                  "name": "Blink Int. LED"
-                },
-                {
-                  "entity": "switch.janakpur_bedroom_mainboard_d2",
-                  "name": "D2"
-                },
-                {
-                  "entity": "switch.janakpur_bedroom_mainboard_fan",
-                  "name": "FAN"
-                },
-                {
-                  "entity": "switch.janakpur_bedroom_mainboard_internal_led",
-                  "name": "Internal LED"
-                },
-                {
-                  "entity": "switch.janakpur_bedroom_mainboard_kitchen_light",
-                  "name": "Kitchen Light"
-                }
-              ],
-              "title": "BedRoom MainBoard"
-            },
-            {
-              "type": "entities",
-              "entities": [
-                {
-                  "entity": "sensor.janakpur_bedroom_mainboard_bed_room_humidity",
-                  "name": "BED Room Humidity"
-                },
-                {
-                  "entity": "sensor.janakpur_bedroom_mainboard_bed_room_temperature",
-                  "name": "BED Room Temperature"
-                }
-              ],
-              "title": "BedRoom MainBoard"
-            },
-            {
               "type": "media-control",
               "entity": "media_player.googlehome2033"
             }

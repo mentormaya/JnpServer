@@ -75,10 +75,23 @@ def getStreamSource(entry, hdStream):
     return streamURL
 
 
+def pytapoLog(msg):
+    LOGGER.debug(f"[pytapo] {msg}")
+
+
 def registerController(
     host, username, password, password_cloud="", super_secret_key="", device_id=None
 ):
-    return Tapo(host, username, password, password_cloud, super_secret_key, device_id)
+    return Tapo(
+        host,
+        username,
+        password,
+        password_cloud,
+        super_secret_key,
+        device_id,
+        reuseSession=False,
+        printDebugInformation=pytapoLog,
+    )
 
 
 def isOpen(ip, port):
@@ -1006,6 +1019,42 @@ async def getCamData(hass, controller):
         recordPlan = None
     camData["recordPlan"] = recordPlan
 
+    try:
+        microphoneVolume = data["getAudioConfig"]["audio_config"]["microphone"][
+            "volume"
+        ]
+    except Exception:
+        microphoneVolume = None
+    camData["microphoneVolume"] = microphoneVolume
+
+    try:
+        microphoneMute = data["getAudioConfig"]["audio_config"]["microphone"]["mute"]
+    except Exception:
+        microphoneMute = None
+    camData["microphoneMute"] = microphoneMute
+
+    try:
+        microphoneNoiseCancelling = data["getAudioConfig"]["audio_config"][
+            "microphone"
+        ]["noise_cancelling"]
+    except Exception:
+        microphoneNoiseCancelling = None
+    camData["microphoneNoiseCancelling"] = microphoneNoiseCancelling
+
+    try:
+        speakerVolume = data["getAudioConfig"]["audio_config"]["speaker"]["volume"]
+    except Exception:
+        speakerVolume = None
+    camData["speakerVolume"] = speakerVolume
+
+    try:
+        autoUpgradeEnabled = data["getFirmwareAutoUpgradeConfig"]["auto_upgrade"][
+            "common"
+        ]["enabled"]
+    except Exception:
+        autoUpgradeEnabled = None
+    camData["autoUpgradeEnabled"] = autoUpgradeEnabled
+
     LOGGER.debug("getCamData - done")
     LOGGER.debug("Processed update data:")
     LOGGER.debug(camData)
@@ -1258,6 +1307,10 @@ def pytapoFunctionMap(pytapoFunctionName):
         return ["getRotationStatus", "getLdc"]
     elif pytapoFunctionName == "getLensDistortionCorrection":
         return ["getLdc"]
+    elif pytapoFunctionName == "getAudioConfig":
+        return ["getAudioConfig"]
+    elif pytapoFunctionName == "getFirmwareAutoUpgradeConfig":
+        return ["getFirmwareAutoUpgradeConfig"]
     return []
 
 

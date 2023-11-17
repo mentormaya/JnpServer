@@ -1,33 +1,562 @@
-2023-11-05 06:30:15.042 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-05 06:30:15.047 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-05 06:30:15.050 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration fontawesome which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-05 06:30:15.053 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration anniversaries which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-05 06:30:15.057 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration favicon which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-05 06:30:15.062 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration tapo_control which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-05 06:30:15.066 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration qr_generator which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-05 06:30:15.069 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration npm_switches which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-05 06:30:15.073 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration ble_monitor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-05 06:30:15.079 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration mass which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-05 06:30:24.253 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=575 from 2023-11-04 23:04:13.052996)
-2023-11-05 06:30:50.798 WARNING (MainThread) [homeassistant.setup] Setup of schedule is taking over 10 seconds.
-2023-11-05 06:30:50.798 WARNING (MainThread) [homeassistant.setup] Setup of input_number is taking over 10 seconds.
-2023-11-05 06:30:50.799 WARNING (MainThread) [homeassistant.setup] Setup of timer is taking over 10 seconds.
-2023-11-05 06:30:50.799 WARNING (MainThread) [homeassistant.setup] Setup of zone is taking over 10 seconds.
-2023-11-05 06:30:50.799 WARNING (MainThread) [homeassistant.setup] Setup of input_button is taking over 10 seconds.
-2023-11-05 06:30:50.799 WARNING (MainThread) [homeassistant.setup] Setup of input_text is taking over 10 seconds.
-2023-11-05 06:30:50.799 WARNING (MainThread) [homeassistant.setup] Setup of counter is taking over 10 seconds.
-2023-11-05 06:30:50.853 ERROR (MainThread) [custom_components.npm_switches] Timeout error fetching information from http://10.20.10.26:81/api/tokens - 
-2023-11-05 06:30:50.853 ERROR (MainThread) [custom_components.npm_switches] Error fetching npm_switches data: 
-2023-11-05 06:30:51.643 WARNING (MainThread) [homeassistant.setup] Setup of application_credentials is taking over 10 seconds.
-2023-11-05 06:31:03.925 WARNING (MainThread) [homeassistant.setup] Setup of rest is taking over 10 seconds.
-2023-11-05 06:31:03.953 ERROR (MainThread) [homeassistant.components.esphome.dashboard] Error requesting ESPHome Dashboard data: Cannot connect to host 127.0.0.1:65128 ssl:default [Connect call failed ('127.0.0.1', 65128)]
-2023-11-05 06:31:03.997 ERROR (MainThread) [homeassistant.components.esphome.dashboard] Dashboard unavailable; skipping reauth: Cannot connect to host 127.0.0.1:65128 ssl:default [Connect call failed ('127.0.0.1', 65128)]
-2023-11-05 06:31:12.421 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for janakpur-bedroom-mainboard @ 10.20.10.21: Error connecting to ('10.20.10.21', 6053): [Errno 113] Connect call failed ('10.20.10.21', 6053) (SocketAPIError)
-2023-11-05 06:31:12.575 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for bedroom @ 10.20.10.28: Error connecting to ('10.20.10.28', 6053): [Errno 113] Connect call failed ('10.20.10.28', 6053) (SocketAPIError)
-2023-11-05 06:31:14.584 ERROR (MainThread) [custom_components.npm_switches] Error fetching information from http://10.20.10.26:81/api/tokens - Cannot connect to host 10.20.10.26:81 ssl:default [Connect call failed ('10.20.10.26', 81)]
-2023-11-05 06:31:14.585 ERROR (MainThread) [custom_components.npm_switches] Error fetching npm_switches data: 
-2023-11-05 06:31:15.371 WARNING (MainThread) [homeassistant.components.homekit.accessories] sensor.puja_light_sensor: Battery sensor state missing: sensor.puja_car_fuel
-2023-11-05 06:31:33.122 ERROR (MainThread) [custom_components.npm_switches] Error fetching information from http://10.20.10.26:81/api/tokens - 0, message='Attempt to decode JSON with unexpected mimetype: text/html', url=URL('http://10.20.10.26:81/api/tokens')
-2023-11-05 06:31:33.123 ERROR (MainThread) [custom_components.npm_switches] Error fetching npm_switches data: 
-2023-11-05 06:31:52.550 WARNING (MainThread) [homeassistant.helpers.entity] Update of switch.jnp_cam_privacy is taking over 10 seconds
-2023-11-05 06:40:57.108 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Error occurred while communicating with WLED device at 10.20.10.27
+2023-11-16 15:52:50.302 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-11-16 15:52:50.305 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-11-16 15:52:50.307 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration fontawesome which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-11-16 15:52:50.309 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration anniversaries which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-11-16 15:52:50.310 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration favicon which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-11-16 15:52:50.313 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration tapo_control which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-11-16 15:52:50.315 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration qr_generator which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-11-16 15:52:50.317 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration npm_switches which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-11-16 15:52:50.318 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration ble_monitor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-11-16 15:52:50.320 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration mass which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-11-16 15:53:14.159 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for bedroom @ 10.20.10.28: Error connecting to ('10.20.10.28', 6053): [Errno 113] Connect call failed ('10.20.10.28', 6053) (SocketAPIError)
+2023-11-16 15:53:37.620 WARNING (MainThread) [homeassistant.components.homekit.accessories] sensor.puja_light_sensor: Battery sensor state missing: sensor.puja_car_fuel
+2023-11-16 16:32:51.713 WARNING (Recorder) [homeassistant.components.recorder.db_schema] State attributes for sensor.puja_active_notification_count exceed maximum size of 16384 bytes. This can cause database performance issues; Attributes will not be stored
+2023-11-16 17:25:27.568 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Error occurred while communicating with WLED device at 10.20.10.27
+2023-11-16 18:06:45.550 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: 'utf-8' codec can't decode byte 0xb3 in position 861: invalid start byte
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb3 in position 861: invalid start byte
+2023-11-16 18:32:37.987 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
+2023-11-16 18:34:32.100 ERROR (Thread-2) [custom_components.ble_monitor] HCIdump thread: Something wrong - interface hci0 not ready, and will be skipped for current scan period.
+2023-11-16 18:34:32.107 ERROR (Thread-2) [custom_components.ble_monitor] HCIdump thread: Trying to power cycle Bluetooth adapter hci0 E4:5F:01:4A:3B:A0, will try to use it next scan period.
+2023-11-16 18:36:32.354 ERROR (Thread-2) [custom_components.ble_monitor] HCIdump thread: Something wrong - interface hci0 not ready, and will be skipped for current scan period.
+2023-11-16 18:36:32.355 ERROR (Thread-2) [custom_components.ble_monitor] HCIdump thread: Trying to power cycle Bluetooth adapter hci0 E4:5F:01:4A:3B:A0, will try to use it next scan period.
+2023-11-16 18:49:49.631 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Timeout occurred while connecting to WLED device at 10.20.10.27
+2023-11-16 18:53:36.984 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Timeout occurred while connecting to WLED device at 10.20.10.27
+2023-11-16 19:12:18.554 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: (503, {'error': 3})
+2023-11-16 19:12:37.603 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
+2023-11-16 19:13:07.610 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected end of data: line 1 column 1036 (char 1035)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected end of data: line 1 column 1036 (char 1035)
+2023-11-16 19:13:39.569 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Error occurred while communicating with WLED device at 10.20.10.27
+2023-11-16 19:41:52.944 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Error occurred while communicating with WLED device at 10.20.10.27
+2023-11-16 20:25:56.875 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected end of data: line 1 column 1037 (char 1036)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected end of data: line 1 column 1037 (char 1036)
+2023-11-16 20:50:15.728 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Error occurred while communicating with WLED device at 10.20.10.27
+2023-11-16 20:53:56.585 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Timeout occurred while connecting to WLED device at 10.20.10.27
+2023-11-16 21:08:14.599 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: 'utf-8' codec can't decode byte 0xff in position 895: invalid start byte
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 895: invalid start byte
+2023-11-16 21:18:09.835 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Timeout occurred while connecting to WLED device at 10.20.10.27
+2023-11-16 22:16:27.089 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Error occurred while communicating with WLED device at 10.20.10.27
+2023-11-16 22:53:38.635 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected end of data: line 1 column 1036 (char 1035)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected end of data: line 1 column 1036 (char 1035)
+2023-11-16 22:58:12.767 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Timeout occurred while connecting to WLED device at 10.20.10.27
+2023-11-16 23:51:51.540 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: 'utf-8' codec can't decode byte 0x85 in position 889: invalid start byte
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x85 in position 889: invalid start byte
+2023-11-16 23:52:21.599 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 868 (char 867)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected character: line 1 column 868 (char 867)
+2023-11-16 23:53:51.611 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
+2023-11-17 00:51:06.928 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Error occurred while communicating with WLED device at 10.20.10.27
+2023-11-17 00:52:10.283 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Timeout occurred while connecting to WLED device at 10.20.10.27
+2023-11-17 01:59:43.621 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
+2023-11-17 02:14:33.161 ERROR (Thread-2) [custom_components.ble_monitor] HCIdump thread: Something wrong - interface hci0 not ready, and will be skipped for current scan period.
+2023-11-17 02:14:33.162 ERROR (Thread-2) [custom_components.ble_monitor] HCIdump thread: Trying to power cycle Bluetooth adapter hci0 E4:5F:01:4A:3B:A0, will try to use it next scan period.
+2023-11-17 02:16:33.424 ERROR (Thread-2) [custom_components.ble_monitor] HCIdump thread: Something wrong - interface hci0 not ready, and will be skipped for current scan period.
+2023-11-17 02:16:33.424 ERROR (Thread-2) [custom_components.ble_monitor] HCIdump thread: Trying to power cycle Bluetooth adapter hci0 E4:5F:01:4A:3B:A0, will try to use it next scan period.
+2023-11-17 02:18:45.663 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
+2023-11-17 02:29:35.667 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
+2023-11-17 02:45:32.080 ERROR (MainThread) [custom_components.tapo_control] HTTPSConnectionPool(host='10.20.10.36', port=443): Max retries exceeded with url: /stok=d883833b28e11b53b91f50d5d8919f78/ds (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4644f890>: Failed to establish a new connection: [Errno 113] Host is unreachable'))
+2023-11-17 02:45:34.311 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Error occurred while communicating with WLED device at 10.20.10.27
+2023-11-17 02:45:39.634 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=29 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=29, family=2, type=2, proto=0, laddr=('0.0.0.0', 46053)>
+2023-11-17 02:45:42.090 WARNING (MainThread) [homeassistant.helpers.entity] Update of camera.jnp_cam_hd_stream is taking over 10 seconds
+2023-11-17 02:45:42.090 WARNING (MainThread) [homeassistant.helpers.entity] Update of camera.jnp_cam_sd_stream is taking over 10 seconds
+2023-11-17 02:45:42.125 ERROR (MainThread) [custom_components.tapo_control] HTTPSConnectionPool(host='10.20.10.36', port=443): Max retries exceeded with url: /stok=d883833b28e11b53b91f50d5d8919f78/ds (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f46545950>: Failed to establish a new connection: [Errno 101] Network unreachable'))
+2023-11-17 02:45:51.341 ERROR (MainThread) [homeassistant.components.upnp] Error fetching router-DH-WR5210-IDC data: Unable to communicate with IGD at: http://10.20.10.1:58925/rootDesc.xml
+2023-11-17 02:46:09.456 ERROR (MainThread) [custom_components.tapo_control] HTTPSConnectionPool(host='10.20.10.36', port=443): Max retries exceeded with url: /stok=d883833b28e11b53b91f50d5d8919f78/ds (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f69674ad0>: Failed to establish a new connection: [Errno 113] Host is unreachable'))
+2023-11-17 02:46:16.103 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: 'utf-8' codec can't decode byte 0xae in position 861: invalid start byte
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 256, in update
+    if not (data := await self.request("/json")):
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xae in position 861: invalid start byte
+2023-11-17 02:51:15.539 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: 'utf-8' codec can't decode byte 0x9d in position 863: invalid start byte
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x9d in position 863: invalid start byte
+2023-11-17 02:51:55.557 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: 'utf-8' codec can't decode byte 0xc2 in position 865: invalid continuation byte
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 865: invalid continuation byte
+2023-11-17 02:53:15.631 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
+2023-11-17 03:20:26.990 WARNING (MainThread) [homeassistant.helpers.entity] Update of camera.jnp_cam_hd_stream is taking over 10 seconds
+2023-11-17 03:20:26.991 WARNING (MainThread) [homeassistant.helpers.entity] Update of camera.jnp_cam_sd_stream is taking over 10 seconds
+2023-11-17 03:20:46.375 WARNING (MainThread) [homeassistant.helpers.entity] Update of siren.jnp_cam_siren is taking over 10 seconds
+2023-11-17 03:46:51.258 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Timeout occurred while connecting to WLED device at 10.20.10.27
+2023-11-17 03:47:49.745 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Error occurred while communicating with WLED device at 10.20.10.27
+2023-11-17 05:34:26.675 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
+2023-11-17 05:47:22.007 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Timeout occurred while connecting to WLED device at 10.20.10.27
+2023-11-17 05:48:17.668 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected end of data: line 1 column 1035 (char 1034)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
+    self.data = await self._async_update_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
+    device = await self.wled.update(full_update=not self.last_update_success)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
+    if not (state_info := await self.request("/json/si")):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
+    response_data = await response.json()
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
+    return await super().json(*args, loads=loads, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
+    return loads(stripped.decode(encoding))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+orjson.JSONDecodeError: unexpected end of data: line 1 column 1035 (char 1034)
+2023-11-17 05:51:50.353 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Error occurred while communicating with WLED device at 10.20.10.27

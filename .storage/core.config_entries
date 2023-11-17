@@ -127,7 +127,7 @@
           "udn": "uuid:00000000-0000-0000-0000-000000000000",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:00000000-0000-0000-0000-000000000000",
-          "location": "http://10.20.10.1:44345/rootDesc.xml",
+          "location": "http://10.20.10.1:49395/rootDesc.xml",
           "mac_address": "08:10:7a:92:f7:44",
           "host": "10.20.10.1"
         },
@@ -167,7 +167,9 @@
         "data": {
           "host": "10.20.10.27"
         },
-        "options": {},
+        "options": {
+          "keep_master_light": true
+        },
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "zeroconf",
@@ -219,7 +221,7 @@
         "domain": "mobile_app",
         "title": "MacBook",
         "data": {
-          "os_version": "13.4.0",
+          "os_version": "14.0.0",
           "manufacturer": "Apple",
           "supports_encryption": true,
           "app_id": "io.robbie.HomeAssistant",
@@ -231,7 +233,7 @@
           "os_name": "macOS",
           "device_id": "113B1B3F-46AF-5A60-B929-D4ABDED3BC2B",
           "app_name": "Home Assistant",
-          "app_version": "2023.4 (2023.460)",
+          "app_version": "2023.7 (2023.471)",
           "model": "MacBookPro17,1",
           "webhook_id": "b2e4f93cdbd180cb3f30e14441a0b64a06bf45699f265e9f78e0afda8d08729e",
           "secret": "0bf681c17ac2a600a5f793bf5e839bcd6f23920210b4672a38ffe1c311260a71",
@@ -327,7 +329,7 @@
           "os_name": "iOS",
           "manufacturer": "Apple",
           "model": "iPhone13,4",
-          "os_version": "17.1",
+          "os_version": "17.1.1",
           "device_name": "iPhone(Maya)",
           "webhook_id": "650ae9fdf13ce41d3cce8de34e3101994170c2f6de39d13daf5a174d0f4cba5a",
           "secret": "2d6cbc362cfef38d078915415de62e1e4dda70f13f419e04eefb56745420ee72",
@@ -395,7 +397,7 @@
         "domain": "hacs",
         "title": "",
         "data": {
-          "token": "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"
+          "token": "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"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -633,7 +635,7 @@
               "video_codec": "copy",
               "manufacturer": "TP-Link",
               "model": "C200",
-              "sw_version": "1.3.7 Build 230920 Rel.60220n(4555)",
+              "sw_version": "1.3.9 Build 231019 Rel.29120n(4555)",
               "hw_version": "3.0",
               "platform": "tapo_control",
               "linked_motion_sensor": "binary_sensor.jnp_cam_motion_alarm"
@@ -670,7 +672,7 @@
               "video_codec": "copy",
               "manufacturer": "TP-Link",
               "model": "C200",
-              "sw_version": "1.3.7 Build 230920 Rel.60220n(4555)",
+              "sw_version": "1.3.9 Build 231019 Rel.29120n(4555)",
               "hw_version": "3.0",
               "platform": "tapo_control",
               "linked_motion_sensor": "binary_sensor.jnp_cam_motion_alarm"

@@ -16,6 +16,7 @@ logger:
 api:
   encryption : 
     key: !secret jnp_bedroom_enc_key
+    
 ota:
   password: !secret ota_password
 
