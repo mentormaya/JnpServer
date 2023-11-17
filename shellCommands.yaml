@@ -1,3 +1,3 @@
 #shell command for github backup and update
 
-git_sync: "/bin/bash git_sync.sh"
+git_sync: "/bin/bash scripts/git_sync.sh"
