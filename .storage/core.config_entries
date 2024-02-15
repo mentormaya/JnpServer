@@ -127,7 +127,7 @@
           "udn": "uuid:00000000-0000-0000-0000-000000000000",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:00000000-0000-0000-0000-000000000000",
-          "location": "http://10.20.10.1:49395/rootDesc.xml",
+          "location": "http://10.20.10.1:28649/rootDesc.xml",
           "mac_address": "08:10:7a:92:f7:44",
           "host": "10.20.10.1"
         },
@@ -157,23 +157,6 @@
         "pref_disable_polling": false,
         "source": "zeroconf",
         "unique_id": "dc:4f:22:db:54:54",
-        "disabled_by": null
-      },
-      {
-        "entry_id": "22a303cfb740c930621de154471ce852",
-        "version": 1,
-        "domain": "wled",
-        "title": "WLED",
-        "data": {
-          "host": "10.20.10.27"
-        },
-        "options": {
-          "keep_master_light": true
-        },
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "zeroconf",
-        "unique_id": "e8db84c4bea5",
         "disabled_by": null
       },
       {
@@ -397,7 +380,7 @@
         "domain": "hacs",
         "title": "",
         "data": {
-          "token": "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"
+          "token": "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"
         },
         "options": {},
         "pref_disable_new_entities": false,

@@ -1,383 +1,321 @@
-2023-11-17 07:03:26.172 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-17 07:03:26.176 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-17 07:03:26.185 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration fontawesome which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-17 07:03:26.190 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration anniversaries which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-17 07:03:26.193 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration favicon which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-17 07:03:26.199 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration tapo_control which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-17 07:03:26.213 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration qr_generator which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-17 07:03:26.218 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration npm_switches which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-17 07:03:26.226 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration ble_monitor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-17 07:03:26.231 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration mass which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-11-17 07:03:40.823 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=590 from 2023-11-16 10:07:52.922081)
-2023-11-17 07:03:58.111 ERROR (MainThread) [custom_components.npm_switches] Error fetching information from http://10.20.10.26:81/api/tokens - Cannot connect to host 10.20.10.26:81 ssl:default [Connect call failed ('10.20.10.26', 81)]
-2023-11-17 07:03:58.112 ERROR (MainThread) [custom_components.npm_switches] Error fetching npm_switches data: 
-2023-11-17 07:04:12.778 WARNING (MainThread) [homeassistant.setup] Setup of rest is taking over 10 seconds.
-2023-11-17 07:04:19.862 ERROR (MainThread) [homeassistant.components.esphome.dashboard] Error requesting ESPHome Dashboard data: Cannot connect to host 127.0.0.1:65128 ssl:default [Connect call failed ('127.0.0.1', 65128)]
-2023-11-17 07:04:19.863 ERROR (MainThread) [homeassistant.components.esphome.dashboard] Dashboard unavailable; skipping reauth: Cannot connect to host 127.0.0.1:65128 ssl:default [Connect call failed ('127.0.0.1', 65128)]
-2023-11-17 07:04:27.060 ERROR (MainThread) [custom_components.npm_switches] Error fetching information from http://10.20.10.26:81/api/tokens - Cannot connect to host 10.20.10.26:81 ssl:default [Connect call failed ('10.20.10.26', 81)]
-2023-11-17 07:04:27.061 ERROR (MainThread) [custom_components.npm_switches] Error fetching npm_switches data: 
-2023-11-17 07:04:27.190 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for bedroom @ 10.20.10.28: Error connecting to ('10.20.10.28', 6053): [Errno 113] Connect call failed ('10.20.10.28', 6053) (SocketAPIError)
-2023-11-17 07:04:30.320 WARNING (MainThread) [homeassistant.components.homekit.accessories] sensor.puja_light_sensor: Battery sensor state missing: sensor.puja_car_fuel
-2023-11-17 07:04:37.815 ERROR (MainThread) [custom_components.npm_switches] Error fetching information from http://10.20.10.26:81/api/tokens - 0, message='Attempt to decode JSON with unexpected mimetype: text/html', url=URL('http://10.20.10.26:81/api/tokens')
-2023-11-17 07:04:37.817 ERROR (MainThread) [custom_components.npm_switches] Error fetching npm_switches data: 
-2023-11-17 07:05:03.809 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+2024-02-15 20:44:51.842 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-02-15 20:44:51.844 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-02-15 20:44:51.845 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration fontawesome which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-02-15 20:44:51.847 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration anniversaries which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-02-15 20:44:51.849 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration favicon which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-02-15 20:44:51.852 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration tapo_control which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-02-15 20:44:51.854 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration qr_generator which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-02-15 20:44:51.856 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration npm_switches which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-02-15 20:44:51.857 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration ble_monitor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-02-15 20:44:51.859 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration mass which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-02-15 20:51:25.657 WARNING (MainThread) [homeassistant.bootstrap] Waiting on integrations to complete setup: mass, homekit
+2024-02-15 20:51:26.274 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
-2023-11-17 07:08:23.827 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: 'utf-8' codec can't decode byte 0xb4 in position 861: invalid start byte
+  File "<string>", line 37, in __mashumaro_from_dict__
+  File "<string>", line 37, in <listcomp>
+  File "/usr/local/lib/python3.11/enum.py", line 712, in __call__
+    return cls.__new__(cls, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/enum.py", line 1135, in __new__
+    raise ve_exc
+ValueError: 'accurate_time' is not a valid PlayerFeature
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb4 in position 861: invalid start byte
-2023-11-17 07:10:39.443 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Timeout occurred while connecting to WLED device at 10.20.10.27
-2023-11-17 08:05:25.696 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Error occurred while communicating with WLED device at 10.20.10.27
-2023-11-17 09:17:26.469 ERROR (Thread-2) [custom_components.ble_monitor] HCIdump thread: Something wrong - interface hci0 not ready, and will be skipped for current scan period.
-2023-11-17 09:17:26.474 ERROR (Thread-2) [custom_components.ble_monitor] HCIdump thread: Trying to power cycle Bluetooth adapter hci0 E4:5F:01:4A:3B:A0, will try to use it next scan period.
-2023-11-17 09:19:26.723 ERROR (Thread-2) [custom_components.ble_monitor] HCIdump thread: Something wrong - interface hci0 not ready, and will be skipped for current scan period.
-2023-11-17 09:19:26.724 ERROR (Thread-2) [custom_components.ble_monitor] HCIdump thread: Trying to power cycle Bluetooth adapter hci0 E4:5F:01:4A:3B:A0, will try to use it next scan period.
-2023-11-17 09:32:55.748 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: 'utf-8' codec can't decode byte 0x8b in position 861: invalid start byte
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/client.py", line 201, in fetch_initial_state
+    await self._players.fetch_state()
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 288, in fetch_state
+    for player in await self.get_players():
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in get_players
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in <listcomp>
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 39, in __mashumaro_from_dict__
+mashumaro.exceptions.InvalidFieldValue: Field "supported_features" of type tuple[PlayerFeature, ...] in Player has invalid value ['accurate_time', 'power', 'sync', 'volume_set']
+2024-02-15 20:51:29.616 WARNING (MainThread) [aioesphomeapi.reconnect_logic] Can't connect to ESPHome API for bedroom @ 10.20.10.28: Error connecting to ('10.20.10.28', 6053): [Errno 113] Connect call failed ('10.20.10.28', 6053) (SocketAPIError)
+2024-02-15 20:51:57.022 WARNING (MainThread) [homeassistant.components.homekit.accessories] sensor.puja_light_sensor: Battery sensor state missing: sensor.puja_car_fuel
+2024-02-15 20:51:57.392 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8b in position 861: invalid start byte
-2023-11-17 09:33:55.770 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: 'utf-8' codec can't decode byte 0xae in position 861: invalid start byte
+  File "<string>", line 37, in __mashumaro_from_dict__
+  File "<string>", line 37, in <listcomp>
+  File "/usr/local/lib/python3.11/enum.py", line 712, in __call__
+    return cls.__new__(cls, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/enum.py", line 1135, in __new__
+    raise ve_exc
+ValueError: 'accurate_time' is not a valid PlayerFeature
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0xae in position 861: invalid start byte
-2023-11-17 09:36:15.857 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/client.py", line 201, in fetch_initial_state
+    await self._players.fetch_state()
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 288, in fetch_state
+    for player in await self.get_players():
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in get_players
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in <listcomp>
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 39, in __mashumaro_from_dict__
+mashumaro.exceptions.InvalidFieldValue: Field "supported_features" of type tuple[PlayerFeature, ...] in Player has invalid value ['accurate_time', 'power', 'sync', 'volume_set']
+2024-02-15 20:52:37.584 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
-2023-11-17 09:38:05.837 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: 'utf-8' codec can't decode byte 0xb3 in position 861: invalid start byte
+  File "<string>", line 37, in __mashumaro_from_dict__
+  File "<string>", line 37, in <listcomp>
+  File "/usr/local/lib/python3.11/enum.py", line 712, in __call__
+    return cls.__new__(cls, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/enum.py", line 1135, in __new__
+    raise ve_exc
+ValueError: 'accurate_time' is not a valid PlayerFeature
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb3 in position 861: invalid start byte
-2023-11-17 09:40:58.075 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/client.py", line 201, in fetch_initial_state
+    await self._players.fetch_state()
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 288, in fetch_state
+    for player in await self.get_players():
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in get_players
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in <listcomp>
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 39, in __mashumaro_from_dict__
+mashumaro.exceptions.InvalidFieldValue: Field "supported_features" of type tuple[PlayerFeature, ...] in Player has invalid value ['accurate_time', 'power', 'sync', 'volume_set']
+2024-02-15 20:53:23.351 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [546840942400] Error updating Music Assistant BETA: 'BackupManager.do_backup_partial' blocked from execution, system is not running - freeze
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
-2023-11-17 09:43:05.934 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/update.py", line 167, in async_install
+    await async_update_addon(self.hass, slug=self._addon_slug, backup=backup)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 53, in _wrapper
+    raise HassioAPIError(data["message"])
+homeassistant.components.hassio.handler.HassioAPIError: 'BackupManager.do_backup_partial' blocked from execution, system is not running - freeze
+
+The above exception was the direct cause of the following exception:
+
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
-2023-11-17 10:02:50.567 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Timeout occurred while connecting to WLED device at 10.20.10.27
-2023-11-17 10:11:29.061 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: number with leading zero is not allowed: line 1 column 862 (char 861)
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 230, in handle_call_service
+    await hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2035, in async_call
+    response_data = await coro
+                    ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2072, in _execute_service
+    return await target(service_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 235, in handle_service
+    return await service.entity_service_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 876, in entity_service_call
+    response_data = await _handle_entity_call(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 948, in _handle_entity_call
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 157, in async_install
+    await entity.async_install_with_progress(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 432, in async_install_with_progress
+    await self.async_install(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/hassio/update.py", line 169, in async_install
+    raise HomeAssistantError(f"Error updating {self.title}: {err}") from err
+homeassistant.exceptions.HomeAssistantError: Error updating Music Assistant BETA: 'BackupManager.do_backup_partial' blocked from execution, system is not running - freeze
+2024-02-15 20:53:27.886 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-orjson.JSONDecodeError: number with leading zero is not allowed: line 1 column 862 (char 861)
-2023-11-17 10:24:49.111 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+  File "<string>", line 37, in __mashumaro_from_dict__
+  File "<string>", line 37, in <listcomp>
+  File "/usr/local/lib/python3.11/enum.py", line 712, in __call__
+    return cls.__new__(cls, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/enum.py", line 1135, in __new__
+    raise ve_exc
+ValueError: 'accurate_time' is not a valid PlayerFeature
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
-2023-11-17 10:29:19.101 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 868 (char 867)
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/client.py", line 201, in fetch_initial_state
+    await self._players.fetch_state()
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 288, in fetch_state
+    for player in await self.get_players():
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in get_players
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in <listcomp>
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 39, in __mashumaro_from_dict__
+mashumaro.exceptions.InvalidFieldValue: Field "supported_features" of type tuple[PlayerFeature, ...] in Player has invalid value ['accurate_time', 'power', 'sync', 'volume_set']
+2024-02-15 20:53:47.936 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [547468886848] Update installation already in progress for update.jnp_cam_update
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-orjson.JSONDecodeError: unexpected character: line 1 column 868 (char 867)
-2023-11-17 10:29:49.006 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: unexpected character: line 1 column 862 (char 861)
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 230, in handle_call_service
+    await hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2035, in async_call
+    response_data = await coro
+                    ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/core.py", line 2072, in _execute_service
+    return await target(service_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 235, in handle_service
+    return await service.entity_service_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 876, in entity_service_call
+    response_data = await _handle_entity_call(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 948, in _handle_entity_call
+    result = await task
+             ^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 153, in async_install
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Update installation already in progress for update.jnp_cam_update
+2024-02-15 20:54:13.306 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-orjson.JSONDecodeError: unexpected character: line 1 column 862 (char 861)
-2023-11-17 10:43:18.785 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: (503, {'error': 3})
-2023-11-17 10:46:57.848 ERROR (MainThread) [homeassistant.components.wled] Unexpected error fetching wled data: 'utf-8' codec can't decode byte 0xf4 in position 893: invalid continuation byte
+  File "<string>", line 37, in __mashumaro_from_dict__
+  File "<string>", line 37, in <listcomp>
+  File "/usr/local/lib/python3.11/enum.py", line 712, in __call__
+    return cls.__new__(cls, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/enum.py", line 1135, in __new__
+    raise ve_exc
+ValueError: 'accurate_time' is not a valid PlayerFeature
+
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 290, in _async_refresh
-    self.data = await self._async_update_data()
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/wled/coordinator.py", line 103, in _async_update_data
-    device = await self.wled.update(full_update=not self.last_update_success)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 325, in update
-    if not (state_info := await self.request("/json/si")):
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/backoff/_async.py", line 151, in retry
-    ret = await target(*args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/wled/wled.py", line 211, in request
-    response_data = await response.json()
-                    ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/aiohttp_client.py", line 84, in json
-    return await super().json(*args, loads=loads, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1120, in json
-    return loads(stripped.decode(encoding))
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf4 in position 893: invalid continuation byte
-2023-11-17 11:03:03.933 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Timeout occurred while connecting to WLED device at 10.20.10.27
-2023-11-17 11:04:39.887 ERROR (MainThread) [homeassistant.components.wled] Error fetching wled data: Invalid response from API: Timeout occurred while connecting to WLED device at 10.20.10.27
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/client.py", line 201, in fetch_initial_state
+    await self._players.fetch_state()
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 288, in fetch_state
+    for player in await self.get_players():
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in get_players
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in <listcomp>
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 39, in __mashumaro_from_dict__
+mashumaro.exceptions.InvalidFieldValue: Field "supported_features" of type tuple[PlayerFeature, ...] in Player has invalid value ['accurate_time', 'power', 'sync', 'volume_set']
+2024-02-15 20:54:40.714 WARNING (MainThread) [homeassistant.helpers.entity] Update of camera.jnp_cam_hd_stream is taking over 10 seconds
+2024-02-15 20:54:40.715 WARNING (MainThread) [homeassistant.helpers.entity] Update of camera.jnp_cam_sd_stream is taking over 10 seconds
+2024-02-15 20:54:48.498 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "<string>", line 37, in __mashumaro_from_dict__
+  File "<string>", line 37, in <listcomp>
+  File "/usr/local/lib/python3.11/enum.py", line 712, in __call__
+    return cls.__new__(cls, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/enum.py", line 1135, in __new__
+    raise ve_exc
+ValueError: 'accurate_time' is not a valid PlayerFeature
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/client.py", line 201, in fetch_initial_state
+    await self._players.fetch_state()
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 288, in fetch_state
+    for player in await self.get_players():
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in get_players
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in <listcomp>
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 39, in __mashumaro_from_dict__
+mashumaro.exceptions.InvalidFieldValue: Field "supported_features" of type tuple[PlayerFeature, ...] in Player has invalid value ['accurate_time', 'power', 'sync', 'volume_set']
+2024-02-15 20:55:10.716 WARNING (MainThread) [homeassistant.helpers.entity] Update of camera.jnp_cam_hd_stream is taking over 10 seconds
+2024-02-15 20:55:10.716 WARNING (MainThread) [homeassistant.helpers.entity] Update of camera.jnp_cam_sd_stream is taking over 10 seconds
+2024-02-15 20:55:27.597 ERROR (MainThread) [custom_components.tapo_control] No new firmware available.
+2024-02-15 20:55:28.642 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "<string>", line 37, in __mashumaro_from_dict__
+  File "<string>", line 37, in <listcomp>
+  File "/usr/local/lib/python3.11/enum.py", line 712, in __call__
+    return cls.__new__(cls, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/enum.py", line 1135, in __new__
+    raise ve_exc
+ValueError: 'accurate_time' is not a valid PlayerFeature
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/client.py", line 201, in fetch_initial_state
+    await self._players.fetch_state()
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 288, in fetch_state
+    for player in await self.get_players():
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in get_players
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in <listcomp>
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 39, in __mashumaro_from_dict__
+mashumaro.exceptions.InvalidFieldValue: Field "supported_features" of type tuple[PlayerFeature, ...] in Player has invalid value ['accurate_time', 'power', 'sync', 'volume_set']
+2024-02-15 20:55:30.669 ERROR (MainThread) [custom_components.tapo_control] HTTPSConnectionPool(host='10.20.10.36', port=443): Max retries exceeded with url: /stok=c616630e5f07ced00118e4f197edfb10/ds (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f66c1d710>: Failed to establish a new connection: [Errno 113] Host is unreachable'))
+2024-02-15 20:55:30.722 WARNING (MainThread) [homeassistant.components.camera] Updating tapo_control camera took longer than the scheduled update interval 0:00:30
+2024-02-15 20:56:19.099 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "<string>", line 37, in __mashumaro_from_dict__
+  File "<string>", line 37, in <listcomp>
+  File "/usr/local/lib/python3.11/enum.py", line 712, in __call__
+    return cls.__new__(cls, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/enum.py", line 1135, in __new__
+    raise ve_exc
+ValueError: 'accurate_time' is not a valid PlayerFeature
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/client.py", line 201, in fetch_initial_state
+    await self._players.fetch_state()
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 288, in fetch_state
+    for player in await self.get_players():
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in get_players
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in <listcomp>
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 39, in __mashumaro_from_dict__
+mashumaro.exceptions.InvalidFieldValue: Field "supported_features" of type tuple[PlayerFeature, ...] in Player has invalid value ['accurate_time', 'power', 'sync', 'volume_set']
+2024-02-15 20:56:26.263 ERROR (MainThread) [custom_components.tapo_control] No new firmware available.
+2024-02-15 20:57:29.350 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "<string>", line 37, in __mashumaro_from_dict__
+  File "<string>", line 37, in <listcomp>
+  File "/usr/local/lib/python3.11/enum.py", line 712, in __call__
+    return cls.__new__(cls, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/enum.py", line 1135, in __new__
+    raise ve_exc
+ValueError: 'accurate_time' is not a valid PlayerFeature
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/client.py", line 201, in fetch_initial_state
+    await self._players.fetch_state()
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 288, in fetch_state
+    for player in await self.get_players():
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in get_players
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/music_assistant/client/players.py", line 65, in <listcomp>
+    return [Player.from_dict(item) for item in await self.client.send_command("players/all")]
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 39, in __mashumaro_from_dict__
+mashumaro.exceptions.InvalidFieldValue: Field "supported_features" of type tuple[PlayerFeature, ...] in Player has invalid value ['accurate_time', 'power', 'sync', 'volume_set']

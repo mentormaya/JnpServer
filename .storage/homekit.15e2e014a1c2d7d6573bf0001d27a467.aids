@@ -137,7 +137,11 @@
       "mass.media_player.mass_aa:aa:85:a4:ef:82": 1582976739,
       "mass.media_player.mass_aa:aa:f2:ba:c9:6e": 115859256,
       "mass.media_player.mass_aa:aa:3d:0b:b6:8c": 1944448238,
-      "wled.light.e8db84c4bea5": 104795594
+      "wled.light.e8db84c4bea5": 104795594,
+      "cast.media_player.1478780d-55ed-8097-5287-de0f3de24ae2": 3994996569,
+      "mass.media_player.mass_aa:aa:e0:35:58:df": 623159042,
+      "mass.media_player.mass_1478780d-55ed-8097-5287-de0f3de24ae2": 1100425477,
+      "mass.media_player.mass_aa:aa:16:17:bd:0f": 2187520457
     }
   }
 }

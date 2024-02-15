@@ -91,6 +91,7 @@ def registerController(
         device_id,
         reuseSession=False,
         printDebugInformation=pytapoLog,
+        retryStok=False,
     )
 
 
