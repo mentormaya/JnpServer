@@ -1,2 +1,4 @@
 home-assistant.log
 *.log
+.storage/*
+*/*/__pycache__
