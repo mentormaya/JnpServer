@@ -1,0 +1,7 @@
+project_id: ktm-ga-ha-61666
+service_account: !include SERVICE_ACCOUNT.json
+report_state: true
+exposed_domains:
+  - switch
+  - light
+  - weather

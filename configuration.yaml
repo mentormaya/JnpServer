@@ -9,6 +9,7 @@ automation: !include automations.yaml # Include Automations from the config file
 conversation: # Integration for the Conversation with native homeassistant
 # device_tracker: trackers.yaml
 ffmpeg: # Enabling the ffmpeg for the audio and video processing like cameras
+google_assistant: !include google/assistant.yaml
 group: !include groups.yaml # Include Predefined Groups from the config file
 http: !include proxy.yaml #HTTP Proxy Configuration
 # notify: !include notifications.yaml # Include Notifications configurations from the config file

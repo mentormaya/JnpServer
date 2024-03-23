@@ -2,3 +2,4 @@ home-assistant.log
 *.log
 .storage/*
 */*/__pycache__
+google/SERVICE_ACCOUNT.json
