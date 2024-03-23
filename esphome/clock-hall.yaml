@@ -1,0 +1,220 @@
+substitutions:
+  # Modify variables based on your settings
+  hostname: 'Hall'
+
+esphome:
+  name: clock-hall
+  friendly_name: Clock Hall
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: !secret _hall_clock_enc_key
+
+ota:
+  password: !secret ota_password
+
+wifi:
+  ssid: !secret engineer_ssid
+  password: !secret engineer_password
+  domain: !secret domain
+  fast_connect: true
+  use_address: !secret clock_hall_address
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: ${hostname}
+    password: !secret fallback_password
+
+captive_portal:
+
+web_server:
+  port: 88
+  auth:
+    username: ajay
+    password: !secret web_password
+
+globals:
+  - id: display_page
+    type: int
+    restore_value: no
+    initial_value: '1'
+
+#Interval to update the display page
+interval:
+- interval: 1s
+  id: display_update_interval
+  then:
+    - lambda: |-
+        static int num_executions = 0;
+        if(id(display_page) < 5) { 
+          if(num_executions++ >= atoi(id(duration).state.c_str()) * atoi(id(duration_multiplier).state.c_str())){
+            id(display_page)++;
+            num_executions = 0;
+          }
+        } else {
+          if (num_executions++ >= atoi(id(duration).state.c_str())) {
+            id(display_page)++;
+            num_executions = 0;
+          }
+        }
+        if (id(display_page) > 6) {
+          id(display_page) = 1;
+        }
+
+# Display Configurations
+spi:
+  clk_pin: 18
+  mosi_pin: 23
+
+display:
+  - platform: max7219digit
+    cs_pin: 5
+    num_chips: 4
+    intensity: 5
+    lambda: !lambda |-
+      it.intensity(atoi(id(brightness).state.c_str()));
+      it.scroll(true, max7219digit::CONTINUOUS, 150, 1000, 1000);
+      if (id(display_page) == 1) {
+        it.printf(0, 0, id(pixelmix_bold), " %s ", id(message_text).state.c_str());
+      } else if (id(display_page) == 2) {
+        auto time = id(hass_time).now();
+        if(time.is_valid()) {
+          it.scroll(false, max7219digit::CONTINUOUS, 150, 1000, 1000);
+          it.strftime(it.get_width() + 1, 1, id(pixelmix_small), TextAlign::TOP_RIGHT, "%I:%M:%S", time);
+        } else {
+          it.printf(0, 0, id(pixelmix_bold), "Time.");
+        }
+      } else if (id(display_page) == 3) {
+        auto time = id(hass_time).now();
+        if(time.is_valid()){
+          it.strftime(0, 0, id(pixelmix_bold), " %a, %d %b %Y ", time);
+        } else {
+          it.printf(0, 0, id(pixelmix_bold), "Date.");
+        }
+      } else if (id(display_page) == 4) {
+        it.printf(0, 0, id(pixelmix_bold), " Public IP %s ", id(public_ip).state.c_str());
+      } else if (id(display_page) == 5) {
+        it.scroll(false, max7219digit::CONTINUOUS, 150, 1000, 1000);
+        it.printf(it.get_width(), 0, id(pixelmix), TextAlign::TOP_RIGHT, "%.1f°C", id(temperature).state);
+      } else {
+        it.printf(it.get_width(), 0, id(pixelmix_bold), TextAlign::TOP_RIGHT, "%.1f%%", id(humidity).state);
+      }
+
+font:
+  - file: "../fonts/pixelmix.ttf"
+    id: pixelmix
+    size: 8
+
+  - file: "../fonts/pixelmix.ttf"
+    id: pixelmix_small
+    size: 6
+
+  - file: "../fonts/pixelmix_bold.ttf"
+    id: pixelmix_bold
+    size: 8
+
+time:
+  - platform: homeassistant
+    id: hass_time
+
+text_sensor:                                    
+  - platform: homeassistant
+    name: "Message"
+    id: message_text
+    entity_id: input_text.clock_hall_message
+    internal: true
+    
+  - platform: homeassistant
+    name: "Brightness"
+    id: brightness
+    entity_id: input_number.clock_hall_brightness
+    internal: true
+    
+  - platform: homeassistant
+    name: "Page Duration"
+    id: duration
+    entity_id: input_number.clock_hall_page_duration
+    internal: true
+    
+  - platform: homeassistant
+    name: "Message Duration Multiplier"
+    id: duration_multiplier
+    entity_id: input_number.message_duration_multiplier
+    internal: true
+    
+  - platform: homeassistant
+    name: "Public IP"
+    id: public_ip
+    entity_id: sensor.myip
+    internal: true
+  
+  # Expose ESPHome version as sensor.
+  - platform: version
+    name: ${hostname}_esphome_version
+  
+  # Expose WiFi information as sensors.
+  - platform: wifi_info
+    ip_address:
+      name: ${hostname}_wifi_ip
+      icon: mdi:ip
+    ssid:
+      name: ${hostname}_wifi_ssid
+      icon: mdi:wifi
+  
+  - platform: template
+    name: ${hostname}_Uptime_Sensor
+    lambda: |-
+      uint32_t dur = id(uptime_s).state;
+      int dys = 0;
+      int hrs = 0;
+      int mnts = 0;
+      if (dur > 86399) {
+        dys = trunc(dur / 86400);
+        dur = dur - (dys * 86400);
+      }
+      if (dur > 3599) {
+        hrs = trunc(dur / 3600);
+        dur = dur - (hrs * 3600);
+      }
+      if (dur > 59) {
+        mnts = trunc(dur / 60);
+        dur = dur - (mnts * 60);
+      }
+      char buffer[17];
+      sprintf(buffer, "%ud %02uh %02um %02us", dys, hrs, mnts, dur);
+      return {buffer};
+    icon: mdi:clock-start
+    update_interval: 15s
+
+# Sensors with specific and general information
+sensor:
+  #DHT Temperature and Humidity Sensor
+  - platform: dht
+    pin: GPIO14
+    temperature:
+      name: "${hostname} Temperature"
+      id: temperature
+    humidity:
+      name: "${hostname} Humidity"
+      id: humidity
+    update_interval: 60s
+  
+  # Extra sensor to keep an eye on the Wi-Fi signal
+  - platform: wifi_signal
+    name: ${hostname}_Wi-Fi_Signal
+    update_interval: 60s
+
+# Extra sensor to keep track of switch uptime
+  - platform: uptime
+    name: Uptime
+    id: uptime_s
+    update_interval: 15s

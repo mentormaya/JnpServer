@@ -1,0 +1,6 @@
+#wake_on_lan switches
+switch:
+  - platform: wake_on_lan
+    name: LG WebOS Smart TV
+    mac: AC-F1-08-E1-8D-28
+    host: 10.20.10.5

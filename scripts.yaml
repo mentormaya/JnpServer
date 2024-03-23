@@ -1,0 +1,14 @@
+turn_on_lg_webos_smart_tv:
+  alias: Turn On LG WebOS Smart TV
+  sequence:
+  - service: wake_on_lan.send_magic_packet
+    data:
+      mac: AC-F1-08-E1-8D-28
+      broadcast_address: 10.20.10.5
+  - service: wake_on_lan.send_magic_packet
+    data:
+      broadcast_port: 9
+      mac: 58-FD-B1-AC-A5-B2
+      broadcast_address: 10.20.10.11
+  mode: single
+  icon: mdi:television

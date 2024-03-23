@@ -1,5 +1,16 @@
 - platform: group
   name: family_devices
   services:
-    - service: notify.mobile_app_iphone_maya
-    - service: notify.mobile_app_macbook
+    - service: mobile_app_iphone_maya
+    - service: mobile_app_macbook
+    - service: mobile_app_pujaphone
+    - service: mobile_app_redmi_note_9_pro
+    - service: mobile_app_pankaj
+    - service: lg_webos_smart_tv
+
+- platform: group
+  name: ajay_puja
+  services:
+    - service: mobile_app_iphone_maya
+    - service: mobile_app_macbook
+    - service: mobile_app_pujaphone

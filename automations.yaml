@@ -1,1 +1,346 @@
-[]
+- id: '1709049671276'
+  alias: Update Cloudflare DDNS
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - sensor.myip
+  - platform: homeassistant
+    event: start
+  - platform: time_pattern
+    hours: '3'
+  condition: []
+  action:
+  - service: cloudflare.update_records
+    data: {}
+  mode: single
+- id: '1709567791380'
+  alias: Rajbir Movement Notification
+  description: ''
+  trigger:
+  - platform: zone
+    entity_id: person.rajbir_mahato
+    zone: zone.kaatthmaaddaun_ruum
+    event: enter
+  - platform: zone
+    entity_id: person.rajbir_mahato
+    zone: zone.kaatthmaaddaun_ruum
+    event: leave
+  - platform: zone
+    entity_id: person.rajbir_mahato
+    zone: zone.pujaakaae_ghr
+    event: enter
+  - platform: zone
+    entity_id: person.rajbir_mahato
+    zone: zone.pujaakaae_ghr
+    event: leave
+  - platform: zone
+    entity_id: person.rajbir_mahato
+    zone: zone.home
+    event: enter
+  - platform: zone
+    entity_id: person.rajbir_mahato
+    zone: zone.home
+    event: leave
+  - platform: zone
+    entity_id: person.rajbir_mahato
+    zone: zone.aphis
+    event: enter
+  - platform: zone
+    entity_id: person.rajbir_mahato
+    zone: zone.aphis
+    event: leave
+  - platform: zone
+    entity_id: person.rajbir_mahato
+    zone: zone.mhendrngr
+    event: enter
+  - platform: zone
+    entity_id: person.rajbir_mahato
+    zone: zone.mhendrngr
+    event: leave
+  condition: []
+  action:
+  - service: notify.family_devices
+    data:
+      title: यात्रा सूचना | कुञ्जबीआर
+      message: "{% if trigger.event == \"leave\" %}\n  {{ trigger.from_state.attributes.friendly_name
+        }} {{ trigger.zone.attributes.friendly_name }} बाट निस्किनु भयाे ।\n{% else
+        %}\n  {{ trigger.from_state.attributes.friendly_name }} {{ trigger.zone.attributes.friendly_name
+        }} पुग्नुभयाे ।\n{% endif %}\n"
+  - service: tts.speak
+    metadata: {}
+    data:
+      cache: true
+      media_player_entity_id: media_player.living_room_speaker
+      message: "{% if trigger.event == \"leave\" %}\n  {{ trigger.from_state.attributes.friendly_name
+        }} leaves {{ trigger.zone.attributes.friendly_name }}.\n{% else %}\n  {{ trigger.from_state.attributes.friendly_name
+        }} arrived {{ trigger.zone.attributes.friendly_name }}.\n{% endif %}\n"
+    target:
+      entity_id: tts.google_en_com
+  mode: single
+- id: '1709568326868'
+  alias: Turn on all lights before sunset
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: -00:30
+  condition: []
+  action:
+  - service: light.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id:
+      - light.esp_sonoff_hall_bedroom_light
+      - light.esp_sonoff_hall_kitchen_light
+      - light.esp_sonoff_hall_gate_light
+  - service: light.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id: light.espsonoff_hall_hall_status
+  - service: input_text.set_value
+    metadata: {}
+    data:
+      value: Good Evening! How is your day! Turning on the lights.
+    target:
+      entity_id: input_text.clock_hall_message
+  - service: tts.google_translate_say
+    metadata: {}
+    data:
+      cache: false
+      message: Good Evening! How is your day? Turning on the lights.
+      entity_id: media_player.living_room_speaker
+  mode: single
+- id: '1709568488568'
+  alias: Turn off all lights
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunrise
+    offset: 00:30
+  - platform: time
+    at: '23:00:00'
+  condition: []
+  action:
+  - service: light.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id:
+      - light.esp_sonoff_hall_bedroom_light
+      - light.esp_sonoff_hall_hall_light
+      - light.esp_sonoff_hall_kitchen_light
+  - service: light.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: light.espsonoff_hall_hall_status
+  - if:
+    - condition: time
+      after: '23:00:00'
+      before: 00:00:00
+    then:
+    - service: input_text.set_value
+      metadata: {}
+      data:
+        value: Good Night! Time to sleep. Have a sweet Dreams!
+      target:
+        entity_id: input_text.clock_hall_message
+    - service: tts.google_translate_say
+      metadata: {}
+      data:
+        cache: false
+        entity_id: media_player.living_room_speaker
+        message: Good Night! Time to sleep. Have a sweet Dreams!
+    else:
+    - service: input_text.set_value
+      metadata: {}
+      data:
+        value: Good Morning! Time to wakeup. Have a good day!
+      target:
+        entity_id: input_text.clock_hall_message
+    - service: tts.google_translate_say
+      data:
+        cache: false
+        message: Good Morning! Time to wakeup. Have a good day!
+        entity_id: media_player.living_room_speaker
+  mode: single
+- id: '1709733184942'
+  alias: Notify the IP Change.
+  description: Notify me whenever the public ip changed!
+  trigger:
+  - platform: state
+    entity_id:
+    - sensor.myip
+  condition: []
+  action:
+  - service: notify.mobile_app_iphone_maya
+    metadata: {}
+    data:
+      data: New external IP address is {{ states('sensor.myip') }}
+      message: IP Changed!
+      title: KunjBR || IP Changed!
+  mode: single
+- id: '1709741254046'
+  alias: Motion Sensitive Light On
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - binary_sensor.jnp_cam_cell_motion_detection
+    - binary_sensor.jnp_cam_motion_alarm
+  condition:
+  - condition: time
+    after: '23:00:00'
+    before: 08:00:00
+  action:
+  - service: light.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id:
+      - light.esp_sonoff_hall_hall_light
+      - light.esp_sonoff_hall_bedroom_light
+  - delay:
+      hours: 0
+      minutes: 3
+      seconds: 0
+      milliseconds: 0
+  - service: light.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id:
+      - light.esp_sonoff_hall_bedroom_light
+      - light.esp_sonoff_hall_hall_light
+  mode: single
+- id: '1709742996513'
+  alias: Ajay Movement Notification
+  description: ''
+  trigger:
+  - platform: zone
+    entity_id: person.ajay
+    zone: zone.kaatthmaaddaun_ruum
+    event: enter
+  - platform: zone
+    entity_id: person.ajay
+    zone: zone.kaatthmaaddaun_ruum
+    event: leave
+  - platform: zone
+    entity_id: person.ajay
+    zone: zone.pujaakaae_ghr
+    event: enter
+  - platform: zone
+    entity_id: person.ajay
+    zone: zone.pujaakaae_ghr
+    event: leave
+  - platform: zone
+    entity_id: person.ajay
+    zone: zone.home
+    event: enter
+  - platform: zone
+    entity_id: person.ajay
+    zone: zone.home
+    event: leave
+  - platform: zone
+    entity_id: person.ajay
+    zone: zone.aphis
+    event: enter
+  - platform: zone
+    entity_id: person.ajay
+    zone: zone.aphis
+    event: leave
+  - platform: zone
+    entity_id: person.ajay
+    zone: zone.mhendrngr
+    event: enter
+  - platform: zone
+    entity_id: person.ajay
+    zone: zone.mhendrngr
+    event: leave
+  condition: []
+  action:
+  - service: notify.family_devices
+    data:
+      title: यात्रा सूचना | कुञ्जबीआर
+      message: "{% if trigger.event == \"leave\" %}\n  {{ trigger.from_state.attributes.friendly_name
+        }} {{ trigger.zone.attributes.friendly_name }} बाट निस्किनु भयाे ।\n{% else
+        %}\n  {{ trigger.from_state.attributes.friendly_name }} {{ trigger.zone.attributes.friendly_name
+        }} पुग्नुभयाे ।\n{% endif %}\n"
+  - service: tts.speak
+    metadata: {}
+    data:
+      cache: true
+      media_player_entity_id: media_player.living_room_speaker
+      message: "{% if trigger.event == \"leave\" %}\n  {{ trigger.from_state.attributes.friendly_name
+        }} leaves {{ trigger.zone.attributes.friendly_name }}.\n{% else %}\n  {{ trigger.from_state.attributes.friendly_name
+        }} arrived {{ trigger.zone.attributes.friendly_name }}.\n{% endif %}\n"
+    target:
+      entity_id: tts.google_en_com
+  mode: single
+- id: '1709743100589'
+  alias: Puja Movement Notification
+  description: ''
+  trigger:
+  - platform: zone
+    entity_id: person.pujaa_sinh
+    zone: zone.kaatthmaaddaun_ruum
+    event: enter
+  - platform: zone
+    entity_id: person.pujaa_sinh
+    zone: zone.kaatthmaaddaun_ruum
+    event: leave
+  - platform: zone
+    entity_id: person.pujaa_sinh
+    zone: zone.pujaakaae_ghr
+    event: enter
+  - platform: zone
+    entity_id: person.pujaa_sinh
+    zone: zone.pujaakaae_ghr
+    event: leave
+  - platform: zone
+    entity_id: person.pujaa_sinh
+    zone: zone.home
+    event: enter
+  - platform: zone
+    entity_id: person.pujaa_sinh
+    zone: zone.home
+    event: leave
+  - platform: zone
+    entity_id: person.pujaa_sinh
+    zone: zone.aphis
+    event: enter
+  - platform: zone
+    entity_id: person.pujaa_sinh
+    zone: zone.aphis
+    event: leave
+  - platform: zone
+    entity_id: person.pujaa_sinh
+    zone: zone.mhendrngr
+    event: enter
+  - platform: zone
+    entity_id: person.pujaa_sinh
+    zone: zone.mhendrngr
+    event: leave
+  condition: []
+  action:
+  - service: notify.family_devices
+    data:
+      title: यात्रा सूचना | कुञ्जबीआर
+      message: "{% if trigger.event == \"leave\" %}\n  {{ trigger.from_state.attributes.friendly_name
+        }} {{ trigger.zone.attributes.friendly_name }} बाट निस्किनु भयाे ।\n{% else
+        %}\n  {{ trigger.from_state.attributes.friendly_name }} {{ trigger.zone.attributes.friendly_name
+        }} पुग्नुभयाे ।\n{% endif %}\n"
+  - service: tts.speak
+    metadata: {}
+    data:
+      cache: true
+      media_player_entity_id: media_player.living_room_speaker
+      message: "{% if trigger.event == \"leave\" %}\n  {{ trigger.from_state.attributes.friendly_name
+        }} leaves {{ trigger.zone.attributes.friendly_name }}.\n{% else %}\n  {{ trigger.from_state.attributes.friendly_name
+        }} arrived {{ trigger.zone.attributes.friendly_name }}.\n{% endif %}\n"
+    target:
+      entity_id: tts.google_en_com
+  mode: single
