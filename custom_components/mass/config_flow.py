@@ -30,7 +30,6 @@ from .const import (
     CONF_ASSIST_AUTO_EXPOSE_PLAYERS,
     CONF_INTEGRATION_CREATED_ADDON,
     CONF_OPENAI_AGENT_ID,
-    CONF_PRE_ANNOUNCE_TTS,
     CONF_USE_ADDON,
     DOMAIN,
     LOGGER,
@@ -311,7 +310,14 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             return await self.async_step_manual()
 
         self.use_addon = True
-        await install_repository(self.hass)
+        try:
+            await install_repository(self.hass)
+        except Exception as err:
+            # TODO: make this exception more explicit
+            LOGGER.warning(
+                "Failed to install the add-on repository, is it already installed?",
+                exc_info=err,
+            )
         addon_info = await self._async_get_addon_info()
 
         if addon_info.state == AddonState.RUNNING:
@@ -400,7 +406,6 @@ class OptionsFlowHandler(config_entries.OptionsFlow):
                     CONF_ASSIST_AUTO_EXPOSE_PLAYERS: user_input[
                         CONF_ASSIST_AUTO_EXPOSE_PLAYERS
                     ],
-                    CONF_PRE_ANNOUNCE_TTS: user_input[CONF_PRE_ANNOUNCE_TTS],
                 },
             )
             await self.hass.config_entries.async_reload(self.config_entry.entry_id)
@@ -435,10 +440,6 @@ class OptionsFlowHandler(config_entries.OptionsFlow):
                     is not None
                     else False
                 ),
-            ): bool,
-            vol.Optional(
-                CONF_PRE_ANNOUNCE_TTS,
-                default=config_entry.data.get(CONF_PRE_ANNOUNCE_TTS, False),
             ): bool,
         }
 

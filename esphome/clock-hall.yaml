@@ -42,6 +42,15 @@ web_server:
     username: ajay
     password: !secret web_password
 
+# Bluetooth proxy and tracker
+esp32_ble_tracker:
+  scan_parameters:
+    active: true
+
+bluetooth_proxy:
+  active: true
+
+
 globals:
   - id: display_page
     type: int
@@ -82,13 +91,13 @@ display:
     intensity: 5
     lambda: !lambda |-
       it.intensity(atoi(id(brightness).state.c_str()));
-      it.scroll(true, max7219digit::CONTINUOUS, 150, 1000, 1000);
+      it.scroll(true, max7219digit::CONTINUOUS, 150, 1000, 10);
       if (id(display_page) == 1) {
         it.printf(0, 0, id(pixelmix_bold), " %s ", id(message_text).state.c_str());
       } else if (id(display_page) == 2) {
         auto time = id(hass_time).now();
         if(time.is_valid()) {
-          it.scroll(false, max7219digit::CONTINUOUS, 150, 1000, 1000);
+          it.scroll(false, max7219digit::CONTINUOUS, 150, 1000, 10);
           it.strftime(it.get_width() + 1, 1, id(pixelmix_small), TextAlign::TOP_RIGHT, "%I:%M:%S", time);
         } else {
           it.printf(0, 0, id(pixelmix_bold), "Time.");
@@ -101,9 +110,9 @@ display:
           it.printf(0, 0, id(pixelmix_bold), "Date.");
         }
       } else if (id(display_page) == 4) {
-        it.printf(0, 0, id(pixelmix_bold), " Public IP %s ", id(public_ip).state.c_str());
+        it.printf(0, 0, id(pixelmix_bold), " %s ", id(nepali_date).state.c_str());
       } else if (id(display_page) == 5) {
-        it.scroll(false, max7219digit::CONTINUOUS, 150, 1000, 1000);
+        it.scroll(false, max7219digit::CONTINUOUS, 150, 1000, 10);
         it.printf(it.get_width(), 0, id(pixelmix), TextAlign::TOP_RIGHT, "%.1f°C", id(temperature).state);
       } else {
         it.printf(it.get_width(), 0, id(pixelmix_bold), TextAlign::TOP_RIGHT, "%.1f%%", id(humidity).state);
@@ -152,9 +161,10 @@ text_sensor:
     internal: true
     
   - platform: homeassistant
-    name: "Public IP"
-    id: public_ip
-    entity_id: sensor.myip
+    name: "Nepali Date"
+    id: nepali_date
+    entity_id: sensor.todays_nepali_date
+    attribute: full_nep_date_eng
     internal: true
   
   # Expose ESPHome version as sensor.

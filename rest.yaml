@@ -1,6 +1,6 @@
 #NEA Bills Sensor to pull the data from the nea website
 - resource: !secret nea_bills_api_home
-  scan_interval: 1800
+  scan_interval: 10800
   headers:
     accept: "application/json"
     X-Space-App-Key: !secret sapi_api_key
@@ -26,7 +26,7 @@
     value_template: "{{ value_json.state }}"
 
 - resource: !secret nea_bills_api_agri
-  scan_interval: 1800
+  scan_interval: 10800
   headers:
     accept: "application/json"
     X-Space-App-Key: !secret sapi_api_key
@@ -52,7 +52,7 @@
     value_template: "{{ value_json.state }}"
 
 - resource: !secret nea_bills_api_puja
-  scan_interval: 1800
+  scan_interval: 10800
   headers:
     accept: "application/json"
     X-Space-App-Key: !secret sapi_api_key

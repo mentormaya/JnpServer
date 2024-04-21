@@ -106,6 +106,7 @@
       value: Good Evening! How is your day! Turning on the lights.
     target:
       entity_id: input_text.clock_hall_message
+    enabled: false
   - service: tts.google_translate_say
     metadata: {}
     data:
@@ -137,6 +138,7 @@
     data: {}
     target:
       entity_id: light.espsonoff_hall_hall_status
+    enabled: true
   - if:
     - condition: time
       after: '23:00:00'
@@ -148,6 +150,7 @@
         value: Good Night! Time to sleep. Have a sweet Dreams!
       target:
         entity_id: input_text.clock_hall_message
+      enabled: false
     - service: tts.google_translate_say
       metadata: {}
       data:
@@ -161,6 +164,7 @@
         value: Good Morning! Time to wakeup. Have a good day!
       target:
         entity_id: input_text.clock_hall_message
+      enabled: false
     - service: tts.google_translate_say
       data:
         cache: false
