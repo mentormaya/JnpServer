@@ -4,7 +4,7 @@ substitutions:
 
 esphome:
   name: clock-hall
-  friendly_name: Clock Hall
+  friendly_name: ${hostname} Clock
 
 esp32:
   board: esp32dev
@@ -26,7 +26,7 @@ wifi:
   ssid: !secret engineer_ssid
   password: !secret engineer_password
   domain: !secret domain
-  fast_connect: true
+  # fast_connect: true
   use_address: !secret clock_hall_address
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
@@ -42,14 +42,17 @@ web_server:
     username: ajay
     password: !secret web_password
 
+# Status LED using internal Blue LED
+status_led:
+  pin: GPIO2
+
 # Bluetooth proxy and tracker
 esp32_ble_tracker:
   scan_parameters:
-    active: true
+    active: False
 
 bluetooth_proxy:
-  active: true
-
+  active: False
 
 globals:
   - id: display_page
@@ -81,12 +84,14 @@ interval:
 
 # Display Configurations
 spi:
-  clk_pin: 18
-  mosi_pin: 23
+  clk_pin: GPIO18
+  mosi_pin: GPIO23
 
 display:
   - platform: max7219digit
-    cs_pin: 5
+    cs_pin: 
+      number: GPIO5
+      ignore_strapping_warning: true
     num_chips: 4
     intensity: 5
     lambda: !lambda |-
@@ -135,6 +140,40 @@ time:
   - platform: homeassistant
     id: hass_time
 
+# Sensors with specific and general information
+sensor:
+  - platform: absolute_humidity
+    name: Absolute Humidity
+    temperature: temperature
+    humidity: humidity
+    id: abs_humidity
+  
+  #DHT Temperature and Humidity Sensor
+  - platform: dht
+    pin: GPIO14
+    temperature:
+      name: "${hostname} Temperature"
+      id: temperature
+    humidity:
+      name: "${hostname} Humidity"
+      id: humidity
+    update_interval: 120s
+
+  - platform: internal_temperature
+    name: "${hostname} Internal Temp"
+
+  # Extra sensor to keep an eye on the Wi-Fi signal
+  - platform: wifi_signal
+    name: ${hostname}_Wi-Fi_Signal
+    update_interval: 120s
+
+# Extra sensor to keep track of switch uptime
+  - platform: uptime
+    name: ${hostname} Uptime
+    id: uptime_s
+    internal: True
+    update_interval: 300s
+
 text_sensor:                                    
   - platform: homeassistant
     name: "Message"
@@ -179,9 +218,11 @@ text_sensor:
     ssid:
       name: ${hostname}_wifi_ssid
       icon: mdi:wifi
-  
+
+  # Template text sensor to format the uptime seconds
   - platform: template
-    name: ${hostname}_Uptime_Sensor
+    name: ${hostname} Uptime
+    id: ${hostname}_uptime_sensor
     lambda: |-
       uint32_t dur = id(uptime_s).state;
       int dys = 0;
@@ -203,28 +244,4 @@ text_sensor:
       sprintf(buffer, "%ud %02uh %02um %02us", dys, hrs, mnts, dur);
       return {buffer};
     icon: mdi:clock-start
-    update_interval: 15s
-
-# Sensors with specific and general information
-sensor:
-  #DHT Temperature and Humidity Sensor
-  - platform: dht
-    pin: GPIO14
-    temperature:
-      name: "${hostname} Temperature"
-      id: temperature
-    humidity:
-      name: "${hostname} Humidity"
-      id: humidity
-    update_interval: 60s
-  
-  # Extra sensor to keep an eye on the Wi-Fi signal
-  - platform: wifi_signal
-    name: ${hostname}_Wi-Fi_Signal
-    update_interval: 60s
-
-# Extra sensor to keep track of switch uptime
-  - platform: uptime
-    name: Uptime
-    id: uptime_s
     update_interval: 15s

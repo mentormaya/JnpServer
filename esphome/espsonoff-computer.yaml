@@ -1,9 +1,9 @@
 substitutions:
   # Modify variables based on your settings
-  hostname: 'Hall'
+  hostname: 'Computer'
 
 esphome:
-  name: espsonoff-hall
+  name: espsonoff-computer
   friendly_name: ESP(SONOFF) ${hostname}
 
 esp8266:
@@ -15,17 +15,17 @@ logger:
 # Enable Home Assistant API
 api:
   encryption:
-    key: !secret _esp_sonoff_hall_enc_key
+    key: !secret _esp_sonoff_computer_enc_key
 
 ota:
-  password: !secret esp_sonoff_hall_ota
+  password: !secret esp_sonoff_computer_ota
 
 wifi:
   ssid: !secret engineer_ssid
   password: !secret engineer_password
   domain: !secret domain
   fast_connect: true
-  use_address: !secret esp_sonoff_hall_address
+  use_address: !secret esp_sonoff_computer_address
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
@@ -48,9 +48,9 @@ binary_sensor:
         input: true
         pullup: true
       inverted: true
-    name: "BedRoom Light"
+    name: "Computer Switch"
     on_press:
-      - switch.toggle: bedroom_light
+      - light.toggle: computer_led
   - platform: gpio
     pin:
       number: GPIO9
@@ -58,9 +58,9 @@ binary_sensor:
         input: true
         pullup: true
       inverted: true
-    name: "Hall Light"
+    name: "WLED Switch"
     on_press:
-      - switch.toggle: hall_light
+      - light.toggle: computer_wled
   - platform: gpio
     pin:
       number: GPIO10
@@ -68,9 +68,9 @@ binary_sensor:
         input: true
         pullup: true
       inverted: true
-    name: Kitchen Light
+    name: "Kitchen Light"
     on_press:
-      - switch.toggle: kitchen_light
+      - light.toggle: kitchen_light
   - platform: gpio
     pin:
       number: GPIO14
@@ -78,30 +78,14 @@ binary_sensor:
         input: true
         pullup: true
       inverted: true
-    name: Gate Light
+    name: "Gate Light"
     on_press:
-      - switch.toggle: gate_ligh
+      - light.toggle: hall_light
+  
   - platform: status
-    name: ${hostname} Status
+    name: "Status"
 
 switch:
-  - platform: gpio
-    name: "BedRoom Light"
-    pin: GPIO12
-    id: bedroom_light
-  - platform: gpio
-    name: "Hall Light"
-    pin: GPIO5
-    id: hall_light
-  - platform: gpio
-    name: Kitchen Light
-    pin: GPIO4
-    id: kitchen_light
-  - platform: gpio
-    name: Gate Light
-    pin: GPIO15
-    id: gate_ligh
-
   # Exposed switches
   - platform: restart
     name: ${hostname}_restart
@@ -113,40 +97,92 @@ output:
     pin: GPIO13
     inverted: true
 
+  - platform: gpio
+    id: relay_1
+    pin: GPIO12
+
+  - platform: gpio
+    id: relay_2
+    pin: GPIO5
+
+  - platform: gpio
+    id: relay_3
+    pin: GPIO4
+
+  - platform: gpio
+    id: relay_4
+    pin: GPIO15
+
 light:
   # ... and then make a light out of it.
-  - platform: monochromatic
-    name: ${hostname}_status
+  - platform: status_led
+    name: "Status"
     output: blue_led
 
+  - platform: binary
+    name: "Computer LED"
+    output: relay_1
+    id: computer_led
+    restore_mode: RESTORE_DEFAULT_OFF
+
+  - platform: binary
+    name: "Computer WLED"
+    output: relay_2
+    id: computer_wled
+    restore_mode: RESTORE_DEFAULT_OFF
+
+  - platform: binary
+    name: "Kitchen Light"
+    output: relay_3
+    id: kitchen_light
+    restore_mode: RESTORE_DEFAULT_OFF
+
+  - platform: binary
+    name: "Hall Light"
+    output: relay_4
+    id: hall_light
+    restore_mode: RESTORE_DEFAULT_OFF
+  
 # Sensors with specific and general information
 sensor:
   # Extra sensor to keep an eye on the Wi-Fi signal
   - platform: wifi_signal
-    name: ${hostname}_Wi-Fi_signal
+    id: ${hostname}_WiFi_signal
+    name: WiFi Signal
     update_interval: 60s
 
 # Extra sensor to keep track of plug uptime
   - platform: uptime
-    name: Uptime
+    internal: True
     id: uptime_s
     update_interval: 15s
+  
+  #Internal Processor Temperature sensor
+  # - platform: internal_temperature
+  #   name: "Internal Temp"
 
 # Text sensors with general information
 text_sensor:
   # Expose ESPHome version as sensor.
   - platform: version
-    name: ${hostname}_esphome_version
+    id: ${hostname}_esphome_version
+    name: "ESPHome Version"
+  
   # Expose WiFi information as sensors.
   - platform: wifi_info
     ip_address:
-      name: ${hostname}_wifi_ip
+      id: ${hostname}_wifi_ip
+      name: WiFi IP
       icon: mdi:ip
     ssid:
-      name: ${hostname}_wifi_ssid
+      id: ${hostname}_wifi_ssid
+      name: WiFi SSID
       icon: mdi:wifi
+
+  # Template text sensor to format the uptime seconds
   - platform: template
-    name: ${hostname}_uptime_sensor
+    name: Uptime
+    id: ${hostname}_uptime_sensor
     lambda: |-
       uint32_t dur = id(uptime_s).state;
       int dys = 0;
