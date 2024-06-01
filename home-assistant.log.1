@@ -1,115 +1,48 @@
-2024-05-03 22:41:51.304 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-05-03 22:41:51.306 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-05-03 22:41:51.307 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration fontawesome which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-05-03 22:41:51.307 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration anniversaries which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-05-03 22:41:51.308 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration favicon which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-05-03 22:41:51.310 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration tapo_control which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-05-03 22:41:51.314 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration qr_generator which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-05-03 22:41:51.317 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration sonoff which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-05-03 22:41:51.319 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration npm_switches which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-05-03 22:41:51.321 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration ble_monitor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-05-03 22:41:51.323 WARNING (SyncWorker_4) [homeassistant.loader] We found a custom integration mass which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2024-05-03 22:42:01.064 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'hacs' accesses hass.components.frontend. This is deprecated and will stop working in Home Assistant 2024.9, it should be updated to import functions used from frontend directly at custom_components/hacs/frontend.py, line 68: hass.components.frontend.async_register_built_in_panel(, please create a bug report at https://github.com/hacs/integration/issues
-2024-05-03 22:42:04.239 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'browser_mod' accesses hass.helpers.storage. This is deprecated and will stop working in Home Assistant 2024.11, it should be updated to import functions used from storage directly at custom_components/browser_mod/store.py, line 94: self.store = hass.helpers.storage.Store(STORAGE_VERSION, STORAGE_KEY), please report it to the author of the 'browser_mod' custom integration
-2024-05-03 22:42:05.436 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'npm_switches' calls `async_add_job`, which is deprecated and will be removed in Home Assistant 2025.4; Please review https://developers.home-assistant.io/blog/2024/03/13/deprecate_add_run_job for replacement options at custom_components/npm_switches/__init__.py, line 62: hass.async_add_job(, please create a bug report at https://github.com/InTheDaylight14/nginx-proxy-manager-switches/issues
-2024-05-03 22:42:05.999 WARNING (MainThread) [homeassistant.setup] Setup of rest is taking over 10 seconds.
-2024-05-03 22:42:06.418 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
-2024-05-03 22:42:06.419 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
-2024-05-03 22:42:06.420 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/date/today
-2024-05-03 22:42:06.426 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
-2024-05-03 22:42:08.944 WARNING (MainThread) [homeassistant.components.light] None (<class 'custom_components.tapo_control.light.TapoWhitelight'>) does not set supported color modes, this will stop working in Home Assistant Core 2025.3, please create a bug report at https://github.com/JurajNyiri/HomeAssistant-Tapo-Control/issues
-2024-05-03 22:42:17.137 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:42:17.184 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:42:17.187 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:42:17.188 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:42:17.381 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
-2024-05-03 22:42:17.383 WARNING (MainThread) [homeassistant.components.sensor] Platform rest not ready yet; Retrying in background in 30 seconds
-2024-05-03 22:42:17.406 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/date/today
-2024-05-03 22:42:17.410 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
-2024-05-03 22:42:17.413 WARNING (MainThread) [homeassistant.components.sensor] Platform rest not ready yet; Retrying in background in 30 seconds
-2024-05-03 22:42:17.415 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
-2024-05-03 22:42:17.416 WARNING (MainThread) [homeassistant.components.sensor] Platform rest not ready yet; Retrying in background in 30 seconds
-2024-05-03 22:42:17.417 WARNING (MainThread) [homeassistant.components.sensor] Platform rest not ready yet; Retrying in background in 30 seconds
-2024-05-03 22:42:17.796 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'hacs' accesses hass.helpers.event. This is deprecated and will stop working in Home Assistant 2024.11, it should be updated to import functions used from event directly at custom_components/hacs/base.py, line 630: self.hass.helpers.event.async_track_time_interval(, please create a bug report at https://github.com/hacs/integration/issues
-2024-05-03 22:42:39.269 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:42:39.271 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:42:39.273 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:42:39.282 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:42:40.069 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
-2024-05-03 22:42:40.072 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
-2024-05-03 22:42:40.076 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/date/today
-2024-05-03 22:42:40.079 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
-2024-05-03 22:43:50.081 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:43:50.081 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:43:50.082 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:43:50.097 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:43:50.235 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
-2024-05-03 22:43:50.245 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
-2024-05-03 22:43:50.252 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/date/today
-2024-05-03 22:43:50.254 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
-2024-05-03 22:45:30.240 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:45:30.248 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:45:30.257 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:45:30.259 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:45:30.397 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
-2024-05-03 22:45:30.402 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
-2024-05-03 22:45:30.407 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
-2024-05-03 22:45:30.409 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/date/today
-2024-05-03 22:47:40.400 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:47:40.406 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:47:40.412 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:47:40.414 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:47:40.588 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
-2024-05-03 22:47:40.597 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/date/today
-2024-05-03 22:47:40.601 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
-2024-05-03 22:47:40.701 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
-2024-05-03 22:50:20.591 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:50:20.602 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:50:20.604 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:50:20.703 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:50:20.768 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
-2024-05-03 22:50:20.774 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
-2024-05-03 22:50:20.778 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/date/today
-2024-05-03 22:50:20.846 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
-2024-05-03 22:53:30.772 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:53:30.778 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:53:30.781 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:53:30.849 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:53:30.970 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
-2024-05-03 22:53:30.978 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/date/today
-2024-05-03 22:53:30.991 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
-2024-05-03 22:53:31.016 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
-2024-05-03 22:56:40.974 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:56:40.981 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:56:40.993 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:56:41.018 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:56:41.132 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
-2024-05-03 22:56:41.147 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
-2024-05-03 22:56:41.156 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/date/today
-2024-05-03 22:56:41.164 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
-2024-05-03 22:59:51.136 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:59:51.151 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:59:51.158 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:59:51.167 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 22:59:51.319 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/date/today
-2024-05-03 22:59:51.327 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
-2024-05-03 22:59:51.334 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
-2024-05-03 22:59:51.336 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
-2024-05-03 23:00:00.433 WARNING (MainThread) [homeassistant.helpers.service] Referenced entities light.esp_sonoff_hall_bedroom_light, light.esp_sonoff_hall_hall_light, light.esp_sonoff_hall_kitchen_light are missing or not currently available
-2024-05-03 23:00:00.439 WARNING (MainThread) [homeassistant.helpers.service] Referenced entities light.espsonoff_hall_hall_status are missing or not currently available
-2024-05-03 23:03:01.322 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 23:03:01.331 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 23:03:01.337 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 23:03:01.340 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 23:03:01.535 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/date/today
-2024-05-03 23:03:01.542 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
-2024-05-03 23:03:01.557 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
-2024-05-03 23:03:01.561 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
-2024-05-03 23:06:11.537 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 23:06:11.544 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 23:06:11.561 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 23:06:11.570 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
-2024-05-03 23:06:11.709 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
-2024-05-03 23:06:11.716 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
-2024-05-03 23:06:11.719 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
-2024-05-03 23:06:11.724 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/date/today
+2024-05-31 02:11:07.014 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-05-31 02:11:07.016 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-05-31 02:11:07.019 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration fontawesome which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-05-31 02:11:07.021 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration anniversaries which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-05-31 02:11:07.024 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration favicon which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-05-31 02:11:07.030 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration tapo_control which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-05-31 02:11:07.032 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration qr_generator which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-05-31 02:11:07.034 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration sonoff which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-05-31 02:11:07.036 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration npm_switches which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-05-31 02:11:07.038 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration ble_monitor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-05-31 02:11:07.040 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration mass which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-05-31 02:11:08.457 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=782 from 2024-05-30 04:55:04.533634)
+2024-05-31 02:11:12.964 ERROR (MainThread) [custom_components.npm_switches] Error fetching information from http://10.20.10.26:81/api/tokens - Cannot connect to host 10.20.10.26:81 ssl:default [Connect call failed ('10.20.10.26', 81)]
+2024-05-31 02:11:12.965 ERROR (MainThread) [custom_components.npm_switches] Error fetching npm_switches data: 
+2024-05-31 02:11:13.921 WARNING (ImportExecutor_0) [py.warnings] /usr/local/lib/python3.12/site-packages/mashumaro/core/meta/types/unpack.py:182: UserWarning: music_assistant.common.models.config_entries.ConfigValueOption.value (typing.Union[str, int, float, bool, tuple[int, int], list[str], list[int], list[tuple[int, int]], None]): In the next release, data marked with Union type containing 'str' and 'bool' will be coerced to the value of the type specified first instead of passing it as is
+  warnings.warn(
+
+2024-05-31 02:11:13.944 WARNING (ImportExecutor_0) [py.warnings] /usr/local/lib/python3.12/site-packages/mashumaro/core/meta/types/unpack.py:182: UserWarning: music_assistant.common.models.config_entries.ConfigEntry.default_value (typing.Union[str, int, float, bool, tuple[int, int], list[str], list[int], list[tuple[int, int]], None]): In the next release, data marked with Union type containing 'str' and 'bool' will be coerced to the value of the type specified first instead of passing it as is
+  warnings.warn(
+
+2024-05-31 02:11:13.961 WARNING (ImportExecutor_0) [py.warnings] /usr/local/lib/python3.12/site-packages/mashumaro/core/meta/types/unpack.py:182: UserWarning: music_assistant.common.models.config_entries.ConfigEntry.value (typing.Union[str, int, float, bool, tuple[int, int], list[str], list[int], list[tuple[int, int]], None]): In the next release, data marked with Union type containing 'str' and 'bool' will be coerced to the value of the type specified first instead of passing it as is
+  warnings.warn(
+
+2024-05-31 02:11:19.759 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'browser_mod' accesses hass.helpers.storage. This is deprecated and will stop working in Home Assistant 2024.11, it should be updated to import functions used from storage directly at custom_components/browser_mod/store.py, line 94: self.store = hass.helpers.storage.Store(STORAGE_VERSION, STORAGE_KEY), please report it to the author of the 'browser_mod' custom integration
+2024-05-31 02:11:19.793 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'browser_mod' accesses hass.components.frontend. This is deprecated and will stop working in Home Assistant 2024.9, it should be updated to import functions used from frontend directly at custom_components/browser_mod/mod_view.py, line 24: hass.components.frontend.async_register_built_in_panel(, please report it to the author of the 'browser_mod' custom integration
+2024-05-31 02:11:25.416 WARNING (MainThread) [homeassistant.setup] Setup of rest is taking over 10 seconds.
+2024-05-31 02:11:33.616 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
+2024-05-31 02:11:33.752 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
+2024-05-31 02:11:33.760 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
+2024-05-31 02:11:43.780 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
+2024-05-31 02:11:43.781 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
+2024-05-31 02:11:43.784 WARNING (MainThread) [homeassistant.components.sensor] Setup of sensor platform rest is taking over 10 seconds.
+2024-05-31 02:11:43.950 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/puja
+2024-05-31 02:11:43.952 WARNING (MainThread) [homeassistant.components.sensor] Platform rest not ready yet; Retrying in background in 30 seconds
+2024-05-31 02:11:43.955 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/domestic
+2024-05-31 02:11:43.959 WARNING (MainThread) [homeassistant.components.sensor] Platform rest not ready yet; Retrying in background in 30 seconds
+2024-05-31 02:11:43.960 ERROR (MainThread) [homeassistant.components.rest.data] Timeout while fetching data: https://sapi.deta.dev/nea/v1/agri
+2024-05-31 02:11:43.961 WARNING (MainThread) [homeassistant.components.sensor] Platform rest not ready yet; Retrying in background in 30 seconds
+2024-05-31 02:11:44.334 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'hacs' accesses hass.helpers.event. This is deprecated and will stop working in Home Assistant 2024.11, it should be updated to import functions used from event directly at custom_components/hacs/base.py, line 630: self.hass.helpers.event.async_track_time_interval(, please create a bug report at https://github.com/hacs/integration/issues
+2024-05-31 02:11:56.353 ERROR (MainThread) [homeassistant.components.google_assistant.http] Request for https://homegraph.googleapis.com/v1/devices:requestSync failed: 500
+2024-05-31 02:11:56.453 ERROR (MainThread) [custom_components.npm_switches] Error fetching information from http://10.20.10.26:81/api/tokens - Cannot connect to host 10.20.10.26:81 ssl:default [Connect call failed ('10.20.10.26', 81)]
+2024-05-31 02:11:56.453 ERROR (MainThread) [custom_components.npm_switches] Error fetching npm_switches data: 
+2024-05-31 02:12:06.829 ERROR (MainThread) [custom_components.npm_switches] Error fetching information from http://10.20.10.26:81/api/tokens - 0, message='Attempt to decode JSON with unexpected mimetype: text/html', url=URL('http://10.20.10.26:81/api/tokens')
+2024-05-31 02:12:06.830 ERROR (MainThread) [custom_components.npm_switches] Error fetching npm_switches data: 
+2024-05-31 02:12:28.798 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'npm_switches' calls `async_add_job`, which is deprecated and will be removed in Home Assistant 2025.4; Please review https://developers.home-assistant.io/blog/2024/03/13/deprecate_add_run_job for replacement options at custom_components/npm_switches/__init__.py, line 62: hass.async_add_job(, please create a bug report at https://github.com/InTheDaylight14/nginx-proxy-manager-switches/issues
+2024-05-31 02:29:09.284 ERROR (Thread-5) [pychromecast.socket_client] [AllSpeaker(1478780d-55ed-8097-5287-de0f3de24ae2.local.):32082] Error reading from socket.
+2024-05-31 02:29:09.285 WARNING (Thread-5) [pychromecast.socket_client] [AllSpeaker(1478780d-55ed-8097-5287-de0f3de24ae2.local.):32082] Error communicating with socket, resetting connection
+2024-05-31 02:29:09.303 ERROR (Thread-5) [pychromecast.socket_client] [AllSpeaker(10.20.10.102):32082] Failed to connect to service HostServiceInfo(host='10.20.10.102', port=32082), retrying in 5.0s

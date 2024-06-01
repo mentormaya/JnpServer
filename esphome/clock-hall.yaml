@@ -26,7 +26,7 @@ wifi:
   ssid: !secret engineer_ssid
   password: !secret engineer_password
   domain: !secret domain
-  # fast_connect: true
+  fast_connect: true
   use_address: !secret clock_hall_address
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
